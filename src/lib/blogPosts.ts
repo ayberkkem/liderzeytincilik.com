@@ -426,6 +426,7 @@ Sipariş ve bilgi: **0552 382 8456** (WhatsApp)`,
         date: '2024-11-15',
         readTime: '7 dk',
         category: 'Rehber',
+        image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=2000&auto=format&fit=crop',
         content: `Kaliteli zeytinyağı üretmek kadar, onu doğru koşullarda muhafaza etmek de önemlidir. Yanlış saklama koşulları zeytinyağının kalitesini hızla düşürebilir. Bu rehberde zeytinyağını en iyi şekilde nasıl saklayacağınızı detaylı olarak anlattık.
 
 ## Zeytinyağının Düşmanları
