@@ -1,0 +1,601 @@
+export interface Category {
+    slug: string;
+    name: string;
+    title: string;
+    metaDescription: string;
+    h1: string;
+    shortDescription: string;
+    content: string;
+    faq: { question: string; answer: string }[];
+    image: string;
+}
+
+export const categories: Category[] = [
+    {
+        slug: 'naturel-sizma-zeytinyagi',
+        name: 'Natürel Sızma Zeytinyağı',
+        title: 'Üreticiden Uygun Fiyatlı Natürel Sızma Zeytinyağı | Lider Zeytincilik',
+        metaDescription: 'Natürel sızma zeytinyağı üreticiden uygun fiyatla! %0.8 altı asit oranı, soğuk sıkım kalite. Zeytinyağı Liderden Alınır! Toptan ve perakende, ücretsiz kargo.',
+        h1: 'Üreticiden Uygun Fiyatlı Natürel Sızma Zeytinyağı',
+        shortDescription: 'En yüksek kalite sınıfında, %0.8 altı asit oranına sahip doğal zeytinyağı.',
+        image: '/images/categories/naturel-sizma.jpg',
+        content: `## Natürel Sızma Zeytinyağı Nedir?
+
+Natürel sızma zeytinyağı, zeytinyağı sınıflandırmasında en üst kalite kategorisini temsil eden, serbest yağ asitliği oleik asit cinsinden %0.8'i geçmeyen, kusursuz tat ve aromaya sahip zeytinyağıdır. Uluslararası Zeytin Konseyi (IOC) standartlarına göre en kaliteli zeytinyağı olarak kabul edilir.
+
+Bu zeytinyağı türü, zeytinlerin sadece mekanik yöntemlerle ve herhangi bir kimyasal işlem uygulanmadan sıkılmasıyla elde edilir. Üretim sürecinde ısı uygulanmaz veya çok düşük sıcaklıklarda işlem yapılır, bu sayede zeytinin doğal vitaminleri, antioksidanları ve polifenolleri korunur.
+
+## Natürel Sızma Zeytinyağının Özellikleri
+
+### Kimyasal Özellikler
+- **Asit Oranı**: Oleik asit cinsinden maksimum %0.8
+- **Peroksit Sayısı**: Maksimum 20 meq O2/kg
+- **K232 Değeri**: Maksimum 2.50
+- **K270 Değeri**: Maksimum 0.22
+- **Polifenol İçeriği**: Yüksek antioksidan kapasitesi
+
+### Organoleptik Özellikler
+- Meyvemsi aroma (yeşil ve/veya olgun)
+- Acılık hissi (zeytinin doğal polifenollerinden)
+- Yakıcılık (oleokantal içeriğinden)
+- Kusursuz tat profili (hiçbir kusur algılanmamalıdır)
+
+## Natürel Sızma Zeytinyağı Nasıl Üretilir?
+
+Lider Zeytincilik'te natürel sızma zeytinyağı üretim sürecimiz:
+
+1. **Hasat**: Zeytinler optimal olgunluk döneminde, Kasım-Ocak ayları arasında toplanır
+2. **Yıkama ve Ayıklama**: Zeytinler yaprak ve dallardan arındırılır, yıkanır
+3. **Kırma**: Çelik çekiçli kırıcılarda zeytinler hamur haline getirilir
+4. **Malaksasyon**: Zeytin hamuru 27°C altında yavaşça karıştırılır (30-45 dk)
+5. **Dekantasyon**: Santrifüj sistemi ile yağ, su ve posa ayrıştırılır
+6. **Filtrasyon**: İsteğe bağlı filtreleme işlemi
+7. **Depolama**: Paslanmaz çelik tanklarda, ışıksız ortamda muhafaza
+
+## Neden Natürel Sızma Zeytinyağı Tercih Edilmeli?
+
+- **Sağlık**: En yüksek antioksidan ve vitamin içeriği
+- **Lezzet**: Zengin, meyvemsi aroma profili
+- **Doğallık**: Hiçbir kimyasal işlem uygulanmaz
+- **Besin Değeri**: E vitamini, K vitamini ve polifenollerden zengin
+- **Kalp Sağlığı**: Tekli doymamış yağ asitlerinden zengin yapısı ile kalp-damar sağlığını destekler
+
+## Kullanım Alanları
+
+Natürel sızma zeytinyağı özellikle:
+- Salata sosları ve çeşniler
+- Soğuk mezeler ve kahvaltılıklar
+- Ekmek üzerine sürme
+- Son dokunuş olarak yemeklere ekleme
+- Sağlıklı pişirme (düşük-orta ısıda)
+
+alanlarında en iyi sonucu verir.
+
+## Lider Zeytincilik Natürel Sızma Zeytinyağı
+
+Lider Zeytincilik olarak, Ege Bölgesi'nin en verimli zeytin bahçelerinden toplanan zeytinlerden ürettiğimiz natürel sızma zeytinyağımız, düşük asit oranı ve zengin aroma profili ile öne çıkmaktadır.
+
+Ürünlerimiz 1 Lt, 5 Lt teneke, 5 Lt PET ve 10 Lt ambalaj seçeneklerinde sunulmaktadır. Tüm ambalajlarımız etiketsizdir, kendi markanızla etiketleme imkanı sunar.
+
+**Fiyat bilgisi ve sipariş için:** 0552 382 8456 (WhatsApp)
+**Toptan alımlarda pazarlık payı vardır.**`,
+        faq: [
+            {
+                question: 'Natürel sızma zeytinyağı asit oranı kaç olmalı?',
+                answer: 'Natürel sızma zeytinyağında asit oranı oleik asit cinsinden maksimum %0.8 olmalıdır. Lider Zeytincilik ürünlerinde bu oran genellikle %0.3-0.5 arasındadır.',
+            },
+            {
+                question: 'Natürel sızma zeytinyağı ile sızma zeytinyağı arasındaki fark nedir?',
+                answer: 'Natürel sızma zeytinyağı (extra virgin) asit oranı %0.8 altında ve kusursuz tat profiline sahiptir. Sızma zeytinyağı (virgin) ise asit oranı %2.0 altında olabilir ve hafif tat kusurları içerebilir.',
+            },
+            {
+                question: 'Natürel sızma zeytinyağı kızartma için kullanılır mı?',
+                answer: 'Natürel sızma zeytinyağı kızartma için kullanılabilir ancak önerilmez. Yüksek kaliteli besin değerlerini kaybetmemek için soğuk tüketim veya düşük-orta ısıda pişirme önerilir.',
+            },
+            {
+                question: 'Natürel sızma zeytinyağı toptan fiyat nedir?',
+                answer: 'Toptan fiyatlarımız sipariş miktarına göre değişmektedir. Güncel toptan fiyat bilgisi için 0552 382 8456 WhatsApp hattımızdan bize ulaşabilirsiniz. Toptan alımlarda pazarlık payı vardır.',
+            },
+        ],
+    },
+    {
+        slug: 'soguk-sikim-zeytinyagi',
+        name: 'Soğuk Sıkım Zeytinyağı',
+        title: 'Üreticiden Uygun Fiyatlı Soğuk Sıkım Zeytinyağı | Lider Zeytincilik',
+        metaDescription: 'Soğuk sıkım zeytinyağı 27°C altında mekanik yöntemlerle üretilir. Üreticiden uygun fiyatlı cold press zeytinyağı. Zeytinyağı Liderden Alınır! Ücretsiz kargo.',
+        h1: 'Üreticiden Uygun Fiyatlı Soğuk Sıkım Zeytinyağı',
+        shortDescription: '27°C altında mekanik yöntemlerle üretilen, besin değerleri korunmuş doğal zeytinyağı.',
+        image: '/images/categories/soguk-sikim.jpg',
+        content: `## Soğuk Sıkım Zeytinyağı Nedir?
+
+Soğuk sıkım zeytinyağı (cold press olive oil), zeytinlerin 27°C'nin altında bir sıcaklıkta, tamamen mekanik yöntemlerle sıkılmasıyla elde edilen zeytinyağıdır. Bu üretim yöntemi, zeytinin doğal bileşenlerinin, vitaminlerinin ve antioksidanlarının en iyi şekilde korunmasını sağlar.
+
+"Soğuk sıkım" terimi, üretim sürecinde herhangi bir ısı uygulaması veya kimyasal çözücü kullanılmadığını garanti eder. Bu sayede zeytinyağı, zeytinin tüm doğal özelliklerini muhafaza eder.
+
+## Soğuk Sıkım Zeytinyağı Nasıl Üretilir?
+
+### Üretim Süreci
+
+1. **Zeytin Seçimi**: Soğuk sıkım için en kaliteli, erken hasat zeytinler tercih edilir
+2. **Temizleme**: Zeytinler dal, yaprak ve yabancı maddelerden arındırılır
+3. **Kırma**: Modern çelik kırıcılarda zeytinler ezilir
+4. **Malaksasyon (Yoğurma)**: Zeytin hamuru 27°C'nin altında 20-40 dakika yavaşça karıştırılır
+5. **Sıkım/Dekantasyon**: İki fazlı veya üç fazlı dekantör sistemiyle yağ ayrıştırılır
+6. **Doğal Dinlendirme**: Yağ paslanmaz çelik tanklarda dinlendirilir
+7. **Şişeleme/Ambalajlama**: Işık geçirmez ambalajlarda muhafaza edilir
+
+### Sıcaklık Kontrolü Neden Önemli?
+
+27°C sınırı, Avrupa Birliği ve Uluslararası Zeytin Konseyi tarafından belirlenmiş bir standarttır. Bu sıcaklığın üzerine çıkıldığında:
+
+- Polifenol içeriği azalır
+- Vitaminler bozulmaya başlar
+- Aroma profili değişir
+- Antioksidan kapasitesi düşer
+
+Lider Zeytincilik olarak üretim sürecimizde sıcaklık sürekli izlenir ve 27°C sınırının altında tutulur.
+
+## Soğuk Sıkım Zeytinyağının Faydaları
+
+### Sağlık Faydaları
+- **Yüksek Antioksidan**: Polifenol ve tokoferol bakımından zengindir
+- **Kalp Sağlığı**: Oleik asit kalp-damar sağlığını destekler
+- **Anti-enflamatuar**: Oleokantal doğal anti-enflamatuar etkiye sahiptir
+- **Vitamin Deposu**: E vitamini ve K vitamini bakımından zengindir
+- **Sindirim**: Sindirim sistemini destekler ve bağırsak sağlığına katkıda bulunur
+
+### Mutfak Avantajları
+- Zengin, meyvemsi aroma
+- Yoğun zeytin kokusu
+- Salatalar ve soğuk yemekler için ideal
+- Ekmek üzerine sürme için mükemmel
+
+## Soğuk Sıkım Zeytinyağı Saklama Koşulları
+
+- Serin ve karanlık ortamda saklayın (14-18°C ideal)
+- Doğrudan güneş ışığından koruyun
+- Ağzını sıkıca kapatın
+- Metal veya cam kaplarda saklayın
+- Plastik kaplardan uzak tutun
+
+## Lider Zeytincilik Soğuk Sıkım Zeytinyağı
+
+Ege Bölgesi'nin seçkin zeytin bahçelerinden toplanan zeytinlerle, modern tesislerimizde soğuk sıkım yöntemiyle ürettiğimiz zeytinyağımız, 1 Lt, 5 Lt ve 10 Lt ambalaj seçeneklerinde sunulmaktadır.
+
+**Fiyat bilgisi ve sipariş için:** 0552 382 8456 (WhatsApp)
+**Toptan alımlarda pazarlık payı vardır.**`,
+        faq: [
+            {
+                question: 'Soğuk sıkım zeytinyağı nedir?',
+                answer: 'Soğuk sıkım zeytinyağı, zeytinlerin 27°C altında mekanik yöntemlerle sıkılmasıyla elde edilen, kimyasal işlem uygulanmamış doğal zeytinyağıdır.',
+            },
+            {
+                question: 'Soğuk sıkım zeytinyağı ile normal zeytinyağı arasındaki fark nedir?',
+                answer: 'Soğuk sıkım zeytinyağında üretim sırasında ısı uygulanmaz (27°C altı), bu sayede besin değerleri, vitaminler ve antioksidanlar korunur. Normal zeytinyağında ise ısı ve bazen kimyasal yöntemler kullanılabilir.',
+            },
+            {
+                question: 'Soğuk sıkım zeytinyağı nasıl saklanır?',
+                answer: 'Soğuk sıkım zeytinyağı serin, karanlık ortamda, ağzı kapalı olarak saklanmalıdır. İdeal saklama sıcaklığı 14-18°C arasıdır. Güneş ışığından ve ısıdan uzak tutulmalıdır.',
+            },
+        ],
+    },
+    {
+        slug: 'riviera-zeytinyagi',
+        name: 'Riviera Zeytinyağı',
+        title: 'Riviera Zeytinyağı | Uygun Fiyatlı Zeytinyağı | Lider Zeytincilik',
+        metaDescription: 'Riviera zeytinyağı kızartma ve pişirme için ideal, ekonomik zeytinyağı seçeneği. Yüksek yanma noktası. Toptan ve perakende. Ücretsiz kargo.',
+        h1: 'Riviera Zeytinyağı',
+        shortDescription: 'Kızartma ve pişirme için ideal, ekonomik ve yüksek yanma noktasına sahip zeytinyağı.',
+        image: '/images/categories/riviera.jpg',
+        content: `## Riviera Zeytinyağı Nedir?
+
+Riviera zeytinyağı, rafine zeytinyağı ile natürel (bakir) zeytinyağının belirli oranlarda harmanlanmasıyla elde edilen bir zeytinyağı türüdür. Uluslararası standartlara göre "zeytinyağı" (olive oil) olarak sınıflandırılır ve günlük mutfak kullanımı için ideal bir seçenektir.
+
+Bu zeytinyağı türü, özellikle pişirme ve kızartma işlemleri için tercih edilir. Yüksek yanma noktası (yaklaşık 210°C) sayesinde kızartmalarda güvenle kullanılabilir.
+
+## Riviera Zeytinyağının Özellikleri
+
+- **Yanma Noktası**: Yaklaşık 210°C (natürel sızmaya göre daha yüksek)
+- **Asit Oranı**: Maksimum %1.0
+- **Renk**: Açık sarı-yeşil
+- **Aroma**: Hafif, nötr zeytinyağı aroması
+- **Lezzet**: Yumuşak, baskın olmayan tat profili
+
+## Riviera Zeytinyağı Kullanım Alanları
+
+### Mutfakta
+- Kızartma işlemleri
+- Fırında pişirme
+- Kavurma ve soteler
+- Hamur işleri
+- Günlük yemek pişirme
+
+### Avantajları
+- Ekonomik fiyat
+- Yüksek yanma noktası
+- Her yemeğe uygun nötr tat
+- Uzun raf ömrü
+- Büyük miktarlarda kullanım için ideal
+
+## Riviera Zeytinyağı ile Natürel Sızma Zeytinyağı Farkı
+
+| Özellik | Riviera | Natürel Sızma |
+|---------|---------|--------------|
+| Asit Oranı | Max %1.0 | Max %0.8 |
+| Yanma Noktası | ~210°C | ~180°C |
+| Üretim | Rafine + Doğal | Sadece Doğal |
+| Fiyat | Ekonomik | Premium |
+| Kullanım | Pişirme/Kızartma | Soğuk Tüketim |
+
+## Lider Zeytincilik Riviera Zeytinyağı
+
+Riviera zeytinyağımız, 5 Lt ve 10 Lt ambalajlarda sunulmaktadır. Restoran, lokanta ve toplu tüketim alanları için ideal bir seçenektir.
+
+**Fiyat bilgisi ve sipariş için:** 0552 382 8456 (WhatsApp)
+**Toptan alımlarda pazarlık payı vardır.**`,
+        faq: [
+            {
+                question: 'Riviera zeytinyağı kızartma için uygun mu?',
+                answer: 'Evet, riviera zeytinyağı yüksek yanma noktası (yaklaşık 210°C) sayesinde kızartma için en uygun zeytinyağı türüdür.',
+            },
+            {
+                question: 'Riviera zeytinyağı sağlıklı mı?',
+                answer: 'Riviera zeytinyağı, tekli doymamış yağ asitleri açısından zengindir ve diğer bitkisel yağlara göre daha sağlıklı bir seçenektir. Ancak soğuk tüketim için natürel sızma zeytinyağı daha zengin besin profiline sahiptir.',
+            },
+        ],
+    },
+    {
+        slug: 'organik-zeytinyagi',
+        name: 'Organik Zeytinyağı',
+        title: 'Organik Zeytinyağı | Sertifikalı Organik | Lider Zeytincilik',
+        metaDescription: 'Organik sertifikalı zeytinyağı. Kimyasal gübre ve ilaç kullanılmadan üretilen doğal organik zeytinyağı. Toptan ve perakende satış.',
+        h1: 'Organik Zeytinyağı',
+        shortDescription: 'Kimyasal gübre ve ilaç kullanılmadan, doğal yöntemlerle üretilen sertifikalı organik zeytinyağı.',
+        image: '/images/categories/organik.jpg',
+        content: `## Organik Zeytinyağı Nedir?
+
+Organik zeytinyağı, organik tarım sertifikasına sahip zeytin bahçelerinde, hiçbir sentetik kimyasal gübre, pestisit veya herbisit kullanılmadan yetiştirilen zeytinlerden üretilen zeytinyağıdır. Üretimin her aşaması akredite kuruluşlar tarafından denetlenir ve sertifikalandırılır.
+
+## Organik Zeytinyağı Üretim Standartları
+
+### Zeytin Bahçesi Yönetimi
+- Sentetik kimyasal gübre yasağı
+- Sentetik pestisit ve herbisit yasağı
+- GDO içermeme garantisi
+- Doğal gübreleme (kompost, yeşil gübre)
+- Doğal zararlı kontrolü yöntemleri
+- Minimum 3 yıl dönüşüm süreci
+
+### Üretim Süreci
+- Organik sertifikalı tesislerde üretim
+- Konvansiyonel ürünlerle karışmama garantisi
+- İzlenebilirlik sistemi
+- Düzenli denetim ve analiz
+
+## Neden Organik Zeytinyağı?
+
+- **Sağlık**: Kimyasal kalıntı riski minimumda
+- **Çevre**: Sürdürülebilir tarım pratikleri
+- **Tat**: Doğal aromaların korunması
+- **Güven**: Sertifikalı üretim kontrolü
+- **Değer**: Bilinçli tüketim
+
+## Lider Zeytincilik Organik Zeytinyağı
+
+Organik zeytinyağımız, Ege Bölgesi'ndeki organik sertifikalı zeytin bahçelerimizden elde edilen zeytinlerden üretilmektedir.
+
+**Fiyat bilgisi ve sipariş için:** 0552 382 8456 (WhatsApp)
+**Toptan alımlarda pazarlık payı vardır.**`,
+        faq: [
+            {
+                question: 'Organik zeytinyağı normal zeytinyağından farklı mı?',
+                answer: 'Evet, organik zeytinyağı üretim sürecinde hiçbir sentetik kimyasal kullanılmaz. Zeytin bahçesi yönetiminden ambalajlamaya kadar tüm süreç organik sertifika standartlarına uygun şekilde gerçekleştirilir.',
+            },
+            {
+                question: 'Organik zeytinyağı sertifikası var mı?',
+                answer: 'Evet, organik zeytinyağımız akredite kuruluşlar tarafından denetlenmekte ve sertifikalandırılmaktadır. Sertifika detayları için bizimle iletişime geçebilirsiniz.',
+            },
+        ],
+    },
+    {
+        slug: '1-lt-zeytinyagi',
+        name: '1 Lt Zeytinyağı',
+        title: '1 Litre Zeytinyağı | 1 Lt Zeytinyağı Fiyat | Lider Zeytincilik',
+        metaDescription: '1 litre zeytinyağı satışı. Natürel sızma ve soğuk sıkım 1 lt zeytinyağı. Bireysel kullanım için ideal boyut. Ücretsiz kargo ile kapınıza kadar.',
+        h1: '1 Litre Zeytinyağı',
+        shortDescription: 'Bireysel kullanım ve deneme amacıyla ideal 1 litrelik zeytinyağı ambalajı.',
+        image: '/images/categories/1-lt.jpg',
+        content: `## 1 Litre Zeytinyağı
+
+1 litre zeytinyağı, bireysel kullanım ve zeytinyağımızı denemek isteyenler için ideal boyuttadır. Soğuk sıkım ve natürel sızma çeşitlerimiz 1 litrelik ambalajlarda sunulmaktadır.
+
+## Kimler İçin Uygundur?
+
+- Tek kişilik veya küçük haneler
+- Zeytinyağımızı ilk kez denemek isteyenler
+- Hediye olarak göndermek isteyenler
+- Farklı çeşitleri karşılaştırmak isteyenler
+
+**Fiyat bilgisi ve sipariş için:** 0552 382 8456 (WhatsApp)`,
+        faq: [
+            {
+                question: '1 litre zeytinyağı fiyatı nedir?',
+                answer: 'Güncel 1 litre zeytinyağı fiyatımız için 0552 382 8456 WhatsApp hattımızdan bize ulaşabilirsiniz.',
+            },
+        ],
+    },
+    {
+        slug: '5-lt-teneke-zeytinyagi',
+        name: '5 Lt Teneke Zeytinyağı',
+        title: '5 Litre Teneke Zeytinyağı | 5 Lt Teneke Fiyat | Lider Zeytincilik',
+        metaDescription: '5 litre teneke zeytinyağı. Etiketsiz teneke ambalajda soğuk sıkım natürel sızma zeytinyağı. Toptan ve perakende. Ücretsiz kargo.',
+        h1: '5 Litre Teneke Zeytinyağı',
+        shortDescription: 'Işık geçirmez teneke ambalajda, kaliteyi koruyan 5 litrelik zeytinyağı.',
+        image: '/images/categories/5-lt-teneke.jpg',
+        content: `## 5 Litre Teneke Zeytinyağı
+
+5 litre teneke ambalaj, zeytinyağı muhafazası için en ideal ambalaj türlerinden biridir. Teneke ambalaj ışık geçirmez yapısı sayesinde zeytinyağının oksidasyonunu önler ve uzun süre kalitesini korumasını sağlar.
+
+## Teneke Ambalajın Avantajları
+
+- **Işık Geçirmezlik**: UV ışınlarına karşı tam koruma
+- **Oksidasyona Karşı Koruma**: Hava geçirmez yapı
+- **Uzun Raf Ömrü**: Kaliteyi uzun süre korur
+- **Geri Dönüşüm**: %100 geri dönüştürülebilir
+- **Dayanıklılık**: Taşıma ve depolamada yüksek dayanıklılık
+
+## Etiketsiz Teneke
+
+Ürünlerimiz etiketsiz olarak gönderilmektedir. Bu sayede:
+- Kendi markanızla etiketleyebilirsiniz
+- Private label satış yapabilirsiniz
+- Fason üretim olarak kullanabilirsiniz
+
+**Fiyat bilgisi ve sipariş için:** 0552 382 8456 (WhatsApp)
+**Toptan alımlarda pazarlık payı vardır.**`,
+        faq: [
+            {
+                question: '5 litre teneke zeytinyağı fiyatı nedir?',
+                answer: 'Güncel 5 litre teneke zeytinyağı fiyatımız için 0552 382 8456 WhatsApp hattımızdan bize ulaşabilirsiniz. Toptan alımlarda pazarlık payı vardır.',
+            },
+            {
+                question: 'Teneke zeytinyağı ne kadar dayanır?',
+                answer: 'Teneke ambalajda muhafaza edilen zeytinyağı, uygun koşullarda (serin, karanlık ortam) 18-24 ay boyunca kalitesini koruyabilir.',
+            },
+        ],
+    },
+    {
+        slug: '5-lt-pet-zeytinyagi',
+        name: '5 Lt PET Zeytinyağı',
+        title: '5 Litre PET Zeytinyağı | 5 Lt PET Şişe Fiyat | Lider Zeytincilik',
+        metaDescription: '5 litre PET şişe zeytinyağı. Etiketsiz PET ambalajda ekonomik zeytinyağı. Toptan ve perakende satış. Türkiye geneli ücretsiz kargo.',
+        h1: '5 Litre PET Zeytinyağı',
+        shortDescription: 'Ekonomik ve pratik PET ambalajda 5 litrelik zeytinyağı.',
+        image: '/images/categories/5-lt-pet.jpg',
+        content: `## 5 Litre PET Zeytinyağı
+
+5 litre PET (polietilen tereftalat) ambalaj, zeytinyağı için ekonomik ve pratik bir ambalaj seçeneğidir. Hafif yapısı ve kolay taşınabilirliği ile özellikle günlük kullanım için tercih edilmektedir.
+
+## PET Ambalajın Özellikleri
+
+- **Hafiflik**: Tenekeye göre daha hafif
+- **Ekonomiklik**: Uygun fiyatlı ambalaj seçeneği
+- **Pratiklik**: Kolay kullanım ve dökme
+- **Şeffaflık**: Yağ seviyesini görme imkanı
+
+## Saklama Önerileri
+
+PET ambalajda zeytinyağı saklarken:
+- Güneş ışığından uzak tutun
+- Serin ortamda muhafaza edin
+- Ağzını sıkıca kapatın
+- Mümkünse karanlık bir dolap içinde saklayın
+
+**Fiyat bilgisi ve sipariş için:** 0552 382 8456 (WhatsApp)
+**Toptan alımlarda pazarlık payı vardır.**`,
+        faq: [
+            {
+                question: '5 litre PET zeytinyağı fiyatı nedir?',
+                answer: 'Güncel 5 litre PET zeytinyağı fiyatımız için 0552 382 8456 WhatsApp hattımızdan bize ulaşabilirsiniz.',
+            },
+        ],
+    },
+    {
+        slug: '10-lt-zeytinyagi',
+        name: '10 Lt Zeytinyağı',
+        title: '10 Litre Zeytinyağı | 10 Lt Zeytinyağı Fiyat | Lider Zeytincilik',
+        metaDescription: '10 litre zeytinyağı toptan ve perakende satış. Kalabalık aileler ve işletmeler için ideal boyut. Ücretsiz kargo ile Türkiye geneline teslimat.',
+        h1: '10 Litre Zeytinyağı',
+        shortDescription: 'Kalabalık aileler ve işletmeler için ekonomik 10 litrelik zeytinyağı ambalajı.',
+        image: '/images/categories/10-lt.jpg',
+        content: `## 10 Litre Zeytinyağı
+
+10 litre zeytinyağı ambalajımız, kalabalık aileler, restoranlar, oteller ve toplu tüketim yapan işletmeler için ideal boyuttadır. Hem ekonomik fiyat avantajı hem de uzun süreli kullanım imkanı sunar.
+
+## Kimler İçin Uygundur?
+
+- Kalabalık aileler
+- Restoranlar ve lokantalar
+- Oteller ve tatil köyleri
+- Yemek fabrikaları
+- Catering firmaları
+- Toplu tüketim yapan işletmeler
+
+## Ambalaj Seçenekleri
+
+10 litre zeytinyağımız teneke ambalajda sunulmaktadır. Tüm ambalajlarımız etiketsizdir.
+
+**Fiyat bilgisi ve sipariş için:** 0552 382 8456 (WhatsApp)
+**Toptan alımlarda pazarlık payı vardır.**`,
+        faq: [
+            {
+                question: '10 litre zeytinyağı fiyatı nedir?',
+                answer: 'Güncel 10 litre zeytinyağı fiyatımız için 0552 382 8456 WhatsApp hattımızdan bize ulaşabilirsiniz. Toptan alımlarda pazarlık payı vardır.',
+            },
+        ],
+    },
+    {
+        slug: 'zeytinyagi-toptan',
+        name: 'Zeytinyağı Toptan',
+        title: 'Üreticiden Uygun Fiyatlı Toptan Zeytinyağı | Fabrika Satış | Lider Zeytincilik',
+        metaDescription: 'Toptan zeytinyağı üreticiden uygun fiyatla! Fabrikadan direkt, aracısız satış. Natürel sızma, soğuk sıkım, riviera. Zeytinyağı Liderden Alınır!',
+        h1: 'Üreticiden Uygun Fiyatlı Toptan Zeytinyağı',
+        shortDescription: 'Üreticiden doğrudan toptan zeytinyağı satışı. En uygun fiyatlar ve esnek ödeme seçenekleri.',
+        image: '/images/categories/toptan.jpg',
+        content: `## Zeytinyağı Toptan Satış
+
+Lider Zeytincilik olarak Türkiye genelinde zeytinyağı toptan satış hizmeti sunuyoruz. Fabrikamızdan doğrudan, aracısız toptan zeytinyağı tedariki ile işletmenize maliyet avantajı sağlıyoruz.
+
+## Toptan Zeytinyağı Çeşitlerimiz
+
+- **Natürel Sızma Zeytinyağı** - Premium kalite
+- **Soğuk Sıkım Zeytinyağı** - En doğal
+- **Riviera Zeytinyağı** - Ekonomik
+- **Organik Zeytinyağı** - Sertifikalı
+
+## Toptan Ambalaj Seçenekleri
+
+- 1 Lt ambalaj
+- 5 Lt teneke ambalaj
+- 5 Lt PET ambalaj
+- 10 Lt teneke ambalaj
+- Daha büyük miktarlar için özel çözümler
+
+## Toptan Satış Avantajlarımız
+
+- ✅ Fabrikadan doğrudan satış
+- ✅ Aracısız, en uygun fiyat
+- ✅ Toptan alımlarda pazarlık payı
+- ✅ Esnek ödeme seçenekleri
+- ✅ Düzenli tedarik garantisi
+- ✅ Etiketsiz ambalaj (private label imkanı)
+- ✅ Türkiye geneli ücretsiz kargo/ambar gönderim
+- ✅ Kalite garantisi ve analiz raporu
+
+## Toptan Alım Süreci
+
+1. WhatsApp'tan iletişime geçin (0552 382 8456)
+2. İhtiyacınız olan ürün ve miktarı belirtin
+3. Özel toptan fiyat teklifimizi alın
+4. Siparişinizi onaylayın
+5. Ürünleriniz hazırlanıp gönderilsin
+
+**Toptan alımlarda pazarlık payı vardır.**`,
+        faq: [
+            {
+                question: 'Toptan zeytinyağı minimum sipariş miktarı nedir?',
+                answer: 'Toptan siparişlerde minimum sipariş miktarı ürün çeşidine göre değişmektedir. Detaylı bilgi için 0552 382 8456 WhatsApp hattımızdan bize ulaşabilirsiniz.',
+            },
+            {
+                question: 'Toptan zeytinyağı fiyatları nedir?',
+                answer: 'Toptan fiyatlarımız sipariş miktarı, ürün çeşidi ve ambalaj tipine göre değişmektedir. En güncel fiyat bilgisi için bizimle iletişime geçebilirsiniz. Toptan alımlarda pazarlık payı vardır.',
+            },
+            {
+                question: 'Toptan alımda ödeme nasıl yapılır?',
+                answer: 'Havale/EFT, kapıda ödeme ve taksitli ödeme seçeneklerimiz mevcuttur. Toptan siparişlerde esnek ödeme planları sunuyoruz.',
+            },
+        ],
+    },
+    {
+        slug: 'zeytinyagi-uretici',
+        name: 'Zeytinyağı Üretici',
+        title: 'Üreticiden Uygun Fiyatlı Zeytinyağı | Zeytinyağı Fabrikası | Lider Zeytincilik',
+        metaDescription: 'Lider Zeytincilik - Zeytinyağı üretici. Üreticiden uygun fiyatlı zeytinyağı. Ege Bölgesinde modern tesislerde üretim. Zeytinyağı Liderden Alınır!',
+        h1: 'Üreticiden Uygun Fiyatlı Zeytinyağı',
+        shortDescription: 'Ege\'nin bereketli topraklarında modern tesislerde zeytinyağı üretimi yapan güvenilir üretici.',
+        image: '/images/categories/uretici.jpg',
+        content: `## Zeytinyağı Üretici - Lider Zeytincilik
+
+Lider Zeytincilik olarak, Ege Bölgesi'nin en verimli zeytin bahçelerinden toplanan zeytinlerle, modern üretim tesislerimizde kaliteli zeytinyağı üretimi yapıyoruz.
+
+## Üretim Kapasitemiz
+
+- Modern soğuk sıkım üretim hatları
+- Paslanmaz çelik depolama tankları
+- Laboratuvar analiz kapasitesi
+- Günlük yüksek tonajlı üretim kapasitesi
+- Sürekli sıcaklık kontrolü
+
+## Üretim Sürecimiz
+
+1. **Zeytin Tedariki**: Ege Bölgesi'nin en kaliteli zeytin bahçelerinden
+2. **Kalite Kontrolü**: Her parti zeytin için kalite değerlendirmesi
+3. **Yıkama ve Temizleme**: Otomatik yıkama hatlarında
+4. **Kırma ve Malaksasyon**: Modern ekipmanlarla, kontrollü sıcaklıkta
+5. **Dekantasyon**: İki fazlı dekantör sistemi ile yağ ayırma
+6. **Depolama**: Azot atmosferinde, paslanmaz çelik tanklarda
+7. **Ambalajlama**: Hijyenik koşullarda, etiketsiz ambalajlama
+8. **Sevkiyat**: Türkiye geneline kargo ve ambar ile gönderim
+
+## Neden Lider Zeytincilik?
+
+- Doğrudan üretici olarak aracısız fiyat
+- Modern üretim tesisleri
+- Kalite kontrol laboratuvarı
+- Sürdürülebilir üretim pratikleri
+- Türkiye geneli dağıtım ağı
+
+**İletişim:** 0552 382 8456 (WhatsApp)`,
+        faq: [
+            {
+                question: 'Lider Zeytincilik nerede üretim yapıyor?',
+                answer: 'Üretim tesislerimiz Ege Bölgesi\'nde, Aydın ilinde yer almaktadır. Zeytinlerimiz başta Aydın ve çevresi olmak üzere Ege\'nin en verimli zeytin bahçelerinden temin edilmektedir.',
+            },
+            {
+                question: 'Fason üretim yapıyor musunuz?',
+                answer: 'Evet, fason zeytinyağı üretimi yapıyoruz. Kendi markanızla etiketleme ve ambalajlama hizmeti sunuyoruz. Detaylar için bizimle iletişime geçebilirsiniz.',
+            },
+        ],
+    },
+    {
+        slug: 'zeytinyagi-tedarikci',
+        name: 'Zeytinyağı Tedarikçi',
+        title: 'Güvenilir Zeytinyağı Tedarikçisi | Üreticiden Uygun Fiyat | Lider Zeytincilik',
+        metaDescription: 'Güvenilir zeytinyağı tedarikçisi Lider Zeytincilik. Restoranlar, oteller ve marketler için düzenli tedarik. Üreticiden uygun fiyatlı, kaliteli, kesintisiz.',
+        h1: 'Güvenilir Zeytinyağı Tedarikçisi',
+        shortDescription: 'İşletmeniz için güvenilir, düzenli ve kaliteli zeytinyağı tedarik hizmeti.',
+        image: '/images/categories/tedarikci.jpg',
+        content: `## Zeytinyağı Tedarikçi - Lider Zeytincilik
+
+İşletmeniz için güvenilir bir zeytinyağı tedarikçisi mi arıyorsunuz? Lider Zeytincilik olarak Türkiye genelinde restoranlar, oteller, marketler ve gıda işletmelerine düzenli zeytinyağı tedariki sağlıyoruz.
+
+## Tedarik Hizmetimiz
+
+- **Düzenli Teslimat**: Belirlenen periyotlarda düzenli zeytinyağı sevkiyatı
+- **Stok Takibi**: İhtiyacınıza göre stok planlaması
+- **Sabit Kalite**: Her teslimatda aynı kalite standardı
+- **Esnek Miktar**: İhtiyacınıza göre değişen sipariş miktarları
+- **Özel Fiyat**: Sözleşmeli tedariklerde özel fiyatlandırma
+
+## Hangi İşletmelere Hizmet Veriyoruz?
+
+- Restoranlar ve lokantalar
+- Oteller ve tatil köyleri
+- Süpermarket ve marketler
+- Catering firmaları
+- Yemek fabrikaları
+- Gıda toptancıları
+- Zincir mağazalar
+
+**İletişim:** 0552 382 8456 (WhatsApp)
+**Toptan alımlarda pazarlık payı vardır.**`,
+        faq: [
+            {
+                question: 'Zeytinyağı tedarik sözleşmesi yapıyor musunuz?',
+                answer: 'Evet, düzenli tedarik ihtiyacı olan işletmelerle sözleşmeli tedarik anlaşması yapıyoruz. Bu sayede sabit fiyat ve düzenli teslimat garantisi sunuyoruz.',
+            },
+            {
+                question: 'Minimum tedarik miktarı var mı?',
+                answer: 'Sözleşmeli tedariklerde minimum sipariş miktarı ürün çeşidine göre değişmektedir. Detaylı bilgi için bizimle iletişime geçebilirsiniz.',
+            },
+        ],
+    },
+];
+
+export function getCategoryBySlug(slug: string): Category | undefined {
+    return categories.find((c) => c.slug === slug);
+}
+
+export function getAllCategorySlugs(): string[] {
+    return categories.map((c) => c.slug);
+}
