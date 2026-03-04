@@ -34,7 +34,7 @@ export default function Footer() {
                             </a>
                             <a href={`https://wa.me/${siteConfig.whatsapp}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm text-olive-200 hover:text-green-400 transition-colors uppercase tracking-widest font-bold">
                                 <span className="text-green-500 text-lg">💬</span>
-                                WhatsApp Hattı
+                                Hemen Fiyat Al ve Sipariş Ver
                             </a>
                             <p className="flex items-start gap-3 text-xs text-olive-400 leading-relaxed pt-2">
                                 <span className="text-gold-500 text-lg">📍</span>

@@ -3,7 +3,7 @@ import { siteConfig } from '@/lib/siteConfig';
 export default function WhatsAppButton() {
     return (
         <a
-            href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent('Merhaba, zeytinyağı hakkında bilgi almak istiyorum.')}`}
+            href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent('Merhaba, güncel fiyat listesini alabilir miyim ve sipariş vermek istiyorum.')}`}
             target="_blank"
             rel="noopener noreferrer"
             className="whatsapp-float"
