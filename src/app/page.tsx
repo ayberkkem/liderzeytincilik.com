@@ -124,22 +124,18 @@ export default function HomePage() {
             </div>
 
             {/* Hero Image Area - Branding Focus */}
-            <div className="hidden lg:block relative">
-              <div className="relative group">
-                <div className="absolute -inset-4 bg-gold-500/20 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <img
-                  src="/images/tins-in-grove.png"
-                  alt="Zeytin Bahçesinde Zeytinyağı Tenekeleri"
-                  className="rounded-3xl shadow-2xl relative z-10 animate-float"
-                />
+            <div className="hidden lg:block relative min-h-[500px] flex items-center justify-center">
+              <div className="relative w-full max-w-lg aspect-square">
+                {/* Glow Effect where the image was */}
+                <div className="absolute inset-10 bg-gold-500/20 rounded-full blur-[100px] animate-pulse"></div>
 
                 {/* Floating Elements */}
-                <div className="absolute -top-6 -right-6 z-20 bg-gold-400 text-olive-950 p-6 rounded-2xl shadow-2xl transform rotate-3 animate-pulse-glow">
+                <div className="absolute top-10 right-0 z-20 bg-gold-400 text-olive-950 p-6 rounded-2xl shadow-2xl transform rotate-3 animate-pulse-glow">
                   <p className="text-2xl font-serif font-black mb-0">Üreticiden</p>
                   <p className="text-sm font-bold uppercase tracking-tighter">En İyi Fiyat Garantisi</p>
                 </div>
 
-                <div className="absolute -bottom-8 -left-8 z-20 glass p-6 rounded-2xl shadow-xl flex items-center gap-4 border border-white/20 backdrop-blur-2xl">
+                <div className="absolute bottom-10 left-0 z-20 glass p-6 rounded-2xl shadow-xl flex items-center gap-4 border border-white/20 backdrop-blur-2xl">
                   <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-2xl">🚜</div>
                   <div>
                     <p className="text-white font-bold text-sm leading-tight">Geleneksel Hasat</p>
@@ -153,47 +149,28 @@ export default function HomePage() {
       </section>
 
 
-      {/* ===== QUALITY & CERTIFICATES BAR ===== */}
-      <section className="bg-olive-950 py-10 border-y border-gold-500/20 relative z-20">
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gold-500/5 to-transparent"></div>
-        <div className="max-w-7xl mx-auto px-4 relative">
-          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 lg:gap-24">
+      {/* ===== ELITE AUTHORITY & TRUST BAR ===== */}
+      <section className="bg-olive-900 border-y border-white/5 relative z-20">
+        <div className="max-w-7xl mx-auto px-4 py-12 lg:py-16">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 items-center justify-items-center">
             {[
-              { icon: '🛡️', title: 'ISO 22000', desc: 'Gıda Güvenliği' },
-              { icon: '🌙', title: 'Helal Sertifikalı', desc: 'Uygun Üretim' },
-              { icon: '🔬', title: 'Lab Analizli', desc: 'Akredite Onaylı' },
-              { icon: '✨', title: '%100 Doğal', desc: 'Katkısız ve Saf' },
-            ].map((item, i) => (
-              <div key={i} className="flex items-center gap-4 group">
-                <div className="w-14 h-14 rounded-full bg-gold-500/10 border border-gold-500/30 flex items-center justify-center text-2xl shadow-[0_0_15px_rgba(240,185,41,0.1)] group-hover:scale-110 group-hover:bg-gold-500 group-hover:text-olive-950 transition-all duration-500">
-                  {item.icon}
-                </div>
-                <div>
-                  <h4 className="text-white font-bold text-sm tracking-tight leading-none mb-1 uppercase">{item.title}</h4>
-                  <p className="text-gold-500/60 text-[10px] font-black uppercase tracking-widest">{item.desc}</p>
-                </div>
+              { icon: '🛡️', text: 'ISO 22000' },
+              { icon: '🌙', text: 'Helal' },
+              { icon: '🔬', text: 'Lab Analizli' },
+              { icon: '🚚', text: 'Ücretsiz Kargo' },
+              { icon: '🏭', text: 'Fabrikadan' },
+              { icon: '📦', text: 'Ambar Gönderim' },
+              { icon: '✨', text: '%100 Doğal' },
+              { icon: '🤝', text: 'Toptan Fiyat' },
+            ].map((badge, i) => (
+              <div key={i} className="flex flex-col items-center gap-2 group cursor-default">
+                <div className="text-3xl mb-1 group-hover:scale-125 transition-transform duration-300 drop-shadow-lg">{badge.icon}</div>
+                <span className="text-[10px] font-black text-white/70 uppercase tracking-widest text-center whitespace-nowrap group-hover:text-gold-400 transition-colors">{badge.text}</span>
               </div>
             ))}
           </div>
         </div>
       </section>
-
-
-      {/* ===== TRUST BADGES ===== */}
-      <section className="bg-olive-900 border-b border-white/5">
-        <div className="max-w-7xl mx-auto px-4 py-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
-            {trustBadges.map((badge, i) => (
-              <div key={i} className="text-center group">
-                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300 drop-shadow-2xl">{badge.icon}</div>
-                <h3 className="font-bold text-white mb-2 uppercase tracking-widest text-sm">{badge.title}</h3>
-                <p className="text-sm text-olive-300 font-light leading-relaxed">{badge.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
 
       {/* ===== PRODUCTS SECTION ===== */}
       <section className="bg-olive-950 py-24 relative overflow-hidden" id="products">
@@ -310,14 +287,14 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-4">
-                <img src="/images/extraction-process.png" alt="Zeytinyağı Çıkarımı" className="rounded-2xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
-                <img src="/images/filling-conveyor.png" alt="Dolum Hattı" className="rounded-2xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
+            <div className="grid grid-cols-2 gap-6 h-full items-center">
+              <div className="space-y-6">
+                <img src="/images/extraction-process.png" alt="Zeytinyağı Çıkarımı" className="w-full aspect-square object-cover rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
+                <img src="/images/filling-conveyor.png" alt="Dolum Hattı" className="w-full aspect-[4/3] object-cover rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
               </div>
-              <div className="space-y-4 pt-8">
-                <img src="/images/quality-inspection.png" alt="Kalite Kontrol" className="rounded-2xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
-                <img src="/images/retail-boxes.png" alt="Paketleme" className="rounded-2xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
+              <div className="space-y-6 pt-12">
+                <img src="/images/quality-inspection.png" alt="Kalite Kontrol" className="w-full aspect-[4/3] object-cover rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
+                <img src="/images/retail-boxes.png" alt="Paketleme" className="w-full aspect-square object-cover rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
               </div>
             </div>
           </div>
