@@ -270,74 +270,78 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== PRODUCTS SECTION ===== */}
-      <section className="bg-olive-950 py-24 relative overflow-hidden" id="products">
-        <div className="max-w-7xl mx-auto px-4 relative z-10">
+      {/* ===== UNIFIED PRODUCTS & CATEGORIES SECTION ===== */}
+      <section className="bg-olive-900/50 py-24 border-y border-white/5" id="products">
+        <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-20">
-            <span className="text-gold-400 text-sm font-black uppercase tracking-[0.3em] mb-4 block">Ürünlerimiz</span>
+            <span className="text-gold-400 text-sm font-black uppercase tracking-[0.3em] mb-4 block">Ürün Kataloğumuz</span>
             <h2 className="font-serif text-4xl md:text-6xl font-black text-white leading-tight">
               Saf Ege <span className="text-gold-400 italic">Mucizesi</span>
             </h2>
             <div className="w-20 h-1 bg-gold-500 mx-auto mt-6"></div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            {products.map((product, i) => (
-              <Link
-                key={i}
-                href={product.href}
-                className="glass-card rounded-none p-10 text-center group hover:-translate-y-3 transition-all duration-500 hover:shadow-gold-500/10"
-              >
-                <div className="h-48 mb-6 relative overflow-hidden flex items-center justify-center">
-                  <Image src={product.image} alt={product.name} fill className="object-contain group-hover:scale-110 transition-transform duration-500" />
-                </div>
-                <span className="inline-block bg-white/5 backdrop-blur-md text-gold-400 text-[10px] font-black px-4 py-1.5 rounded-none mb-4 uppercase tracking-widest border border-white/10">{product.size}</span>
-                <h3 className="text-2xl font-serif font-black text-white mb-3 group-hover:text-gold-400 transition-colors tracking-tight">{product.name}</h3>
-                <p className="text-olive-200 text-sm mb-8 leading-relaxed font-light italic">{product.desc}</p>
-                <div className="pt-6 border-t border-white/5 flex items-center justify-between">
-                  <span className="text-[10px] text-olive-400 font-black uppercase tracking-widest">Fiyat Alın</span>
-                  <span className="w-10 h-10 rounded-none bg-white/5 flex items-center justify-center text-gold-400 group-hover:bg-gold-400 group-hover:text-olive-950 transition-all font-bold">❯</span>
-                </div>
-              </Link>
-            ))}
+          {/* Products Grid */}
+          <div className="mb-20">
+            <div className="flex items-center gap-4 mb-10">
+              <h3 className="font-serif text-2xl md:text-3xl font-black text-white uppercase tracking-tight">Ürünlerimiz</h3>
+              <div className="flex-1 h-px bg-gradient-to-r from-gold-500/50 to-transparent"></div>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {products.map((product, i) => (
+                <Link
+                  key={i}
+                  href={product.href}
+                  className="group flex items-center gap-5 p-5 rounded-none bg-white/5 border border-white/10 hover:border-gold-400/30 hover:bg-gold-400/5 transition-all duration-500 hover:-translate-y-1 shadow-xl"
+                >
+                  <div className="w-16 h-16 bg-white/5 rounded-none flex items-center justify-center flex-shrink-0 group-hover:bg-gold-400 transition-all shadow-inner overflow-hidden border border-white/5">
+                    <Image src={product.image} alt={product.name} width={64} height={64} className="object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+                  </div>
+                  <div className="flex-1">
+                    <span className="text-[9px] text-gold-500 font-black uppercase tracking-widest block mb-1 opacity-80">{product.size}</span>
+                    <h4 className="font-black text-white text-sm group-hover:text-gold-400 transition-colors mb-1 leading-tight">{product.name}</h4>
+                    <p className="text-[10px] text-olive-400 font-bold uppercase tracking-tighter flex items-center gap-2">
+                      İncele <span className="text-gold-500 group-hover:translate-x-1 transition-transform">→</span>
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
 
-          <div className="text-center space-y-4">
-            <div className="inline-flex items-center gap-2 text-olive-300 font-medium">
+          {/* Categories Grid */}
+          <div>
+            <div className="flex items-center gap-4 mb-10">
+              <h3 className="font-serif text-2xl md:text-3xl font-black text-white uppercase tracking-tight">Zeytinyağı Çeşitlerimiz</h3>
+              <div className="flex-1 h-px bg-gradient-to-r from-gold-500/50 to-transparent"></div>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {categories.map((cat, i) => (
+                <Link
+                  key={cat.slug}
+                  href={`/kategori/${cat.slug}`}
+                  className="group flex items-center gap-5 p-5 rounded-none bg-white/5 border border-white/10 hover:border-gold-400/30 hover:bg-gold-400/5 transition-all duration-500 hover:-translate-y-1 shadow-xl"
+                  style={{ animationDelay: `${i * 30}ms` }}
+                >
+                  <div className="w-16 h-16 bg-white/5 rounded-none flex items-center justify-center flex-shrink-0 group-hover:bg-gold-400 transition-all shadow-inner overflow-hidden border border-white/5">
+                    <Image src={cat.image} alt={cat.name} width={64} height={64} className="object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-black text-white text-sm group-hover:text-gold-400 transition-colors mb-1 leading-tight">{cat.name}</h4>
+                    <p className="text-[10px] text-olive-400 font-bold uppercase tracking-tighter flex items-center gap-2">
+                      Detaylar <span className="text-gold-500 group-hover:translate-x-1 transition-transform">→</span>
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-16 text-center space-y-4">
+            <div className="inline-flex items-center gap-2 text-olive-300 font-medium bg-white/5 px-6 py-3 border border-white/10">
               <svg className="w-5 h-5 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" /></svg>
               Toptan alımlarda araç bazlı sevkiyat ve fabrika satış fiyatları
             </div>
-            <p className="text-sm text-gold-500/60 font-black uppercase tracking-widest">Lider Zeytincilik Güvencesiyle</p>
-          </div>
-        </div>
-      </section>
-
-
-      {/* ===== CATEGORIES SECTION ===== */}
-      <section className="bg-olive-900/50 py-24 border-y border-white/5">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <span className="text-gold-500 text-sm font-black uppercase tracking-[0.2em] mb-4 block">Kategoriler</span>
-            <h2 className="font-serif text-4xl font-black text-white">Zeytinyağı Çeşitlerimiz</h2>
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {categories.map((cat, i) => (
-              <Link
-                key={cat.slug}
-                href={`/kategori/${cat.slug}`}
-                className="group flex items-center gap-4 p-5 rounded-none bg-white/5 border border-white/10 hover:border-gold-400/30 hover:bg-gold-400/5 transition-all duration-500"
-                style={{ animationDelay: `${i * 30}ms` }}
-              >
-                <div className="w-12 h-12 bg-white/5 rounded-none flex items-center justify-center flex-shrink-0 group-hover:bg-gold-400 transition-all shadow-inner overflow-hidden">
-                  <Image src={cat.image} alt={cat.name} width={48} height={48} className="object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
-                </div>
-                <div>
-                  <h3 className="font-bold text-white text-sm group-hover:text-gold-400 transition-colors mb-0.5">{cat.name}</h3>
-                  <p className="text-[11px] text-olive-400 font-medium line-clamp-1 italic uppercase tracking-tighter">İncele</p>
-                </div>
-              </Link>
-            ))}
           </div>
         </div>
       </section>
