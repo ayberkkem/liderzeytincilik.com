@@ -6,23 +6,31 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-olive-950 text-olive-200">
+        <footer className="bg-background text-olive-200 border-t border-white/5 tech-grid relative overflow-hidden">
+            <div className="absolute inset-0 bg-gold-500/[0.02] pointer-events-none"></div>
             {/* Main Footer Content */}
-            <div className="max-w-7xl mx-auto px-4 py-16">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-                    {/* Brand */}
-                    <div className="lg:col-span-1">
-                        <Link href="/" className="flex items-center gap-3 mb-6 group">
-                            <div className="w-12 h-12 rounded-none bg-gradient-to-br from-olive-600 to-olive-800 flex items-center justify-center border border-white/10 group-hover:shadow-gold-500/20 transition-all">
-                                <svg className="w-7 h-7 text-gold-400" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
-                                </svg>
+            <div className="max-w-[1600px] mx-auto px-6 py-32 relative z-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20">
+                    {/* Brand / Facility */}
+                    <div className="lg:col-span-1 space-y-10">
+                        <Link href="/" className="flex items-center gap-4 group">
+                            <div className="w-16 h-16 bg-gold-500 flex items-center justify-center shadow-2xl transition-transform group-hover:scale-110">
+                                <span className="text-olive-950 font-black text-2xl italic ls-tighter">LZ</span>
                             </div>
                             <div>
-                                <span className="text-xl font-serif font-black text-white block leading-none uppercase tracking-tighter">Lider</span>
-                                <span className="text-xs font-black text-gold-500/60 uppercase tracking-[0.3em] leading-none">Zeytincilik</span>
+                                <span className="text-2xl font-serif font-black text-white block leading-none uppercase tracking-tighter">Lider</span>
+                                <span className="text-[10px] font-mono font-black text-gold-500/60 uppercase tracking-[0.4em] leading-none">Industrial Unit</span>
                             </div>
                         </Link>
+
+                        <div className="space-y-6">
+                            <div className="hud-border hud-border-tl hud-border-br p-6 bg-white/[0.02] border-white/5">
+                                <p className="text-[10px] font-mono text-gold-500/40 mb-2 uppercase group-hover:text-gold-400 transition-colors tracking-widest">Facility_Location</p>
+                                <p className="text-xs text-olive-300 leading-relaxed font-light italic">
+                                    {siteConfig.address}
+                                </p>
+                            </div>
+                        </div>
 
                         <p className="text-sm text-olive-300 mb-6 leading-relaxed font-light italic">
                             Ege&apos;nin bereketli topraklarından, el değmeden sofranıza ulaştırılan şifa kaynağı.
@@ -95,18 +103,16 @@ export default function Footer() {
                 </div>
             </div>
 
-            {/* Bottom Bar */}
-            <div className="border-t border-white/5 bg-black/20">
-                <div className="max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-6 overflow-hidden">
-                    <p className="text-[10px] font-black text-olive-500 uppercase tracking-[0.3em]">
-                        © {currentYear} {siteConfig.name}. Tüm hakları saklıdır.
+            {/* Bottom Bar / System Log */}
+            <div className="border-t border-white/5 bg-black/40 py-10">
+                <div className="max-w-[1600px] mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
+                    <p className="text-[10px] font-mono text-olive-500 uppercase tracking-[0.4em]">
+                        © {currentYear} LIDER_INDUSTRIAL_CORP // ALL_RIGHTS_RESERVED
                     </p>
-                    <div className="flex items-center gap-4 text-gold-500/40 text-[10px] font-black uppercase tracking-[0.2em] animate-pulse">
-                        <span>•</span>
-                        <span>81 İle Gönderim</span>
-                        <span>•</span>
-                        <span>Doğrudan Üreticiden</span>
-                        <span>•</span>
+                    <div className="flex items-center gap-8 text-[9px] font-mono text-gold-500/30 uppercase tracking-[0.2em]">
+                        <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span> KERNEL_OK</span>
+                        <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span> FLEET_STANDBY</span>
+                        <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-gold-500 rounded-full"></span> AGENT_X_V4.2</span>
                     </div>
                 </div>
             </div>
