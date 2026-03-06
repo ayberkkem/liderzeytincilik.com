@@ -151,12 +151,76 @@ Türkiye geneli ücretsiz kargo veya ambar gönderim seçenekleri ile 10 litreli
             },
         ],
     },
+    'gemlik-siyah-zeytin': {
+        slug: 'gemlik-siyah-zeytin',
+        name: 'Gemlik Tipi Siyah Zeytin',
+        size: '1-2-5-10 Kg',
+        title: 'Üreticiden Uygun Gemlik Tipi Siyah Zeytin | Lider Zeytincilik',
+        metaDescription: 'Üreticiden uygun fiyatlı tam yağlı kömür siyahı Gemlik (Trilye) zeytini. Doğal salamura, ince kabuklu, küçük çekirdekli. Zeytin Liderden Alınır!',
+        h1: 'Üreticiden Uygun Fiyatlı Gemlik Siyah Zeytin',
+        icon: '⚫',
+        content: `Gemlik zeytinimiz, Türkiye'nin en kaliteli zeytinlerinin yetiştiği bölgelerden toplanarak geleneksel yöntemlerle hazırlanır. İnce kabuklu, küçük çekirdekli ve bol etli yapısıyla kahvaltılıkların zirvesidir. Hiçbir boya veya kimyasal madde içermez. Tamamen doğal fermente yöntemiyle (sadece tuz ve su kullanılarak) 6-9 ay süren bir olgunlaşma sürecinden geçer. Çekirdeğinin bile kahverengi olması, doğal olduğunun en büyük kanıtıdır. Üreticiden doğrudan halka satış politikamızla, en kaliteli Gemlik zeytinine en uygun fiyatla ulaşmanızı sağlıyoruz.`,
+        specs: [
+            { label: 'Ambalaj', value: 'Vakum / Teneke / PET' },
+            { label: 'Tür', value: 'Siyah Zeytin (Doğal Fermente)' },
+            { label: 'Çeşit', value: 'Gemlik / Trilye' },
+            { label: 'Kalibre', value: '231-260 (L) / 261-290 (M)' },
+            { label: 'Hasat', value: 'Dalında Olgunlaşmış Siyah Hasat' },
+            { label: 'Menşei', value: 'Ege / Marmara Bölgesi' },
+            { label: 'İçerik', value: 'Zeytin, Tuz, Su' },
+            { label: 'Muhafaza', value: 'Serin ve Kuru Yer' },
+        ],
+        usageAreas: [
+            'Kahvaltılık sunumlar',
+            'Salatalar ve piyazlar',
+            'Hamur işleri (poğaça, açma)',
+            'Meze tabakları',
+            'Hediye paketleri',
+        ],
+        faq: [
+            { question: 'Zeytinleriniz boyalı mı?', answer: 'Kesinlikle hayır. Zeytinlerimizin siyahlığı doğal fermente sürecinden gelmektedir.' },
+            { question: 'Toptan alımda fiyat ne olur?', answer: 'Toptan alımlarda kg bazında özel fiyatlarımız mevcuttur. Lütfen WhatsApp üzerinden teklif isteyin.' },
+        ],
+    },
+    'domat-yesil-zeytin': {
+        slug: 'domat-yesil-zeytin',
+        name: 'Domat Tipi Yeşil Zeytin',
+        size: '1-2-5-10 Kg',
+        title: 'Üreticiden Uygun Domat Tipi Yeşil Zeytin | Lider Zeytincilik',
+        metaDescription: 'Üreticiden uygun fiyatlı kıtır yapıda Domat yeşil zeytin. Çizik ve Kırma seçenekleriyle taze hasat yeşil zeytin çeşitleri. Zeytin Liderden Alınır!',
+        h1: 'Üreticiden Uygun Fiyatlı Domat Yeşil Zeytin',
+        icon: '🟢',
+        content: `Domat yeşil zeytinimiz, sezonun ilk hasadıyla birlikte toplanan, çıtır yapısı ve yüksek et oranıyla bilinen bir çeşittir. Çizik veya kırma olarak hazırlanan bu zeytinler, lezzetini zeytinin kendi doğal aromalarından alır. Üretim sürecinde kostik gibi kimyasal tatlandırıcılar kullanılmaz. Sadece kaya tuzu ve limon suyu ile hazırlanan salamurada tatlandırılır. Bu sayede zeytin tüm besin değerini korur. İri taneli yapısı ve sert dokusuyla kahvaltılarınızda gerçek bir zeytin deneyimi yaşatır.`,
+        specs: [
+            { label: 'Ambalaj', value: 'Teneke / PET' },
+            { label: 'Tür', value: 'Yeşil Zeytin (Doğal Fermente)' },
+            { label: 'Çeşit', value: 'Domat / Kırma / Çizik' },
+            { label: 'Tat', value: 'Hafif Ekşimsi, Meyvemsi' },
+            { label: 'Hasat', value: 'Erken Hasat (Yeşil)' },
+            { label: 'Menşei', value: 'Ege Bölgesi' },
+            { label: 'İçerik', value: 'Zeytin, Tuz, Limon Suyu, Su' },
+            { label: 'Raf Ömrü', value: '1 Yıl' },
+        ],
+        usageAreas: [
+            'Kahvaltılıklar',
+            'Piknikler',
+            'Zeytinyağı ve kekikli sunumlar',
+            'Mezeler',
+            'Market ve Şarküteri Reyonları',
+        ],
+        faq: [
+            { question: 'Yeşil zeytinler neden ekşi?', answer: 'Doğal fermente sürecinde oluşan laktik asit ve kullandığımız limon suyu zeytine o hoş ekşiliği verir.' },
+            { question: 'Kargo ile gönderimde bozulma olur mu?', answer: 'Zeytinlerimiz kendi salamura suyu içinde, sızdırmaz ambalajlarda gönderilir. Yolda bozulma riski yoktur.' },
+        ],
+    },
 };
 
 const productImages: Record<string, string> = {
     '1-lt-zeytinyagi': '/images/quality-inspection.png',
     '5-lt-zeytinyagi': '/images/product-tin-5l.jpg',
     '10-lt-zeytinyagi': '/images/factory-pallets.png',
+    'gemlik-siyah-zeytin': '/images/categories/black-olives.png',
+    'domat-yesil-zeytin': '/images/categories/green-olives.png',
 };
 
 
@@ -220,16 +284,16 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="grid lg:grid-cols-2 gap-20 items-start">
                         {/* Product Image */}
-                        <div className="relative group overflow-hidden rounded-[60px] shadow-3xl border border-white/10 bg-white/5">
+                        <div className="relative group overflow-hidden rounded-none shadow-3xl border border-white/10 bg-white/5">
                             <img
                                 src={productImages[slug] || '/images/product-tin-5l.jpg'}
                                 alt={product.name}
                                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-1000 grayscale-[20%] group-hover:grayscale-0"
                             />
-                            <div className="absolute top-8 left-8 bg-gold-400 text-olive-950 px-6 py-2 rounded-2xl text-[10px] font-black uppercase tracking-[0.3em] shadow-2xl">
+                            <div className="absolute top-8 left-8 bg-gold-400 text-olive-950 px-6 py-2 rounded-none text-[10px] font-black uppercase tracking-[0.3em] shadow-2xl">
                                 Üretimden Doğrudan
                             </div>
-                            <div className="absolute bottom-8 right-8 glass p-6 rounded-[32px] backdrop-blur-xl border border-white/20 shadow-2xl">
+                            <div className="absolute bottom-8 right-8 glass p-6 rounded-none backdrop-blur-xl border border-white/20 shadow-2xl">
                                 <p className="text-white text-[10px] font-black uppercase tracking-[0.2em] leading-none mb-2">Ambalaj</p>
                                 <p className="text-gold-400 font-serif font-black text-2xl leading-none">{product.specs.find(s => s.label === 'Ambalaj')?.value}</p>
                             </div>
@@ -238,7 +302,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
                         {/* Product Info */}
                         <div className="pt-4">
-                            <span className="inline-block bg-white/5 border border-white/10 text-gold-400 text-[10px] font-black px-5 py-2 rounded-full mb-8 uppercase tracking-[0.3em]">{product.size} Kapasite</span>
+                            <span className="inline-block bg-white/5 border border-white/10 text-gold-400 text-[10px] font-black px-5 py-2 rounded-none mb-8 uppercase tracking-[0.3em]">{product.size} Kapasite</span>
                             <h1 className="font-serif text-5xl md:text-6xl font-black text-white mb-8 uppercase tracking-tighter leading-none">{product.h1}</h1>
 
                             <div className="prose prose-invert mb-12 max-w-none">
@@ -255,19 +319,20 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                                     href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(`Merhaba, ${product.name} hakkında bilgi almak istiyorum.`)}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="inline-flex items-center justify-center gap-3 bg-gold-400 hover:bg-gold-500 text-olive-950 px-10 py-5 rounded-2xl font-black uppercase tracking-[0.2em] transition-all shadow-xl shadow-gold-500/20 active:scale-95 text-sm"
+                                    className="inline-flex items-center justify-center gap-3 bg-gold-400 hover:bg-gold-500 text-olive-950 px-10 py-5 rounded-none font-black uppercase tracking-[0.2em] transition-all shadow-xl shadow-gold-500/20 active:scale-95 text-sm"
                                 >
                                     Fiyat Bilgisi Al
                                 </a>
                                 <a
                                     href={`tel:${siteConfig.phone.replace(/\s/g, '')}`}
-                                    className="inline-flex items-center justify-center gap-3 bg-white/5 hover:bg-white/10 text-white px-10 py-5 rounded-2xl font-black uppercase tracking-[0.2em] transition-all border border-white/10 active:scale-95 text-sm"
+                                    className="inline-flex items-center justify-center gap-3 bg-white/5 hover:bg-white/10 text-white px-10 py-5 rounded-none font-black uppercase tracking-[0.2em] transition-all border border-white/10 active:scale-95 text-sm"
                                 >
-                                    📞 Ara: {siteConfig.phone}
+                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                                    Ara: {siteConfig.phone}
                                 </a>
                             </div>
 
-                            <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 text-xs font-black uppercase tracking-[0.2em] text-gold-400 italic text-center">
+                            <div className="bg-white/5 border border-white/10 rounded-none p-8 text-xs font-black uppercase tracking-[0.2em] text-gold-400 italic text-center">
                                 Toptan alımlarda fabrika satış fiyatları ve özel iskontolar uygulanmaktadır.
                             </div>
                         </div>
@@ -280,8 +345,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             <section className="bg-olive-900 py-12 relative overflow-hidden">
                 <img src="/images/delivery-van-plain.png" alt="Sevkiyat" className="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none" />
                 <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
-                    <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/20 px-6 py-3 rounded-full mb-6">
-                        <span className="text-lg">🚚</span>
+                    <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/20 px-6 py-3 rounded-none mb-6">
+                        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1m-6 0a1 1 0 001-1m-6 0a1 1 0 001 1h1m-6 0H4" /></svg>
                         <span className="text-white font-bold tracking-tight">Türkiye&apos;nin 81 İline Güvenli Sevkiyat</span>
                     </div>
                 </div>
@@ -293,7 +358,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="grid md:grid-cols-2 gap-12">
                         {/* Technical Specs */}
-                        <div className="glass-card rounded-[40px] p-10 border border-white/5 bg-white/5">
+                        <div className="glass-card rounded-none p-10 border border-white/5 bg-white/5">
                             <h2 className="font-serif text-3xl font-black text-white mb-8 uppercase tracking-tight leading-none">Teknik <span className="text-gold-400 italic">Detaylar</span></h2>
                             <div className="space-y-4">
                                 {product.specs.map((spec, i) => (
@@ -306,12 +371,12 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                         </div>
 
                         {/* Usage Areas */}
-                        <div className="glass-card rounded-[40px] p-10 border border-white/5 bg-white/5">
+                        <div className="glass-card rounded-none p-10 border border-white/5 bg-white/5">
                             <h2 className="font-serif text-3xl font-black text-white mb-8 uppercase tracking-tight leading-none">Mutfakta <span className="text-gold-400 italic">Kullanım</span></h2>
                             <ul className="space-y-6">
                                 {product.usageAreas.map((area, i) => (
                                     <li key={i} className="flex items-start gap-5 group">
-                                        <span className="w-8 h-8 bg-white/5 rounded-full flex items-center justify-center text-[10px] text-gold-400 font-black border border-white/10 group-hover:bg-gold-400 group-hover:text-olive-950 transition-all font-sans">{i + 1}</span>
+                                        <span className="w-8 h-8 bg-white/5 rounded-none flex items-center justify-center text-[10px] text-gold-400 font-black border border-white/10 group-hover:bg-gold-400 group-hover:text-olive-950 transition-all font-sans">{i + 1}</span>
                                         <p className="text-olive-200 font-light italic leading-relaxed group-hover:text-white transition-colors">{area}</p>
                                     </li>
                                 ))}

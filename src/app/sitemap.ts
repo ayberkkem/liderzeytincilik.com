@@ -14,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/urunler/1-lt-zeytinyagi',
         '/urunler/5-lt-zeytinyagi',
         '/urunler/10-lt-zeytinyagi',
+        '/urunler/gemlik-siyah-zeytin',
+        '/urunler/domat-yesil-zeytin',
         '/kategori',
         '/bolgeler',
         '/blog',

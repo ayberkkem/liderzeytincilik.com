@@ -1596,6 +1596,92 @@ Kahvaltıda kullandığınız zeytinyağının natürel sızma olması, lezzet v
 
 Ege zeytinlerinden üretilen kaliteli zeytinyağı: **0552 382 8456**`,
     },
+    {
+        slug: 'en-iyi-siyah-zeytin-hangisi',
+        title: 'En İyi Siyah Zeytin Hangisi? Gemlik mi, Memecik mi?',
+        metaTitle: 'En İyi Siyah Zeytin Çeşitleri | Gemlik, Trilye, Memecik Karşılaştırma',
+        metaDescription: 'En iyi siyah zeytin hangisi? Gemlik, Trilye, Uslu ve Memecik siyah zeytin çeşitlerinin farkları, özellikleri ve lezzet profilleri. Üreticiden uygun fiyatlı siyah zeytin rehberi.',
+        excerpt: 'Siyah zeytin çeşitlerini yakından tanıyın. Hangi zeytin kahvaltı için daha uygun? Aralarındaki farklar neler?',
+        date: '2025-01-05',
+        readTime: '11 dk',
+        category: 'Bilgi',
+        image: '/images/blog/black-olives-types.png',
+        content: `Türkiye, siyah zeytin çeşitliliği açısından dünyanın en şanslı ülkelerinden biridir. Kahvaltı sofralarımızın başrol oyuncusu olan siyah zeytin, yetiştiği bölgeye ve ağaç türüne göre çok farklı lezzetler sunar. Peki en iyi siyah zeytin hangisidir?
+
+## Popüler Siyah Zeytin Çeşitleri
+
+### 1. Gemlik (Trilye) Zeytini
+Gemlik zeytini, ince kabuğu, küçük çekirdeği ve bol etli yapısıyla siyah zeytin dendiğinde akla gelen ilk çeşittir. Tam yağlı olması onu diğerlerinden ayıran en büyük özelliğidir.
+
+### 2. Memecik Zeytini
+Ege Bölgesi'nin, özellikle Aydın ve Muğla'nın gururu olan Memecik zeytini, yüksek polifenol oranı ve kendine has meyvemsi tadıyla öne çıkar. Hem yağlık hem de sofralık olarak mükemmel sonuç verir.
+
+### 3. Uslu Zeytini
+Manisa Akhisar bölgesinde yetişen Uslu zeytini, yumuşak dokusu ve parlak siyah rengiyle bilinir.
+
+## Hangi Zeytini Seçmelisiniz?
+Eğer ince kabuklu ve yağlı bir zeytin seviyorsanız **Gemlik**, daha meyvemsi ve aromatik bir tat arıyorsanız **Memecik** tercih etmelisiniz.
+
+Lider Zeytincilik olarak tüm bu çeşitleri en doğal haliyle, sadece tuz ve su kullanarak hazırlıyoruz.
+
+**Üreticiden Uygun Fiyatlı Sipariş Hattı:** 0552 382 8456 (WhatsApp)`,
+    },
+    {
+        slug: 'yesil-zeytin-cesitleri-ve-ozellikleri',
+        title: 'Yeşil Zeytin Çeşitleri: Kırma mı, Çizik mi?',
+        metaTitle: 'Yeşil Zeytin Çeşitleri | Domat, Kırma, Çizik Farkları',
+        metaDescription: 'Yeşil zeytin çeşitleri ve özellikleri. Domat, Kırma ve Çizik yeşil zeytin farkları nelerdir? Hangi yeşil zeytin daha lezzetli? Üreticiden uygun fiyatlı rehber.',
+        excerpt: 'Yeşil zeytin dünyasını keşfedin. Kırma, çizik ve dolgulu yeşil zeytinlerin farklarını ve hazırlama yöntemlerini öğrenin.',
+        date: '2025-01-04',
+        readTime: '9 dk',
+        category: 'Bilgi',
+        image: '/images/blog/green-olives-types.png',
+        content: `Yeşil zeytin, zeytin ağacının ilk meyvelerinin, henüz siyahlaşmadan toplanmasıyla elde edilen bir lezzet şölenidir. Taze, diri ve iştah açıcı yapısıyla her kahvaltının yıldızıdır.
+
+## Yeşil Zeytin Türleri
+
+### Kırma Yeşil Zeytin
+Zeytinlerin taşla kırılarak acısuyunun atılmasıyla yapılır. En kısa sürede olan ve en taze tüketilen yeşil zeytin türüdür. Kekik ve zeytinyağı ile servis edildiğinde lezzeti ikiye katlanır.
+
+### Çizik Yeşil Zeytin
+Üzerine jiletle birkaç çizik atılarak salamuraya bırakılan zeytinlerdir. Kırmaya göre daha uzun ömürlüdür ve aroması çekirdeğine kadar işler.
+
+### Domat Tipi Yeşil Zeytin
+İri yapısı sayesinde genellikle dolgulu (biberli, bademli) zeytin yapımında kullanılır. Çok kıtır bir yapısı vardır.
+
+## Doğal Hazırlanan Yeşil Zeytin Nasıl Anlaşılır?
+Gerçek yeşil zeytin, rengiyle ve kokusuyla kendini belli eder. Lider Zeytincilik olarak biz, yeşil zeytinlerimizde hiçbir kimyasal kullanmadan sadece limon tuzu ve kaya tuzu ile doğal fermente yöntemini uyguluyoruz.
+
+**Üreticiden Uygun Fiyatla Yeşil Zeytin Almak İçin:** 0552 382 8456 (WhatsApp)`,
+    },
+    {
+        slug: 'dogal-salamura-zeytin-nasil-yapilir',
+        title: 'Doğal Salamura Zeytin Nasıl Yapılır? Ev Yapımı Tadında',
+        metaTitle: 'Doğal Salamura Zeytin Yapımı | Evde Zeytin Nasıl Kurulur?',
+        metaDescription: 'Doğal salamura zeytin yapımı. Evde zeytin nasıl kurulur? Siyah ve yeşil zeytin tatlandırma yöntemleri. Üreticiden profesyonel tüyolar.',
+        excerpt: 'Evde kendi zeytinini kurmak isteyenler için profesyonel rehber. Siyah ve yeşil zeytin salamurasının püf noktaları.',
+        date: '2025-01-03',
+        readTime: '13 dk',
+        category: 'Üretim',
+        image: '/images/blog/homemade-olives.png',
+        content: `Kendi zeytinini evde kurmak isteyenler için Lider Zeytincilik olarak profesyonel üretim sırlarımızı paylaşıyoruz. İyi bir zeytin kurmanın sırrı doğru zeytini seçmek ve sabırlı olmaktır.
+
+## Siyah Zeytin Kurulumu (Yuvarlama Yöntemi)
+1. Zeytinleri iyice yıkayın.
+2. Kapalı bir kaba (bidona) koyun.
+3. Her 5 kg zeytin için 1 su bardağı kaya tuzu ekleyin.
+4. Bidonu her gün yuvarlayarak tuzun her yere değmesini sağlayın.
+5. Yaklaşık 3-4 ay sonra zeytininiz hazır olacaktır.
+
+## Yeşil Zeytin Kurulumu (Kırma)
+1. Zeytinleri kırın ve suya koyun.
+2. Suyunu her gün değiştirerek acısuyunu atmasını sağlayın.
+3. Acılığı gidince tuzlu ve limonlu suya alarak muhafaza edin.
+
+Eğer bu süreçle uğraşmak istemiyorsanız, biz sizin için en doğal yöntemlerle bu süreci fabrikamızda yönetiyoruz.
+
+**Üreticiden Uygun Fiyatlı Hazır Zeytin Siparişi:** 0552 382 8456 (WhatsApp)`,
+    },
 ];
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

@@ -17,7 +17,7 @@ export default function BlogPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-olive-950 to-transparent"></div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4">
                     <Breadcrumb items={[{ label: 'Ana Sayfa', href: '/' }, { label: 'Blog' }]} />
-                    <h1 className="font-serif text-5xl md:text-7xl font-black text-white mb-6 uppercase tracking-tighter">Zeytinyayı <span className="text-gold-400 italic">Rehberi</span></h1>
+                    <h1 className="font-serif text-5xl md:text-7xl font-black text-white mb-6 uppercase tracking-tighter">Zeytinyağı <span className="text-gold-400 italic">Rehberi</span></h1>
                     <p className="text-olive-200 text-xl max-w-2xl font-light leading-relaxed italic">
                         Tarladan sofraya zeytinyağının hikayesi, bilimsel faydaları ve işletmeler için stratejik ipuçları.
                     </p>
@@ -29,7 +29,7 @@ export default function BlogPage() {
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                         {blogPosts.map((post) => (
-                            <article key={post.slug} className="glass-card rounded-[40px] overflow-hidden group hover:-translate-y-3 transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)] border border-white/5 bg-white/5">
+                            <article key={post.slug} className="glass-card rounded-none overflow-hidden group hover:-translate-y-3 transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)] border border-white/5 bg-white/5">
                                 <Link href={`/blog/${post.slug}`} className="block">
                                     <div className="h-64 relative overflow-hidden">
                                         <img
@@ -38,7 +38,7 @@ export default function BlogPage() {
                                             className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                                         />
                                         <div className="absolute inset-0 bg-olive-950/20 group-hover:bg-transparent transition-colors duration-500"></div>
-                                        <div className="absolute top-6 left-6 bg-gold-400 text-olive-950 text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest shadow-2xl z-10">
+                                        <div className="absolute top-6 left-6 bg-gold-400 text-olive-950 text-[10px] font-black px-4 py-1.5 rounded-none uppercase tracking-widest shadow-2xl z-10">
                                             {post.category}
                                         </div>
                                     </div>

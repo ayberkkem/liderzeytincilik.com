@@ -18,7 +18,7 @@ export default function SalesAgreementPage() {
 
             <section className="py-24">
                 <div className="max-w-4xl mx-auto px-4">
-                    <div className="bg-white/5 rounded-[40px] p-10 md:p-14 border border-white/5 shadow-2xl backdrop-blur-sm">
+                    <div className="bg-white/5 rounded-none p-10 md:p-14 border border-white/5 shadow-2xl backdrop-blur-sm">
                         <div className="prose prose-invert prose-lg max-w-none text-olive-300 font-light italic leading-relaxed">
                             <p className="text-white font-bold not-italic mb-10 leading-relaxed">Bu sözleşme, alıcı ve satıcı arasındaki hak ve yükümlülükleri düzenler. Zeytinyağı ürünlerimizin satışı WhatsApp üzerinden teyitleşerek gerçekleştirilmektedir.</p>
 

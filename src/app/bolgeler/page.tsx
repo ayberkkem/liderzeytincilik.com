@@ -35,7 +35,7 @@ export default function RegionsPage() {
                             <Link
                                 key={city.slug}
                                 href={`/${city.slug}`}
-                                className="bg-white/5 hover:bg-gold-400/10 border border-white/5 hover:border-gold-400/30 p-4 rounded-2xl transition-all group text-center"
+                                className="bg-white/5 hover:bg-gold-400/10 border border-white/5 hover:border-gold-400/30 p-4 rounded-none transition-all group text-center"
                             >
                                 <span className="text-[10px] text-gold-500/60 block mb-1 font-black tracking-widest uppercase">Zeytinyağı</span>
                                 <span className="text-white group-hover:text-gold-400 font-bold transition-colors">{city.name}</span>
@@ -47,14 +47,14 @@ export default function RegionsPage() {
 
             <section className="bg-black/20 py-24 border-t border-white/5">
                 <div className="max-w-4xl mx-auto px-4 text-center">
-                    <div className="bg-white/5 rounded-[60px] p-12 border border-white/10 shadow-3xl">
+                    <div className="bg-white/5 rounded-none p-12 border border-white/10 shadow-3xl">
                         <h3 className="text-2xl font-serif font-black text-white mb-6 uppercase tracking-tight">Toptan Tedarik mi Arıyorsunuz?</h3>
                         <p className="text-olive-300 mb-10 italic font-light leading-relaxed text-lg">
                             Restoran, otel veya market işletmeniz için tonajlı alımlarda daha uygun fiyat teklifleri sunuyoruz. 81 il için ambar gönderimimiz mevcuttur.
                         </p>
                         <a
                             href="https://wa.me/905523828456"
-                            className="inline-block bg-gold-400 hover:bg-gold-500 text-olive-950 font-black uppercase tracking-[0.2em] px-12 py-5 rounded-2xl transition-all shadow-xl shadow-gold-500/20 active:scale-95 text-xs"
+                            className="inline-block bg-gold-400 hover:bg-gold-500 text-olive-950 font-black uppercase tracking-[0.2em] px-12 py-5 rounded-none transition-all shadow-xl shadow-gold-500/20 active:scale-95 text-xs"
                         >
                             WhatsApp Toptan Hattı
                         </a>

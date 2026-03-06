@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 import Breadcrumb from '@/components/Breadcrumb';
 import { categories } from '@/lib/categories';
@@ -28,10 +29,10 @@ export default function CategoriesPage() {
                             <Link
                                 key={cat.slug}
                                 href={`/kategori/${cat.slug}`}
-                                className="glass-card rounded-2xl overflow-hidden group hover:-translate-y-1.5 transition-all duration-300 hover:shadow-xl"
+                                className="glass-card rounded-none overflow-hidden group hover:-translate-y-1.5 transition-all duration-300 hover:shadow-xl border border-olive-100 bg-white"
                             >
-                                <div className="h-40 bg-gradient-to-br from-olive-100 to-olive-200 flex items-center justify-center">
-                                    <span className="text-6xl group-hover:scale-110 transition-transform duration-300">🫒</span>
+                                <div className="h-40 bg-gradient-to-br from-olive-100 to-olive-200 flex items-center justify-center overflow-hidden relative">
+                                    <Image src={`/images/categories/${cat.slug === 'siyah-zeytin-cesitleri' ? 'black-olives.png' : cat.slug === 'yesil-zeytin-cesitleri' ? 'green-olives.png' : 'quality-inspection.png'}`} alt={cat.name} fill className="object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" />
                                 </div>
                                 <div className="p-6">
                                     <h2 className="text-lg font-bold text-olive-800 mb-2 group-hover:text-olive-600 transition-colors">{cat.name}</h2>

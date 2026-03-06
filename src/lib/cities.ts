@@ -145,12 +145,16 @@ Toptan alım ve fiyat listesi için WhatsApp hattımız: **0552 382 8456**.
 
 ### ${cityName} İçin Ürün Gruplarımız
 
-1. **Efelerin Yağı (Sızma):** Aydın'ın dağ köylerinden toplanan meyvelerle.
-2. **Gurme Seri:** Erken hasat, soğuk sıkım, meyvemsi aroması yüksek.
-3. **Mutfak Dostu:** Ekonomik, yemeklik ve kızartmalık riviera seçenekleri.
+1. **Efelerin Yağı (Sızma):** Aydın'ın dağ köylerinden toplanan meyvelerle hazırlanan natürel sızma zeytinyağı.
+2. **Gurme Zeytin Portföyü:** Tam yağlı Gemlik tipi siyah zeytinler ve kıtır Domat yeşil zeytin çeşitleri.
+3. **Mutfak Dostu:** Ekonomik 5 lt ve 10 lt ambalajlarda zeytinyağı ve sofralık zeytin seçenekleri.
+
+Lider Zeytincilik olarak sadece zeytinyağı değil, Ege'nin en seçkin siyah ve yeşil zeytin çeşitlerini de ${cityName} halkına ve işletmelerine ulaştırıyoruz. Siyah zeytinlerimizde hiçbir boya veya kimyasal bulunmaz, yeşil zeytinlerimiz ise tamamen doğal limon tuzu ve kaya tuzu ile tatlandırılır.
+
+**Üreticiden Uygun Fiyat İçin:** 0552 382 8456 (WhatsApp)
 
 ---
-*Lider Zeytincilik, ${cityName} genelinde "Zeytinyağı Liderden Alınır" mottosuyla güven inşa etmeye devam ediyor.*`;
+*Lider Zeytincilik, ${cityName} genelinde "Zeytin ve Zeytinyağı Liderden Alınır" mottosuyla güven inşa etmeye devam ediyor.*`;
 
     const faq = [
         {

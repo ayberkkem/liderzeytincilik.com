@@ -18,7 +18,7 @@ export const categories: Category[] = [
         metaDescription: 'Natürel sızma zeytinyağı üreticiden uygun fiyatla! %0.8 altı asit oranı, soğuk sıkım kalite. Zeytinyağı Liderden Alınır! Toptan ve perakende, ücretsiz kargo.',
         h1: 'Üreticiden Uygun Fiyatlı Natürel Sızma Zeytinyağı',
         shortDescription: 'En yüksek kalite sınıfında, %0.8 altı asit oranına sahip doğal zeytinyağı.',
-        image: '/images/categories/naturel-sizma.jpg',
+        image: '/images/tins-in-grove.png',
         content: `## Natürel Sızma Zeytinyağı Nedir?
 
 Natürel sızma zeytinyağı, zeytinyağı sınıflandırmasında en üst kalite kategorisini temsil eden, serbest yağ asitliği oleik asit cinsinden %0.8'i geçmeyen, kusursuz tat ve aromaya sahip zeytinyağıdır. Uluslararası Zeytin Konseyi (IOC) standartlarına göre en kaliteli zeytinyağı olarak kabul edilir.
@@ -105,7 +105,7 @@ Lider Zeytincilik olarak, Ege Bölgesi'nin en verimli zeytin bahçelerinden topl
         metaDescription: 'Soğuk sıkım zeytinyağı 27°C altında mekanik yöntemlerle üretilir. Üreticiden uygun fiyatlı cold press zeytinyağı. Zeytinyağı Liderden Alınır! Ücretsiz kargo.',
         h1: 'Üreticiden Uygun Fiyatlı Soğuk Sıkım Zeytinyağı',
         shortDescription: '27°C altında mekanik yöntemlerle üretilen, besin değerleri korunmuş doğal zeytinyağı.',
-        image: '/images/categories/soguk-sikim.jpg',
+        image: '/images/tins-in-grove.png',
         content: `## Soğuk Sıkım Zeytinyağı Nedir?
 
 Soğuk sıkım zeytinyağı (cold press olive oil), zeytinlerin 27°C'nin altında bir sıcaklıkta, tamamen mekanik yöntemlerle sıkılmasıyla elde edilen zeytinyağıdır. Bu üretim yöntemi, zeytinin doğal bileşenlerinin, vitaminlerinin ve antioksidanlarının en iyi şekilde korunmasını sağlar.
@@ -186,7 +186,7 @@ Ege Bölgesi'nin seçkin zeytin bahçelerinden toplanan zeytinlerle, modern tesi
         metaDescription: 'Riviera zeytinyağı kızartma ve pişirme için ideal, ekonomik zeytinyağı seçeneği. Yüksek yanma noktası. Toptan ve perakende. Ücretsiz kargo.',
         h1: 'Riviera Zeytinyağı',
         shortDescription: 'Kızartma ve pişirme için ideal, ekonomik ve yüksek yanma noktasına sahip zeytinyağı.',
-        image: '/images/categories/riviera.jpg',
+        image: '/images/filling-conveyor.png',
         content: `## Riviera Zeytinyağı Nedir?
 
 Riviera zeytinyağı, rafine zeytinyağı ile natürel (bakir) zeytinyağının belirli oranlarda harmanlanmasıyla elde edilen bir zeytinyağı türüdür. Uluslararası standartlara göre "zeytinyağı" (olive oil) olarak sınıflandırılır ve günlük mutfak kullanımı için ideal bir seçenektir.
@@ -251,7 +251,7 @@ Riviera zeytinyağımız, 5 Lt ve 10 Lt ambalajlarda sunulmaktadır. Restoran, l
         metaDescription: 'Organik sertifikalı zeytinyağı. Kimyasal gübre ve ilaç kullanılmadan üretilen doğal organik zeytinyağı. Toptan ve perakende satış.',
         h1: 'Organik Zeytinyağı',
         shortDescription: 'Kimyasal gübre ve ilaç kullanılmadan, doğal yöntemlerle üretilen sertifikalı organik zeytinyağı.',
-        image: '/images/categories/organik.jpg',
+        image: '/images/tins-in-grove.png',
         content: `## Organik Zeytinyağı Nedir?
 
 Organik zeytinyağı, organik tarım sertifikasına sahip zeytin bahçelerinde, hiçbir sentetik kimyasal gübre, pestisit veya herbisit kullanılmadan yetiştirilen zeytinlerden üretilen zeytinyağıdır. Üretimin her aşaması akredite kuruluşlar tarafından denetlenir ve sertifikalandırılır.
@@ -304,7 +304,7 @@ Organik zeytinyağımız, Ege Bölgesi'ndeki organik sertifikalı zeytin bahçel
         metaDescription: '1 litre zeytinyağı satışı. Natürel sızma ve soğuk sıkım 1 lt zeytinyağı. Bireysel kullanım için ideal boyut. Ücretsiz kargo ile kapınıza kadar.',
         h1: '1 Litre Zeytinyağı',
         shortDescription: 'Bireysel kullanım ve deneme amacıyla ideal 1 litrelik zeytinyağı ambalajı.',
-        image: '/images/categories/1-lt.jpg',
+        image: '/images/tins-in-grove.png',
         content: `## 1 Litre Zeytinyağı
 
 1 litre zeytinyağı, bireysel kullanım ve zeytinyağımızı denemek isteyenler için ideal boyuttadır. Soğuk sıkım ve natürel sızma çeşitlerimiz 1 litrelik ambalajlarda sunulmaktadır.
@@ -331,7 +331,7 @@ Organik zeytinyağımız, Ege Bölgesi'ndeki organik sertifikalı zeytin bahçel
         metaDescription: '5 litre teneke zeytinyağı. Etiketsiz teneke ambalajda soğuk sıkım natürel sızma zeytinyağı. Toptan ve perakende. Ücretsiz kargo.',
         h1: '5 Litre Teneke Zeytinyağı',
         shortDescription: 'Işık geçirmez teneke ambalajda, kaliteyi koruyan 5 litrelik zeytinyağı.',
-        image: '/images/categories/5-lt-teneke.jpg',
+        image: '/images/tins-in-grove.png',
         content: `## 5 Litre Teneke Zeytinyağı
 
 5 litre teneke ambalaj, zeytinyağı muhafazası için en ideal ambalaj türlerinden biridir. Teneke ambalaj ışık geçirmez yapısı sayesinde zeytinyağının oksidasyonunu önler ve uzun süre kalitesini korumasını sağlar.
@@ -371,7 +371,7 @@ Organik zeytinyağımız, Ege Bölgesi'ndeki organik sertifikalı zeytin bahçel
         metaDescription: '5 litre PET şişe zeytinyağı. Etiketsiz PET ambalajda ekonomik zeytinyağı. Toptan ve perakende satış. Türkiye geneli ücretsiz kargo.',
         h1: '5 Litre PET Zeytinyağı',
         shortDescription: 'Ekonomik ve pratik PET ambalajda 5 litrelik zeytinyağı.',
-        image: '/images/categories/5-lt-pet.jpg',
+        image: '/images/tins-in-grove.png',
         content: `## 5 Litre PET Zeytinyağı
 
 5 litre PET (polietilen tereftalat) ambalaj, zeytinyağı için ekonomik ve pratik bir ambalaj seçeneğidir. Hafif yapısı ve kolay taşınabilirliği ile özellikle günlük kullanım için tercih edilmektedir.
@@ -407,7 +407,7 @@ PET ambalajda zeytinyağı saklarken:
         metaDescription: '10 litre zeytinyağı toptan ve perakende satış. Kalabalık aileler ve işletmeler için ideal boyut. Ücretsiz kargo ile Türkiye geneline teslimat.',
         h1: '10 Litre Zeytinyağı',
         shortDescription: 'Kalabalık aileler ve işletmeler için ekonomik 10 litrelik zeytinyağı ambalajı.',
-        image: '/images/categories/10-lt.jpg',
+        image: '/images/factory-pallets.png',
         content: `## 10 Litre Zeytinyağı
 
 10 litre zeytinyağı ambalajımız, kalabalık aileler, restoranlar, oteller ve toplu tüketim yapan işletmeler için ideal boyuttadır. Hem ekonomik fiyat avantajı hem de uzun süreli kullanım imkanı sunar.
@@ -441,7 +441,7 @@ PET ambalajda zeytinyağı saklarken:
         metaDescription: 'Toptan zeytinyağı üreticiden uygun fiyatla! Fabrikadan direkt, aracısız satış. Natürel sızma, soğuk sıkım, riviera. Zeytinyağı Liderden Alınır!',
         h1: 'Üreticiden Uygun Fiyatlı Toptan Zeytinyağı',
         shortDescription: 'Üreticiden doğrudan toptan zeytinyağı satışı. En uygun fiyatlar ve esnek ödeme seçenekleri.',
-        image: '/images/categories/toptan.jpg',
+        image: '/images/modern-warehouse.png',
         content: `## Zeytinyağı Toptan Satış
 
 Lider Zeytincilik olarak Türkiye genelinde zeytinyağı toptan satış hizmeti sunuyoruz. Fabrikamızdan doğrudan, aracısız toptan zeytinyağı tedariki ile işletmenize maliyet avantajı sağlıyoruz.
@@ -463,14 +463,14 @@ Lider Zeytincilik olarak Türkiye genelinde zeytinyağı toptan satış hizmeti 
 
 ## Toptan Satış Avantajlarımız
 
-- ✅ Fabrikadan doğrudan satış
-- ✅ Aracısız, en uygun fiyat
-- ✅ Toptan alımlarda pazarlık payı
-- ✅ Esnek ödeme seçenekleri
-- ✅ Düzenli tedarik garantisi
-- ✅ Etiketsiz ambalaj (private label imkanı)
-- ✅ Türkiye geneli ücretsiz kargo/ambar gönderim
-- ✅ Kalite garantisi ve analiz raporu
+- Fabrikadan doğrudan satış
+- Aracısız, en uygun fiyat
+- Toptan alımlarda pazarlık payı
+- Esnek ödeme seçenekleri
+- Düzenli tedarik garantisi
+- Etiketsiz ambalaj (private label imkanı)
+- Türkiye geneli ücretsiz kargo/ambar gönderim
+- Kalite garantisi ve analiz raporu
 
 ## Toptan Alım Süreci
 
@@ -503,7 +503,7 @@ Lider Zeytincilik olarak Türkiye genelinde zeytinyağı toptan satış hizmeti 
         metaDescription: 'Lider Zeytincilik - Zeytinyağı üretici. Üreticiden uygun fiyatlı zeytinyağı. Ege Bölgesinde modern tesislerde üretim. Zeytinyağı Liderden Alınır!',
         h1: 'Üreticiden Uygun Fiyatlı Zeytinyağı',
         shortDescription: 'Ege\'nin bereketli topraklarında modern tesislerde zeytinyağı üretimi yapan güvenilir üretici.',
-        image: '/images/categories/uretici.jpg',
+        image: '/images/extraction-process.png',
         content: `## Zeytinyağı Üretici - Lider Zeytincilik
 
 Lider Zeytincilik olarak, Ege Bölgesi'nin en verimli zeytin bahçelerinden toplanan zeytinlerle, modern üretim tesislerimizde kaliteli zeytinyağı üretimi yapıyoruz.
@@ -554,7 +554,7 @@ Lider Zeytincilik olarak, Ege Bölgesi'nin en verimli zeytin bahçelerinden topl
         metaDescription: 'Güvenilir zeytinyağı tedarikçisi Lider Zeytincilik. Restoranlar, oteller ve marketler için düzenli tedarik. Üreticiden uygun fiyatlı, kaliteli, kesintisiz.',
         h1: 'Güvenilir Zeytinyağı Tedarikçisi',
         shortDescription: 'İşletmeniz için güvenilir, düzenli ve kaliteli zeytinyağı tedarik hizmeti.',
-        image: '/images/categories/tedarikci.jpg',
+        image: '/images/filling-conveyor.png',
         content: `## Zeytinyağı Tedarikçi - Lider Zeytincilik
 
 İşletmeniz için güvenilir bir zeytinyağı tedarikçisi mi arıyorsunuz? Lider Zeytincilik olarak Türkiye genelinde restoranlar, oteller, marketler ve gıda işletmelerine düzenli zeytinyağı tedariki sağlıyoruz.
@@ -589,6 +589,62 @@ Lider Zeytincilik olarak, Ege Bölgesi'nin en verimli zeytin bahçelerinden topl
                 answer: 'Sözleşmeli tedariklerde minimum sipariş miktarı ürün çeşidine göre değişmektedir. Detaylı bilgi için bizimle iletişime geçebilirsiniz.',
             },
         ],
+    },
+    {
+        slug: 'siyah-zeytin-cesitleri',
+        name: 'Siyah Zeytin Çeşitleri',
+        title: 'Üreticiden Uygun Siyah Zeytin Çeşitleri | Gemlik, Uslu, Memecik | Lider Zeytincilik',
+        metaDescription: 'Üreticiden uygun fiyatlı tam yağlı kömür siyahı Gemlik, Uslu ve Memecik zeytinleri. Geleneksel yöntemle salamura. Zeytin Liderden Alınır! Toptan ve perakende satış.',
+        h1: 'Üreticiden Uygun Fiyatlı Siyah Zeytin Çeşitleri',
+        shortDescription: 'Dalında olgunlaşmış, geleneksel salamura yöntemleriyle hazırlanan tam yağlı siyah zeytinler.',
+        image: '/images/categories/black-olives.png',
+        content: `## Siyah Zeytin Çeşitlerimizin Özellikleri
+
+Lider Zeytincilik olarak, Ege ve Marmara'nın en seçkin zeytin bahçelerinden topladığımız siyah zeytinleri, hiçbir kimyasal işlem uygulamadan sadece tuz ve su ile salamura ederek sofralarınıza ulaştırıyoruz.
+
+### Gemlik (Trilye) Tipi Siyah Zeytin
+İnce kabuklu, küçük çekirdekli ve bol etli yapısıyla Türkiye'nin en sevilen siyah zeytinidir. Tam yağlı yapısı ve kendine has aromasıyla kahvaltıların vazgeçilmezidir.
+
+### Uslu Tipi Siyah Zeytin
+Manisa bölgesine özgü, meyve eti yumuşak ve parlak siyah renkli bir çeşittir. Çekirdeklerinden kolay ayrılan yapısıyla bilinir.
+
+### Memecik Siyah Zeytin
+Aydın ve çevresinde yetişen, yüksek yağ oranına ve yoğun bir meyvemsi tada sahip, iri taneli siyah zeytin çeşidimizdir.
+
+**Üreticiden Uygun Fiyata Sipariş İçin:** 0552 382 8456 (WhatsApp)
+*Toptan alımlarda özel iskonto uygulanır.*`,
+        faq: [
+            { question: 'Siyah zeytinlerinize boya veya kimyasal ekliyor musunuz?', answer: 'Kesinlikle hayır. Zeytinlerimiz doğal fermente yöntemle, sadece tuz ve su kullanılarak siyahlaştırılır. Rengi çekirdeğine kadar doğaldır.' },
+            { question: 'Zeytinleriniz çok tuzlu mu?', answer: 'Salamura sonrası zeytinlerimiz paketlenmeden önce tuz oranı dengelenir. Tüketmeden önce 15 dakika ılık suda bekletmek tuz oranını daha da azaltacaktır.' }
+        ]
+    },
+    {
+        slug: 'yesil-zeytin-cesitleri',
+        name: 'Yeşil Zeytin Çeşitleri',
+        title: 'Üreticiden Uygun Yeşil Zeytin Çeşitleri | Domat, Çizik, Kırma | Lider Zeytincilik',
+        metaDescription: 'Üreticiden uygun fiyatlı Domat, Kırma ve Çizik yeşil zeytinler. Erken hasat, taze ve kıtır yapıda doğal yeşil zeytin çeşitleri. Hemen WhatsApptan sipariş verin.',
+        h1: 'Üreticiden Uygun Fiyatlı Yeşil Zeytin Çeşitleri',
+        shortDescription: 'Erken hasat döneminde toplanan, çıtır yapıda ve yoğun meyvemsi tada sahip doğal yeşil zeytinler.',
+        image: '/images/categories/green-olives.png',
+        content: `## Yeşil Zeytin Çeşitlerimiz
+
+Hasat sezonunun başında, zeytinler henüz yeşilken toplanan ve özel yöntemlerle hazırlanan çıtır yeşil zeytinlerimizle tanışın.
+
+### Domat Tipi Yeşil Zeytin
+İri taneli ve dolgun etli yapısıyla çizik veya dolgulu zeytin yapımı için en ideal çeşittir. Kıtır yapısı uzun süre korunur.
+
+### Kırma (Ayvalık/Edremit) Yeşil Zeytin
+Zeytinlerin taşla kırılarak acısuyunun kısa sürede atılmasıyla hazırlanan en taze yeşil zeytin türüdür. Yoğun meyvemsi ve hafif ekşi tadıyla bilinir.
+
+### Çizik Yeşil Zeytin
+Zeytin tanelerinin üzerine jiletle çizikler atılarak salamuraya bırakılan, kendine has aroması ve yağıyla öne çıkan geleneksel bir lezzettir.
+
+**Üreticiden Uygun Fiyata Sipariş İçin:** 0552 382 8456 (WhatsApp)
+*Toptan alımlarda özel iskonto uygulanır.*`,
+        faq: [
+            { question: 'Yeşil zeytinler neden yumuşamaz?', answer: 'Zeytinlerimizi Domat gibi sert etli çeşitlerden seçtiğimiz ve doğal yöntemle fermente ettiğimiz için formunu uzun süre korur.' },
+            { question: 'Zeytinlerin suyu neden bulanık görünüyor?', answer: 'Doğal fermente zeytinlerde suyun hafif bulanık olması normaldir. Bu, zeytinin kendi özsuyunun ve faydalı bakterilerin suya geçmesinden kaynaklanır.' }
+        ]
     },
 ];
 
