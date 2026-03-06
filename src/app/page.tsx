@@ -47,26 +47,31 @@ const blogPreviews = [
     title: 'Zeytinyağı Nasıl Yapılır?',
     excerpt: 'Zeytinyağı üretim sürecini baştan sona keşfedin. Hasat, kırma, malaksasyon ve dekantasyon aşamalarını detaylı olarak anlattık.',
     slug: 'zeytinyagi-nasil-yapilir',
+    image: 'zeytinyagi-uretim.png'
   },
   {
     title: 'Soğuk Sıkım Zeytinyağı Nedir?',
     excerpt: 'Soğuk sıkım zeytinyağının ne olduğunu, nasıl üretildiğini ve normal zeytinyağından farkını öğrenin.',
     slug: 'soguk-sikim-zeytinyagi-nedir',
+    image: 'soguk-sikim.png'
   },
   {
     title: 'Zeytinyağı Faydaları',
     excerpt: 'Zeytinyağının sağlığınıza olan inanılmaz faydalarını keşfedin. Kalp sağlığından cilt bakımına kadar.',
     slug: 'zeytinyagi-faydalari',
+    image: 'homemade-olives.png'
   },
   {
     title: 'Hangi Siyah Zeytin Daha Lezzetli?',
     excerpt: 'Gemlik mi, Memecik mi yoksa Uslu mu? En popüler siyah zeytin çeşitlerini ve özelliklerini karşılaştırdık.',
     slug: 'en-iyi-siyah-zeytin-hangisi',
+    image: 'black-olives-types.png'
   },
   {
     title: 'Yeşil Zeytin Rehberi',
     excerpt: 'Kırma, çizik ve Domat yeşil zeytin türleri arasındaki farkları öğrenin. Doğal lezzetin sırları burada.',
     slug: 'yesil-zeytin-cesitleri-ve-ozellikleri',
+    image: 'green-olives-types.png'
   },
 ];
 
@@ -181,72 +186,92 @@ export default function HomePage() {
 
 
       {/* ===== ELITE AUTHORITY & TRUST BAR ===== */}
-      <section className="bg-olive-900 border-y border-white/5 relative z-20">
-        <div className="max-w-7xl mx-auto px-4 py-12 lg:py-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 items-center justify-items-center">
+      <section className="bg-olive-950 border-y border-white/5 relative z-20">
+        <div className="max-w-7xl mx-auto px-4 py-16 lg:py-20">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6 md:gap-8 items-start justify-items-center">
             {[
               {
-                img: '/t-1.png',
+                img: '/images/trust/iso22000.png',
                 text: 'ISO 22000',
-                color: 'from-blue-600/20 to-blue-900/40 shadow-blue-500/20'
+                color: 'border-blue-500/30'
               },
               {
-                img: '/t-2.png',
+                img: '/images/trust/halal.png',
                 text: 'Helal Sertifikalı',
-                color: 'from-emerald-600/20 to-emerald-900/40 shadow-emerald-500/20'
+                color: 'border-emerald-500/30'
               },
               {
-                img: '/t-3.png',
+                img: '/images/trust/lab.png',
                 text: 'Lab Analizli',
-                color: 'from-cyan-600/20 to-cyan-900/40 shadow-cyan-500/20'
+                color: 'border-cyan-500/30'
               },
               {
-                img: '/t-4.png',
+                img: '/images/trust/shipping.png',
                 text: 'Ücretsiz Kargo',
-                color: 'from-amber-500/20 to-amber-800/40 shadow-amber-500/20'
+                color: 'border-amber-500/30'
               },
               {
-                icon: <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>,
+                icon: (
+                  <svg className="w-12 h-12 text-olive-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                ),
                 text: 'Fabrikadan',
-                color: 'from-slate-600/20 to-slate-900/40 shadow-slate-500/20'
+                color: 'border-slate-500/30'
               },
               {
-                img: '/t-5.png',
+                img: '/images/trust/ambar.png',
                 text: 'Ambar Gönderim',
-                color: 'from-orange-600/20 to-orange-900/40 shadow-orange-500/20'
+                color: 'border-orange-500/30'
               },
               {
-                img: '/t-6.png',
+                img: '/images/trust/natural.png',
                 text: '%100 Doğal',
-                color: 'from-green-600/20 to-green-900/40 shadow-green-500/20'
+                color: 'border-green-500/30'
               },
               {
-                icon: <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 005.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>,
+                icon: (
+                  <svg className="w-12 h-12 text-olive-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                ),
                 text: 'Toptan Fiyat',
-                color: 'from-rose-600/20 to-rose-900/40 shadow-rose-500/20'
+                color: 'border-rose-500/30'
               },
             ].map((badge, i) => (
-              <div key={i} className="flex flex-col items-center gap-4 group cursor-default">
-                <div className={`relative w-24 h-24 bg-gradient-to-br ${badge.color} rounded-none flex items-center justify-center text-white border border-white/10 shadow-2xl overflow-hidden transform transition-all duration-500 group-hover:-translate-y-3 group-hover:scale-110 group-hover:border-gold-400/50`}>
-                  {/* Glossy Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-tr from-white/10 via-transparent to-transparent pointer-events-none opacity-50"></div>
+              <div key={i} className="flex flex-col items-center gap-5 group cursor-default">
+                {/* Logo Seal Container */}
+                <div className={`relative w-24 h-24 md:w-28 md:h-28 bg-white rounded-full flex items-center justify-center shadow-[0_10px_30px_rgba(0,0,0,0.5)] border-4 ${badge.color} transform transition-all duration-500 group-hover:-translate-y-3 group-hover:scale-110 group-hover:border-gold-400 group-hover:shadow-gold-500/20`}>
+                  {/* Outer Shine Ring */}
+                  <div className="absolute inset-[-4px] rounded-full border border-white/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
 
                   {badge.img ? (
-                    <div className="relative w-full h-full p-2 drop-shadow-2xl">
-                      <Image src={badge.img} alt={badge.text} fill unoptimized priority className="object-contain transform transition-transform duration-500 group-hover:scale-110" />
+                    <div className="relative w-full h-full p-4">
+                      <Image
+                        src={badge.img}
+                        alt={badge.text}
+                        fill
+                        className="object-contain p-2 transform transition-transform duration-500 group-hover:scale-105"
+                      />
                     </div>
                   ) : (
-                    <div className="drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] text-white/80 group-hover:text-gold-400 transition-colors transform group-hover:scale-110 duration-500">
+                    <div className="flex flex-col items-center justify-center p-4 text-center">
                       {badge.icon}
                     </div>
                   )}
 
-                  {/* Reflection Scan Effect */}
-                  <div className="absolute -inset-full top-0 h-full w-1/2 z-10 block transform -skew-x-12 bg-gradient-to-r from-transparent via-white/10 to-transparent group-hover:animate-shine"></div>
+                  {/* Glassy reflection */}
+                  <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent via-white/5 to-white/20 pointer-events-none"></div>
                 </div>
-                <div className="flex flex-col items-center gap-1.5">
-                  <span className="text-[10px] font-black text-white uppercase tracking-[0.2em] text-center whitespace-nowrap group-hover:text-gold-400 transition-colors drop-shadow-sm">{badge.text}</span>
-                  <div className="w-4 h-0.5 bg-gold-500/20 group-hover:w-full group-hover:bg-gold-500 transition-all duration-500"></div>
+
+                {/* Text Label */}
+                <div className="flex flex-col items-center gap-2">
+                  <span className="text-[11px] md:text-xs font-black text-white/90 uppercase tracking-widest text-center leading-tight group-hover:text-gold-400 transition-colors drop-shadow-md">
+                    {badge.text}
+                  </span>
+                  <div className="w-8 h-1 bg-gold-500/30 rounded-full overflow-hidden">
+                    <div className="w-0 h-full bg-gold-400 group-hover:w-full transition-all duration-700"></div>
+                  </div>
                 </div>
               </div>
             ))}
@@ -314,7 +339,7 @@ export default function HomePage() {
                 style={{ animationDelay: `${i * 30}ms` }}
               >
                 <div className="w-12 h-12 bg-white/5 rounded-none flex items-center justify-center flex-shrink-0 group-hover:bg-gold-400 transition-all shadow-inner overflow-hidden">
-                  <Image src={cat.image} alt={cat.name} width={48} height={48} className="object-cover opacity-50 group-hover:opacity-100 transition-opacity" />
+                  <Image src={cat.image} alt={cat.name} width={48} height={48} className="object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
                 </div>
                 <div>
                   <h3 className="font-bold text-white text-sm group-hover:text-gold-400 transition-colors mb-0.5">{cat.name}</h3>
@@ -475,7 +500,7 @@ export default function HomePage() {
                 className="glass-card rounded-none overflow-hidden group hover:-translate-y-2 transition-all duration-500"
               >
                 <div className="h-64 overflow-hidden relative">
-                  <Image src={`/images/blog/${post.slug}.png`} alt={post.title} fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <Image src={`/images/blog/${post.image}`} alt={post.title} fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-gradient-to-t from-olive-950 via-transparent to-transparent opacity-60"></div>
                 </div>
                 <div className="p-8">
