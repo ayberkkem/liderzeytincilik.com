@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { siteConfig, trustBadges, faqItems } from '@/lib/siteConfig';
 import { categories } from '@/lib/categories';
 import FAQSection from '@/components/FAQSection';
@@ -52,10 +53,12 @@ export default function HomePage() {
       <section className="relative overflow-hidden min-h-[90vh] flex items-center bg-olive-950">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             src="/images/ancient-olive-tree.png"
             alt="Asırlık Zeytin Ağacı"
-            className="w-full h-full object-cover opacity-40 scale-105 animate-float"
+            fill
+            priority
+            className="object-cover opacity-40 scale-105 animate-float"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-olive-950 via-olive-950/80 to-transparent"></div>
         </div>
@@ -243,7 +246,7 @@ export default function HomePage() {
       {/* ===== WHY US SECTION ===== */}
       <section className="bg-olive-950 py-24 overflow-hidden relative">
         <div className="absolute top-0 right-0 w-1/2 h-full opacity-20 pointer-events-none">
-          <img src="/images/modern-warehouse.png" alt="Modern Depo" className="w-full h-full object-cover" />
+          <Image src="/images/modern-warehouse.png" alt="Modern Depo" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-l from-transparent to-olive-950"></div>
         </div>
 
@@ -289,12 +292,20 @@ export default function HomePage() {
 
             <div className="grid grid-cols-2 gap-6 h-full items-center">
               <div className="space-y-6">
-                <img src="/images/extraction-process.png" alt="Zeytinyağı Çıkarımı" className="w-full aspect-square object-cover rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
-                <img src="/images/filling-conveyor.png" alt="Dolum Hattı" className="w-full aspect-[4/3] object-cover rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
+                <div className="relative w-full aspect-square overflow-hidden rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500">
+                  <Image src="/images/extraction-process.png" alt="Zeytinyağı Çıkarımı" fill className="object-cover" />
+                </div>
+                <div className="relative w-full aspect-[4/3] overflow-hidden rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500">
+                  <Image src="/images/filling-conveyor.png" alt="Dolum Hattı" fill className="object-cover" />
+                </div>
               </div>
               <div className="space-y-6 pt-12">
-                <img src="/images/quality-inspection.png" alt="Kalite Kontrol" className="w-full aspect-[4/3] object-cover rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
-                <img src="/images/retail-boxes.png" alt="Paketleme" className="w-full aspect-square object-cover rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500" />
+                <div className="relative w-full aspect-[4/3] overflow-hidden rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500">
+                  <Image src="/images/quality-inspection.png" alt="Kalite Kontrol" fill className="object-cover" />
+                </div>
+                <div className="relative w-full aspect-square overflow-hidden rounded-3xl shadow-lg border border-white/10 hover:scale-105 transition-transform duration-500">
+                  <Image src="/images/retail-boxes.png" alt="Paketleme" fill className="object-cover" />
+                </div>
               </div>
             </div>
           </div>
@@ -304,16 +315,16 @@ export default function HomePage() {
       {/* ===== LOGISTICS SECTION ===== */}
       <section className="bg-olive-950 py-32 overflow-hidden relative">
         <div className="absolute inset-0 z-0">
-          <img src="/images/modern-warehouse.png" alt="Warehouse Background" className="w-full h-full object-cover opacity-5" />
+          <Image src="/images/modern-warehouse.png" alt="Warehouse Background" fill className="object-cover opacity-5" />
           <div className="absolute inset-0 bg-gradient-to-b from-olive-950 via-transparent to-olive-950"></div>
         </div>
         <div className="max-w-7xl mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-2 gap-20 items-center">
             <div className="order-2 lg:order-1 relative">
-              <div className="relative z-10">
-                <img src="/images/logistics-forklift.png" alt="Lojistik Hizmetimiz" className="rounded-[40px] shadow-2xl border-2 border-white/5" />
-                <div className="absolute -bottom-12 -right-12 hidden xl:block w-80">
-                  <img src="/images/delivery-van-plain.png" alt="Sevkiyat" className="rounded-3xl shadow-2xl border-4 border-olive-900" />
+              <div className="relative z-10 aspect-video lg:aspect-square">
+                <Image src="/images/logistics-forklift.png" alt="Lojistik Hizmetimiz" fill className="rounded-[40px] shadow-2xl border-2 border-white/5 object-cover" />
+                <div className="absolute -bottom-12 -right-12 hidden xl:block w-80 aspect-video">
+                  <Image src="/images/delivery-van-plain.png" alt="Sevkiyat" fill className="rounded-3xl shadow-2xl border-4 border-olive-900 object-cover" />
                 </div>
               </div>
               <div className="absolute -top-10 -left-10 w-40 h-40 bg-gold-500/20 blur-[100px] -z-10"></div>
@@ -397,7 +408,7 @@ export default function HomePage() {
                 className="glass-card rounded-[32px] overflow-hidden group hover:-translate-y-2 transition-all duration-500"
               >
                 <div className="h-64 overflow-hidden relative">
-                  <img src={post.img} alt={post.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <Image src={post.img} alt={post.title} fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-gradient-to-t from-olive-950 via-transparent to-transparent opacity-60"></div>
                 </div>
                 <div className="p-8">
