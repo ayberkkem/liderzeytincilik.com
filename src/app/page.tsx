@@ -188,7 +188,7 @@ export default function HomePage() {
       {/* ===== ELITE AUTHORITY & TRUST BAR ===== */}
       <section className="bg-olive-950 border-y border-white/5 relative z-20">
         <div className="max-w-7xl mx-auto px-4 py-16 lg:py-20">
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6 md:gap-8 items-start justify-items-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6 md:gap-8 items-start justify-items-center">
             {[
               {
                 img: '/images/trust/iso22000.png',
@@ -209,15 +209,6 @@ export default function HomePage() {
                 img: '/images/trust/shipping.png',
                 text: 'Ücretsiz Kargo',
                 color: 'border-amber-500/30'
-              },
-              {
-                icon: (
-                  <svg className="w-12 h-12 text-olive-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                  </svg>
-                ),
-                text: 'Fabrikadan',
-                color: 'border-slate-500/30'
               },
               {
                 img: '/images/trust/ambar.png',
@@ -246,12 +237,12 @@ export default function HomePage() {
                   <div className="absolute inset-[-4px] rounded-full border border-white/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
 
                   {badge.img ? (
-                    <div className="relative w-full h-full p-4">
+                    <div className="relative w-full h-full p-2 overflow-hidden rounded-full">
                       <Image
                         src={badge.img}
                         alt={badge.text}
                         fill
-                        className="object-contain p-2 transform transition-transform duration-500 group-hover:scale-105"
+                        className="object-contain transform transition-transform duration-500 group-hover:scale-125"
                       />
                     </div>
                   ) : (
