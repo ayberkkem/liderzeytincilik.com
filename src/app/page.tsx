@@ -339,7 +339,7 @@ export default function HomePage() {
               ))}
             </div>
           </div>
-          {/* [ANNEX_C: SENSORY_PALATE] - Sommelier Notes */}
+
           <div className="mt-48 grid lg:grid-cols-2 gap-12">
             <div className="p-16 bg-white/[0.02] border border-white/5 relative overflow-hidden group">
               <div className="absolute top-0 left-0 w-2 h-full bg-gold-500/40"></div>
@@ -379,7 +379,7 @@ export default function HomePage() {
       </section>
 
 
-      {/* ===== [PROTOCOL_03: TERROIR_HERITAGE] ===== */}
+
       <section className="bg-background py-48 overflow-hidden relative border-b border-white/5 tech-grid">
         <div className="max-w-[1600px] mx-auto px-6 relative z-10">
           <div className="grid lg:grid-cols-2 gap-32 items-center">
@@ -430,7 +430,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== [PROTOCOL_04: INDUSTRIAL_INFRASTRUCTURE] ===== */}
+
       <section className="bg-background py-48 overflow-hidden relative border-b border-white/5 tech-grid">
         <div className="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none">
           <Image src="/images/modern-warehouse.png" alt="Modern Depo" fill className="object-cover" />
@@ -658,7 +658,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== PROTOCOL_SPECIFICATION (FAQ) SECTION ===== */}
+
       <section className="bg-background py-48 tech-grid">
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="flex items-center gap-6 mb-24 opacity-60">
