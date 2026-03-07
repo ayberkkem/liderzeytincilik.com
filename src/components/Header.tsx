@@ -10,25 +10,6 @@ export default function Header() {
 
     return (
         <>
-            {/* Top Bar */}
-            <div className="bg-black/80 text-white text-[10px] font-mono font-black uppercase tracking-[0.4em] border-b border-white/5 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gold-500/5 scanline"></div>
-                <div className="max-w-[1600px] mx-auto px-6 py-3 flex items-center justify-between relative z-10">
-                    <div className="flex items-center gap-10">
-                        <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="flex items-center gap-3 hover:text-gold-400 transition-all group">
-                            <span className="text-gold-500 opacity-60 group-hover:opacity-100">UPLINK:</span>
-                            {siteConfig.phone}
-                        </a>
-                        <span className="hidden sm:inline text-white/10">//</span>
-                        <span className="hidden sm:inline text-olive-300">FACILITY: AYDIN_ Akhisar_DISTRICT_01</span>
-                    </div>
-                    <div className="flex items-center gap-6">
-                        <span className="hidden lg:inline text-gold-500/80 italic tracking-widest">[ INDUSTRIAL_ACCESS_GRANTED ]</span>
-                    </div>
-                </div>
-            </div>
-
-
             {/* Main Header */}
             <header className="sticky top-0 z-50 bg-olive-950/80 backdrop-blur-xl border-b border-white/5 shadow-2xl">
                 <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16 lg:h-24">
