@@ -86,10 +86,10 @@ export default function HomePage() {
       {/* ===== MASTERPIECE HERO SECTION ===== */}
       <section className="relative min-h-screen flex items-center bg-background overflow-hidden tech-grid scanline">
         {/* Background Engineering Elements */}
-        <div className="absolute inset-0 z-0 opacity-20">
+        <div className="absolute inset-0 z-0 opacity-40">
           <div className="fixed top-0 left-0 w-full h-full tech-dots"></div>
-          <div className="absolute top-[10%] left-[5%] text-[10px] font-mono text-gold-500/40 transform -rotate-90 origin-left">EST. 2024 // LIDER INDUSTRIAL UNIT 01</div>
-          <div className="absolute bottom-[10%] right-[5%] text-[10px] font-mono text-gold-500/40 transform rotate-90 origin-right">LAT: 37.8444 N // LON: 27.8444 E</div>
+          <div className="absolute top-[10%] left-[5%] text-[10px] font-mono text-gold-500/60 transform -rotate-90 origin-left">EST. 2024 // LIDER INDUSTRIAL UNIT 01</div>
+          <div className="absolute bottom-[10%] right-[5%] text-[10px] font-mono text-gold-500/60 transform rotate-90 origin-right">LAT: 37.8444 N // LON: 27.8444 E</div>
         </div>
 
         <div className="relative z-20 max-w-[1600px] mx-auto px-6 py-20 w-full">
@@ -112,10 +112,10 @@ export default function HomePage() {
                     <div key={i} className="group cursor-help">
                       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-3 gap-2">
                         <div>
-                          <p className="text-[9px] xl:text-[10px] text-gold-500/60 uppercase font-black tracking-widest mb-1">{spec.label}</p>
+                          <p className="text-[10px] xl:text-[11px] text-gold-400 uppercase font-black tracking-widest mb-1">{spec.label}</p>
                           <p className="text-xl xl:text-2xl font-serif font-black text-white leading-none">{spec.value}</p>
                         </div>
-                        <p className="text-[8px] xl:text-[9px] text-olive-400 font-mono italic whitespace-nowrap">{spec.sub}</p>
+                        <p className="text-[10px] xl:text-[11px] text-olive-200 font-mono italic whitespace-nowrap opacity-80">{spec.sub}</p>
                       </div>
                       <div className="h-1 bg-white/5 relative overflow-hidden">
                         <div className="absolute inset-0 bg-gold-400/20 animate-tech-reveal" style={{ width: spec.width }}></div>
@@ -128,7 +128,7 @@ export default function HomePage() {
 
               <div className="bg-white/5 p-4 xl:p-6 border border-white/10 hover:border-gold-400/40 transition-all group relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-16 h-16 bg-gold-500/5 rotate-45 translate-x-8 -translate-y-8"></div>
-                <p className="text-[8px] xl:text-[9px] text-gold-500/60 font-black mb-2 uppercase tracking-widest">Hasat Döngüsü</p>
+                <p className="text-[10px] xl:text-[11px] text-gold-400 font-black mb-2 uppercase tracking-widest">Hasat Döngüsü</p>
                 <p className="text-white font-serif font-bold text-lg xl:text-xl leading-none">Eylül - Kasım</p>
                 <div className="mt-4 flex gap-1 opacity-20 group-hover:opacity-100 transition-opacity">
                   {[1, 2, 3, 4, 5].map(j => <div key={j} className="h-1 w-2 bg-gold-400"></div>)}
@@ -136,7 +136,7 @@ export default function HomePage() {
               </div>
               <div className="bg-white/5 p-4 xl:p-6 border border-white/10 hover:border-gold-400/40 transition-all group relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-16 h-16 bg-gold-500/5 rotate-45 translate-x-8 -translate-y-8"></div>
-                <p className="text-[8px] xl:text-[9px] text-gold-500/60 font-black mb-2 uppercase tracking-widest">Ekstraksiyon</p>
+                <p className="text-[10px] xl:text-[11px] text-gold-400 font-black mb-2 uppercase tracking-widest">Ekstraksiyon</p>
                 <p className="text-white font-serif font-bold text-lg xl:text-xl leading-none">22°C Cold</p>
                 <div className="mt-4 flex gap-1 opacity-20 group-hover:opacity-100 transition-opacity">
                   {[1, 2, 3, 4, 5].map(j => <div key={j} className="h-1 w-2 bg-gold-400"></div>)}
@@ -198,7 +198,7 @@ export default function HomePage() {
 
       {/* ===== [ANNEX_A: CHEMICAL_FINGERPRINT] ===== */}
       <section className="bg-background py-32 border-b border-white/5 relative tech-grid overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-gradient-to-r from-transparent via-gold-500/50 to-transparent"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-gold-500/30"></div>
         <div className="max-w-[1600px] mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between mb-24 gap-12">
             <div className="text-left">
@@ -529,9 +529,8 @@ export default function HomePage() {
 
       {/* ===== [PROTOCOL_04: INDUSTRIAL_INFRASTRUCTURE] ===== */}
       <section className="bg-background py-48 overflow-hidden relative border-b border-white/5 tech-grid">
-        <div className="absolute top-0 right-0 w-1/3 h-full opacity-5 pointer-events-none">
+        <div className="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none">
           <Image src="/images/modern-warehouse.png" alt="Modern Depo" fill className="object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-l from-transparent to-background"></div>
         </div>
 
         <div className="max-w-[1600px] mx-auto px-6 relative z-10">
@@ -596,8 +595,7 @@ export default function HomePage() {
       {/* ===== GLOBAL COMMAND (LOGISTICS) SECTION ===== */}
       <section className="bg-background py-48 overflow-hidden relative border-t border-white/5 tech-grid">
         <div className="absolute inset-0 z-0">
-          <div className="fixed top-0 left-0 w-full h-full opacity-5 bg-[url('/images/modern-warehouse.png')] bg-cover"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background"></div>
+          <div className="fixed top-0 left-0 w-full h-full opacity-10 bg-[url('/images/modern-warehouse.png')] bg-cover"></div>
         </div>
 
         <div className="max-w-[1600px] mx-auto px-6 relative z-10">
@@ -722,7 +720,6 @@ export default function HomePage() {
       <section className="bg-background py-48 relative overflow-hidden tech-grid border-t border-white/5">
         <div className="absolute inset-0 opacity-20 pointer-events-none">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('/images/filling-conveyor.png')] bg-cover opacity-10"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-background via-gold-500/5 to-background"></div>
         </div>
 
         <div className="max-w-5xl mx-auto px-6 text-center relative z-10">
