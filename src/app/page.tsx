@@ -197,44 +197,69 @@ export default function HomePage() {
       </section>
 
       {/* ===== [ANNEX_A: CHEMICAL_FINGERPRINT] ===== */}
-      <section className="bg-background py-32 border-b border-white/5 relative tech-grid overflow-hidden">
+      <section className="bg-background py-48 border-b border-white/5 relative tech-grid overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-gold-500/30"></div>
         <div className="max-w-[1600px] mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-center justify-between mb-24 gap-12">
-            <div className="text-left">
-              <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.6em] mb-4 block">Section_B // Analysis_Report</span>
-              <h2 className="font-serif text-fluid-h2 font-black text-white leading-tight uppercase tracking-tighter">
-                Kimyasal <span className="text-gold-400 italic font-light">Parmak İzi</span>
+          <div className="flex flex-col lg:flex-row items-end justify-between mb-32 gap-16">
+            <div className="text-left space-y-6">
+              <div className="flex items-center gap-4">
+                <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.6em]">SECTION_B // ANALYSIS_REPORT</span>
+                <div className="h-px w-24 bg-gold-500/20"></div>
+              </div>
+              <h2 className="font-serif text-fluid-h2 font-black text-white leading-[0.85] uppercase tracking-tighter">
+                Kimyasal <br />
+                <span className="text-gold-400 italic font-light font-serif">Parmak İzi</span>
               </h2>
             </div>
-            <div className="bg-white/[0.02] hud-border p-8 backdrop-blur-md max-w-sm">
-              <p className="text-olive-300 font-mono text-[10px] uppercase leading-relaxed tracking-widest italic opacity-60">
-                Her parti üretimimiz bağımsız laboratuvarlarca analiz edilerek 'İlaç Niyetine' tüketilebilecek saflık değerlerini garanti altına alır.
+            <div className="bg-white/[0.02] hud-border hud-border-tl hud-border-br p-10 max-w-md border-white/5">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
+                <span className="text-[10px] font-mono text-emerald-500/60 uppercase tracking-widest">System_Live: Active_Monitoring</span>
+              </div>
+              <p className="text-olive-200 font-serif text-lg leading-relaxed italic opacity-80">
+                "Her parti üretimi, bağımsız laboratuvarlarca analiz edilerek en saf değerlerle sertifikalandırılır."
               </p>
             </div>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { label: 'Yüksek Polifenol', val: '450+', unit: 'mg/kg', desc: 'Güçlü Antioksidan Kapasitesi', detail: 'Hücre yenileyici biyokimyasal bileşenler.' },
-              { label: 'Oleik Asitlik', val: '< 0.3', unit: '%', desc: 'Ultra-Düşük Serbest Yağ Asidi', detail: 'Hassas hasat ve 22°C soğuk sıkım kanıtı.' },
-              { label: 'E-Vitamini', val: '200+', unit: 'mg/kg', desc: 'Doğal Koruyucu Tokoferol', detail: 'Zeytinin şifasını en saf haliyle sunar.' },
-              { label: 'Peroksit Değeri', val: '< 5.0', unit: 'meqO2', desc: 'Maksimum Oksidasyon Direnci', detail: 'Tazeliğin ve uzun ömürlü kullanımın teminatı.' }
+              { label: 'Yüksek Polifenol', val: '450+', unit: 'mg/kg', desc: 'Antioksidan Kapasitesi', code: 'PPH_09', color: 'from-gold-500/10' },
+              { label: 'Oleik Asitlik', val: '< 0.3', unit: '%', desc: 'Serbest Yağ Asidi', code: 'ACD_03', color: 'from-emerald-500/10' },
+              { label: 'E-Vitamini', val: '200+', unit: 'mg/kg', desc: 'Doğal Tokoferol', code: 'VIT_E', color: 'from-blue-500/10' },
+              { label: 'Peroksit Değeri', val: '< 5.0', unit: 'meqO2', desc: 'Oksidasyon Direnci', code: 'PRX_05', color: 'from-rose-500/10' }
             ].map((stat, i) => (
-              <div key={i} className="relative group p-12 bg-white/[0.01] border border-white/5 hover:border-gold-500/20 transition-all duration-700 overflow-hidden">
-                <div className="absolute top-0 right-0 p-4 font-mono text-[8px] text-gold-500/20 uppercase tracking-widest">CERT_ID: {i + 1}</div>
-                <p className="text-[10px] text-gold-500/60 font-black uppercase tracking-[0.4em] mb-6">{stat.label}</p>
-                <p className="text-6xl font-serif font-black text-white mb-4 tracking-tighter group-hover:text-gold-400 transition-colors">
-                  {stat.val}
-                  <span className="text-lg ml-2 opacity-50 font-sans tracking-widest uppercase">{stat.unit}</span>
-                </p>
-                <div className="space-y-4">
-                  <p className="text-xs text-olive-400 font-bold uppercase tracking-widest italic">{stat.desc}</p>
-                  <p className="text-[9px] text-olive-500 font-mono leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-1000">{stat.detail}</p>
+              <div key={i} className="relative group p-12 bg-white/[0.01] border border-white/5 hover:border-gold-500/30 transition-all duration-1000 overflow-hidden">
+                {/* Visual Density Elements */}
+                <div className={`absolute inset-0 bg-gradient-to-br ${stat.color} to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-1000`}></div>
+                <div className="absolute top-0 right-0 p-6 font-mono text-[9px] text-gold-500/20 uppercase tracking-[0.3em]">UNIT_ID: {stat.code}</div>
+
+                <div className="relative z-10 space-y-10">
+                  <div className="space-y-2">
+                    <p className="text-[10px] text-gold-500 font-black uppercase tracking-[0.5em]">{stat.label}</p>
+                    <div className="h-px w-8 bg-gold-500/40 group-hover:w-full transition-all duration-1000"></div>
+                  </div>
+
+                  <div className="space-y-1">
+                    <p className="text-6xl xl:text-7xl font-serif font-black text-white tracking-tighter group-hover:text-gold-400 transition-colors duration-700 leading-none">
+                      {stat.val}
+                    </p>
+                    <p className="text-xs font-mono text-olive-400 uppercase tracking-[0.4em] opacity-40 group-hover:opacity-100 transition-opacity">{stat.unit}</p>
+                  </div>
+
+                  <div className="pt-8 border-t border-white/5 group-hover:border-gold-500/20 transition-colors">
+                    <p className="text-[11px] text-olive-100 font-bold uppercase tracking-widest italic leading-tight">{stat.desc}</p>
+                    <p className="text-[8px] mt-4 font-mono text-gold-500/30 uppercase tracking-[0.2em]">Validated // Lab_Ref_{i + 132}</p>
+                  </div>
                 </div>
-                {/* Corner HUD lines */}
-                <div className="absolute bottom-0 left-0 w-12 h-[2px] bg-gold-500/30"></div>
-                <div className="absolute bottom-0 left-0 w-[2px] h-12 bg-gold-500/30"></div>
+
+                {/* HUD Ornaments */}
+                <div className="absolute bottom-0 right-0 w-16 h-16 pointer-events-none">
+                  <div className="absolute bottom-4 right-4 w-2 h-2 border-b border-r border-gold-500/40 opacity-20 group-hover:opacity-100"></div>
+                </div>
+                <div className="absolute top-0 left-0 w-16 h-16 pointer-events-none">
+                  <div className="absolute top-4 left-4 w-2 h-2 border-t border-l border-gold-500/40 opacity-20 group-hover:opacity-100"></div>
+                </div>
               </div>
             ))}
           </div>
@@ -242,90 +267,62 @@ export default function HomePage() {
       </section>
 
 
-      {/* ===== ELITE AUTHORITY & TRUST BAR ===== */}
-      < section className="bg-olive-950 border-y border-white/5 relative z-20" >
-        <div className="max-w-7xl mx-auto px-4 py-16 lg:py-20">
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6 md:gap-8 items-start justify-items-center">
+      {/* ===== [SYSTEM_AUTHENTICATIONS: TRUST_INFRASTRUCTURE] ===== */}
+      <section className="bg-background border-y border-white/5 relative z-20 overflow-hidden">
+        {/* Background Overlay */}
+        <div className="absolute inset-0 opacity-10 tech-dots pointer-events-none"></div>
+
+        <div className="max-w-[1700px] mx-auto px-6 py-24 relative z-10">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-0 border border-white/10">
             {[
-              {
-                img: '/images/trust/iso22000.png',
-                text: 'ISO 22000',
-                color: 'border-blue-500/30'
-              },
-              {
-                img: '/images/trust/halal.png',
-                text: 'Helal Sertifikalı',
-                color: 'border-emerald-500/30'
-              },
-              {
-                img: '/images/trust/lab.png',
-                text: 'Lab Analizli',
-                color: 'border-cyan-500/30'
-              },
-              {
-                img: '/images/trust/shipping.png',
-                text: 'Ücretsiz Kargo',
-                color: 'border-amber-500/30'
-              },
-              {
-                img: '/images/trust/ambar.png',
-                text: 'Ambar Gönderim',
-                color: 'border-orange-500/30'
-              },
-              {
-                img: '/images/trust/natural.png',
-                text: '%100 Doğal',
-                color: 'border-green-500/30'
-              },
-              {
-                icon: (
-                  <svg className="w-12 h-12 text-olive-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              { id: 'AUTH_01', label: 'ISO 22000', icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z' },
+              { id: 'AUTH_02', label: 'HELAL SERTİFİKALI', icon: 'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z' },
+              { id: 'AUTH_03', label: 'LAB ANALİZLİ', icon: 'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.628.288a2 2 0 01-1.18.208l-2.35-.448a4.49 4.49 0 01-2.35-.551l-.75-.371m9.966 1.139a2 2 0 011.022.547l2.296 2.296a2 2 0 01.586 1.414V21c0 .552-.448 1-1 1h-6.711a2 2 0 01-1.317-.493l-3.931-3.303a2 2 0 00-2.583 0l-1.928 1.616' },
+              { id: 'AUTH_04', label: 'ÜCRETSİZ KARGO', icon: 'M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z' },
+              { id: 'AUTH_05', label: 'AMBAR GÖNDERİM', icon: 'M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4' },
+              { id: 'AUTH_06', label: '%100 DOĞAL', icon: 'M12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9-9 4.03-9 9 4.03 9 9 9zM12 21v-9m0 0l-3.5 3.5M12 12l3.5 3.5M12 12V3' },
+              { id: 'AUTH_07', label: 'TOPTAN FİYAT', icon: 'M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z' },
+            ].map((auth, i) => (
+              <div
+                key={i}
+                className="group flex flex-col items-center justify-center p-10 border-r last:border-r-0 border-white/10 hover:bg-white/[0.03] transition-all duration-500 relative overflow-hidden"
+              >
+                {/* ID Label */}
+                <span className="absolute top-4 left-6 text-[8px] font-mono text-gold-500/20 uppercase tracking-[0.2em]">{auth.id}</span>
+
+                {/* Icon HUD */}
+                <div className="relative mb-8 p-4">
+                  <div className="absolute inset-0 border border-gold-500/10 scale-90 group-hover:scale-110 group-hover:border-gold-500/30 transition-all duration-700"></div>
+                  <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-gold-500/40 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                  <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-gold-500/40 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+
+                  <svg className="w-10 h-10 md:w-12 md:h-12 text-gold-500 transition-all duration-500 group-hover:scale-110 group-hover:drop-shadow-[0_0_15px_rgba(234,179,8,0.3)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d={auth.icon} />
                   </svg>
-                ),
-                text: 'Toptan Fiyat',
-                color: 'border-rose-500/30'
-              },
-            ].map((badge, i) => (
-              <div key={i} className="flex flex-col items-center gap-5 group cursor-default">
-                {/* Logo Seal Container */}
-                <div className={`relative w-24 h-24 md:w-28 md:h-28 bg-white rounded-full flex items-center justify-center shadow-[0_10px_30px_rgba(0,0,0,0.5)] border-4 ${badge.color} transform transition-all duration-500 group-hover:-translate-y-3 group-hover:scale-110 group-hover:border-gold-400 group-hover:shadow-gold-500/20`}>
-                  {/* Outer Shine Ring */}
-                  <div className="absolute inset-[-4px] rounded-full border border-white/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-
-                  {badge.img ? (
-                    <div className="relative w-full h-full p-2 overflow-hidden rounded-full">
-                      <Image
-                        src={badge.img}
-                        alt={badge.text}
-                        fill
-                        className="object-contain transform transition-transform duration-500 group-hover:scale-125"
-                      />
-                    </div>
-                  ) : (
-                    <div className="flex flex-col items-center justify-center p-4 text-center">
-                      {badge.icon}
-                    </div>
-                  )}
-
-                  {/* Glassy reflection */}
-                  <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent via-white/5 to-white/20 pointer-events-none"></div>
                 </div>
 
-                {/* Text Label */}
-                <div className="flex flex-col items-center gap-2">
-                  <span className="text-[11px] md:text-xs font-black text-white/90 uppercase tracking-widest text-center leading-tight group-hover:text-gold-400 transition-colors drop-shadow-md">
-                    {badge.text}
-                  </span>
-                  <div className="w-8 h-1 bg-gold-500/30 rounded-full overflow-hidden">
-                    <div className="w-0 h-full bg-gold-400 group-hover:w-full transition-all duration-700"></div>
+                {/* Label */}
+                <div className="text-center space-y-3">
+                  <p className="text-[10px] md:text-[11px] font-black text-white/90 uppercase tracking-[0.3em] leading-tight group-hover:text-gold-400 transition-colors">
+                    {auth.label}
+                  </p>
+                  <div className="flex justify-center items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="w-1 h-1 bg-gold-500 rotate-45"></div>
+                    <div className="w-8 h-[1px] bg-gold-500/30"></div>
+                    <div className="w-1 h-1 bg-gold-500 rotate-45"></div>
                   </div>
+                </div>
+
+                {/* Status Indicator */}
+                <div className="absolute bottom-4 right-6 flex items-center gap-2">
+                  <div className="w-1 h-1 rounded-full bg-emerald-500 animate-pulse"></div>
+                  <span className="text-[7px] font-mono text-emerald-500/60 uppercase tracking-widest leading-none">Verified</span>
                 </div>
               </div>
             ))}
           </div>
         </div>
-      </section >
+      </section>
 
       {/* ===== UNIFIED PRODUCT MATRIX SECTION ===== */}
       <section className="bg-background py-48 relative border-t border-white/5 overflow-hidden tech-grid" id="products" >
