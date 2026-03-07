@@ -37,7 +37,7 @@ export default function FAQSection({ items, title = 'Sık Sorulan Sorular' }: FA
 
             <div className="max-w-4xl mx-auto px-6 relative z-10">
                 <div className="text-center mb-24">
-                    <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.6em] mb-6 block">KNOWLEDGE_BASE // PROTOCOL_SSS</span>
+                    <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.6em] mb-6 block">SIKÇA SORULAN SORULAR</span>
                     <h2 className="font-serif text-fluid-h2 font-black text-white leading-none uppercase tracking-tighter">
                         Sık Sorulan <br />
                         <span className="text-gold-400 italic font-light font-serif">Sorular</span>
@@ -56,7 +56,6 @@ export default function FAQSection({ items, title = 'Sık Sorulan Sorular' }: FA
                                 aria-expanded={openIndex === index}
                             >
                                 <div className="flex flex-col gap-3">
-                                    <span className="text-[10px] font-mono text-gold-500/40 uppercase tracking-[0.3em]">UNIT_Q_ {String(index + 1).padStart(2, '0')}</span>
                                     <span className={`font-serif font-black text-lg md:text-2xl transition-all duration-500 uppercase tracking-tight leading-none ${openIndex === index ? 'text-gold-400 translate-x-4' : 'text-white'}`}>
                                         {item.question}
                                     </span>
@@ -71,7 +70,6 @@ export default function FAQSection({ items, title = 'Sık Sorulan Sorular' }: FA
                                 className={`overflow-hidden transition-all duration-700 ease-in-out ${openIndex === index ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'}`}
                             >
                                 <div className="px-8 md:px-12 pb-10 md:pb-16 text-olive-200 leading-relaxed font-light text-base md:text-lg italic border-t border-white/5 pt-10 bg-black/40 relative">
-                                    <div className="absolute top-4 right-8 text-[9px] font-mono text-gold-500/20 uppercase tracking-widest">A_REPORT_STATUS: VERIFIED_01</div>
                                     <div className="max-w-3xl border-l-2 border-gold-500/20 pl-8">
                                         {item.answer}
                                     </div>

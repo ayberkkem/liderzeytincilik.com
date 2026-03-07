@@ -88,8 +88,8 @@ export default function HomePage() {
         {/* Background Engineering Elements */}
         <div className="absolute inset-0 z-0 opacity-40">
           <div className="fixed top-0 left-0 w-full h-full tech-dots"></div>
-          <div className="absolute top-[10%] left-[5%] text-[10px] font-mono text-gold-500/60 transform -rotate-90 origin-left">EST. 2024 // LIDER INDUSTRIAL UNIT 01</div>
-          <div className="absolute bottom-[10%] right-[5%] text-[10px] font-mono text-gold-500/60 transform rotate-90 origin-right">LAT: 37.8444 N // LON: 27.8444 E</div>
+          <div className="absolute top-[10%] left-[5%] text-[10px] font-mono text-gold-500/60 transform -rotate-90 origin-left">LİDER ZEYTİNCİLK // EST. 2010</div>
+          <div className="absolute bottom-[10%] right-[5%] text-[10px] font-mono text-gold-500/60 transform rotate-90 origin-right">AYDIN // TÜRKİYE</div>
         </div>
 
         <div className="relative z-20 max-w-[1600px] mx-auto px-6 py-20 w-full">
@@ -102,7 +102,7 @@ export default function HomePage() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-gold-500"></span>
                 </span>
-                <span className="text-[10px] text-white font-black uppercase tracking-[0.4em]">2024 PRODUCTION CYCLE ACTIVE</span>
+                <span className="text-[10px] text-white font-black uppercase tracking-[0.4em]">2024 HASAT DÖNEMİ</span>
               </div>
 
               <h1 className="text-fluid-h1 font-serif font-black text-white leading-[0.85] mb-12 tracking-tighter relative group">
@@ -242,7 +242,7 @@ export default function HomePage() {
         <div className="max-w-[1700px] mx-auto px-6 relative z-10">
           <div className="flex flex-col md:flex-row items-end justify-between mb-32 gap-12">
             <div className="max-w-2xl text-left">
-              <span className="text-gold-500 text-xs font-black uppercase tracking-[0.5em] mb-6 block font-mono border-l-4 border-gold-500 pl-6">Collection Catalog 01</span>
+              <span className="text-gold-500 text-xs font-black uppercase tracking-[0.5em] mb-6 block font-mono border-l-4 border-gold-500 pl-6">Ü ürün Katalogu</span>
               <h2 className="font-serif text-fluid-h2 font-black text-white leading-tight uppercase tracking-tighter">
                 Hassas <span className="text-gold-400 italic font-light">Seçki</span>
               </h2>
@@ -258,7 +258,6 @@ export default function HomePage() {
           {/* Products Matrix - High Complexity Tiles */}
           <div className="mb-48">
             <div className="flex items-center gap-8 mb-20 px-4">
-              <p className="text-[10px] font-mono text-gold-500/40">MATRIX_MODE: PRODUCT_LINEUP</p>
               <h3 className="font-serif text-4xl font-black text-white uppercase tracking-tight">Ürünlerimiz</h3>
               <div className="flex-1 h-px bg-gradient-to-r from-white/10 to-transparent"></div>
             </div>
@@ -277,7 +276,7 @@ export default function HomePage() {
                     <div className="absolute inset-0 p-6 flex flex-col justify-between opacity-0 group-hover:opacity-100 transition-all duration-700">
                       <div className="flex justify-between items-start">
                         <div className="bg-gold-500 text-olive-950 text-[10px] font-mono font-black px-4 py-2 tracking-widest uppercase">
-                          ID: {product.stats?.polyphenol ? 'PREMIUM_FLUID' : 'SOLID_FRUIT'}
+                          PREMIUM SERİ
                         </div>
                         <div className="bg-black/80 backdrop-blur-md border border-white/10 px-3 py-1 text-[8px] font-mono text-gold-500">
                           {product.size}
@@ -296,7 +295,7 @@ export default function HomePage() {
                     </div>
 
                     <div className="absolute bottom-6 left-6 right-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
-                      <p className="text-[10px] text-gold-400 font-black uppercase tracking-[0.3em] mb-2 opacity-0 group-hover:opacity-100 transition-opacity">ÖZELLİK: LAB_GRADED</p>
+                      <p className="text-[10px] text-gold-400 font-black uppercase tracking-[0.3em] mb-2 opacity-0 group-hover:opacity-100 transition-opacity">DOĞAL ÜRETİM</p>
                       <div className="h-0.5 bg-gold-400/30 w-0 group-hover:w-full transition-all duration-1000"></div>
                     </div>
                   </div>
@@ -318,7 +317,6 @@ export default function HomePage() {
           {/* Categories Matrix - Technical Grid Icons */}
           <div>
             <div className="flex items-center gap-8 mb-20 px-4">
-              <p className="text-[10px] font-mono text-gold-500/40">MATRIX_MODE: CATEGORY_LOOKUP</p>
               <h3 className="font-serif text-4xl font-black text-white uppercase tracking-tight">Kategorilerimiz</h3>
               <div className="flex-1 h-px bg-gradient-to-r from-white/10 to-transparent"></div>
             </div>
@@ -337,7 +335,6 @@ export default function HomePage() {
                     </div>
                   </div>
                   <h4 className="font-black text-white text-sm group-hover:text-gold-400 transition-colors mb-4 uppercase tracking-[0.2em] leading-tight">{cat.name}</h4>
-                  <p className="text-[9px] font-mono text-gold-500/30 uppercase tracking-[0.3em]">CODE: 0x{i.toString(16).padStart(2, '0')}</p>
                 </Link>
               ))}
             </div>
@@ -346,7 +343,7 @@ export default function HomePage() {
           <div className="mt-48 grid lg:grid-cols-2 gap-12">
             <div className="p-16 bg-white/[0.02] border border-white/5 relative overflow-hidden group">
               <div className="absolute top-0 left-0 w-2 h-full bg-gold-500/40"></div>
-              <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.5em] mb-8 block">Tadım Profili // Tasting_Notes</span>
+              <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.5em] mb-8 block">Tadım Profili</span>
               <h3 className="font-serif text-4xl font-black text-white mb-10 leading-tight">
                 Hasat Duyusu: <br />
                 <span className="italic font-light text-gold-400">Domates Yaprağı & Çağla</span>
@@ -364,7 +361,7 @@ export default function HomePage() {
               <Image src="/images/extraction-process.png" alt="Process" fill className="object-cover transition-all duration-1000" />
               <div className="absolute inset-0 bg-gradient-to-r from-background to-transparent"></div>
               <div className="absolute bottom-8 left-8">
-                <p className="text-white font-mono text-[10px] tracking-widest">REAL_TIME_PROCESS: COLD_EXTRACTION_22C</p>
+                <p className="text-white font-mono text-[10px] tracking-widest">22°C SOĞUK SIKIM YÖNTEMİ</p>
               </div>
             </div>
           </div>
@@ -373,7 +370,7 @@ export default function HomePage() {
             <div className="relative px-12 py-8 bg-white/5 hud-border">
               <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-gold-500 to-transparent animate-pulse"></div>
               <div className="flex items-center gap-8 text-olive-100 font-mono text-xs uppercase tracking-[0.4em]">
-                <span className="text-gold-500 animate-pulse">⚡ HARVEST_ALERT:</span>
+                <span className="text-gold-500 animate-pulse">⚡ DUYURU:</span>
                 2024 Erken Hasat Stokları Kontrollü Olarak Satışa Açılmıştır.
               </div>
             </div>
@@ -393,7 +390,7 @@ export default function HomePage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
                   {/* Topographic Overlays */}
                   <div className="absolute inset-x-8 bottom-8 p-10 bg-black/60 backdrop-blur-xl border border-white/10">
-                    <span className="text-gold-500 text-[8px] font-mono font-black uppercase tracking-[0.4em] mb-4 block">Geographic_Data // Aydın_Akhisar</span>
+                    <span className="text-gold-500 text-[8px] font-mono font-black uppercase tracking-[0.4em] mb-4 block">Aydın & Akhisar</span>
                     <h3 className="text-3xl font-serif font-black text-white mb-4 uppercase tracking-tighter italic">Toprağın <br /><span className="text-gold-400 font-light">Genetik Mirası</span></h3>
                     <p className="text-olive-300 text-xs leading-relaxed font-mono opacity-60">Asırlık ağaçların kök saldığı kalkerli toprak yapısı ve poyraz rüzgarlarının yarattığı mikro-klima, her damlada eşsiz bir aroma spektrumu yaratır.</p>
                   </div>
@@ -404,7 +401,7 @@ export default function HomePage() {
 
             <div className="space-y-16">
               <div className="space-y-8 text-left">
-                <span className="text-gold-500 text-xs font-mono font-black uppercase tracking-[0.5em] block border-l-4 border-gold-500 pl-6">Facility_Specs // MOD_04</span>
+                <span className="text-gold-500 text-xs font-mono font-black uppercase tracking-[0.5em] block border-l-4 border-gold-500 pl-6">Üretim Tesisleri</span>
                 <h2 className="font-serif text-fluid-h2 font-black text-white leading-[0.85] tracking-tighter">
                   Doğa ve <br />
                   <span className="italic text-gold-500 font-light font-serif">Mekanik</span>
@@ -441,7 +438,7 @@ export default function HomePage() {
 
         <div className="max-w-[1600px] mx-auto px-6 relative z-10">
           <div className="text-left mb-32">
-            <span className="text-gold-400 text-xs font-mono font-black uppercase tracking-[0.5em] mb-6 block border-l-4 border-gold-500 pl-6">PROTOCOL_04: ENTEGRE_URETIM</span>
+            <span className="text-gold-400 text-xs font-mono font-black uppercase tracking-[0.5em] mb-6 block border-l-4 border-gold-500 pl-6">ENTEGRE ÜRETİM</span>
             <h2 className="font-serif text-fluid-h2 font-black text-white leading-[0.85] tracking-tighter">
               Kusursuz <br />
               <span className="italic text-gold-500 font-light font-serif">Ekstraksiyon</span>
@@ -468,7 +465,6 @@ export default function HomePage() {
                 },
               ].map((item, i) => (
                 <div key={i} className="group relative p-12 bg-white/[0.02] hud-border hud-border-tl hud-border-br transition-all duration-700 hover:bg-white/[0.05]">
-                  <div className="absolute top-0 right-0 p-4 font-mono text-[10px] text-gold-500/20">UNIT_ID: {item.id}</div>
                   <div className="w-20 h-20 bg-gold-500 flex items-center justify-center mb-10 group-hover:scale-110 transition-transform shadow-[0_10px_40px_rgba(234,179,8,0.2)]">
                     <span className="text-olive-950 font-black text-xl italic">{item.id}</span>
                   </div>
@@ -508,24 +504,23 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-32 items-center">
             <div className="relative">
               <div className="relative z-10 aspect-square border border-white/10 bg-white/[0.02] p-12 hud-border hud-border-tl hud-border-br">
-                <div className="absolute top-4 left-4 font-mono text-[10px] text-gold-500/40">SYSTEM_STATUS: ROUTING_ACTIVE</div>
                 <Image src="/images/logistics-forklift.png" alt="Lojistik Hizmetimiz" fill className="object-cover p-20 transition-all" />
 
                 {/* Floating GPS Data Points */}
                 <div className="absolute top-1/2 left-1/4 animate-pulse">
                   <div className="w-2 h-2 bg-gold-400 rounded-full shadow-[0_0_15px_#eab308]"></div>
-                  <div className="mt-2 bg-black/60 backdrop-blur-md border border-white/10 px-3 py-1 text-[8px] font-mono text-white">TR_NW_HUB</div>
+                  <div className="mt-2 bg-black/60 backdrop-blur-md border border-white/10 px-3 py-1 text-[8px] font-mono text-white">BATI SEVKİYAT HATTI</div>
                 </div>
                 <div className="absolute bottom-1/3 right-1/4 animate-pulse delay-500">
                   <div className="w-2 h-2 bg-gold-400 rounded-full shadow-[0_0_15px_#eab308]"></div>
-                  <div className="mt-2 bg-black/60 backdrop-blur-md border border-white/10 px-3 py-1 text-[8px] font-mono text-white">TR_SW_PLANT</div>
+                  <div className="mt-2 bg-black/60 backdrop-blur-md border border-white/10 px-3 py-1 text-[8px] font-mono text-white">EGE ÜRETİM TESİSİ</div>
                 </div>
               </div>
               <div className="absolute -top-20 -left-20 w-80 h-80 bg-gold-500/5 blur-[150px] -z-10"></div>
             </div>
 
             <div className="space-y-12">
-              <span className="text-gold-400 text-xs font-mono font-black uppercase tracking-[0.5em] block border-l-4 border-gold-500 pl-6">MOD_03: GLOBAL_DISTRIBUTION</span>
+              <span className="text-gold-400 text-xs font-mono font-black uppercase tracking-[0.5em] block border-l-4 border-gold-500 pl-6">81 İLE TESLİMAT</span>
               <h2 className="font-serif text-fluid-h2 font-black text-white mb-10 leading-[0.85] tracking-tighter">
                 81 İle Güçlü <br />
                 <span className="text-gold-400 italic font-light font-serif">Lojistik Ağ</span>
@@ -536,10 +531,10 @@ export default function HomePage() {
 
               <div className="grid sm:grid-cols-2 gap-6">
                 {[
-                  { label: '48 Saatte Hazırlık', code: 'T+48H' },
-                  { label: 'Güvenli Ambalaj', code: 'PROT_X' },
-                  { label: 'Fabrika Sevkiyatı', code: 'DIRECT' },
-                  { label: 'Ambar Gönderimi', code: 'FAST_TR' }
+                  { label: '48 Saatte Hazırlık', code: '48 SAAT' },
+                  { label: 'Güvenli Ambalaj', code: 'ÖZEL PAKET' },
+                  { label: 'Fabrika Sevkiyatı', code: 'DOĞRUDAN' },
+                  { label: 'Ambar Gönderimi', code: 'HIZLI SEVK' }
                 ].map((item, i) => (
                   <div key={i} className="flex flex-col gap-2 bg-white/[0.02] p-8 border border-white/5 hover:border-gold-500/20 transition-all">
                     <p className="text-[10px] font-mono text-gold-500/40">{item.code}</p>
@@ -571,7 +566,7 @@ export default function HomePage() {
       <section className="bg-background py-48 border-t border-white/5 relative overflow-hidden tech-grid" id="blog">
         <div className="max-w-[1600px] mx-auto px-6 relative z-10">
           <div className="text-left mb-32">
-            <span className="text-gold-400 text-xs font-mono font-black uppercase tracking-[0.5em] mb-6 block border-l-4 border-gold-500 pl-6">RESOURCES // TECHNICAL_ARCHIVE</span>
+            <span className="text-gold-400 text-xs font-mono font-black uppercase tracking-[0.5em] mb-6 block border-l-4 border-gold-500 pl-6">BİLGİ ARŞİVİ</span>
             <h2 className="font-serif text-fluid-h2 font-black text-white leading-[0.85] tracking-tighter">
               Zeytin Kültürü &<br />
               <span className="italic text-gold-500 font-light font-serif">Bilgi Arşivi</span>
@@ -587,9 +582,6 @@ export default function HomePage() {
               >
                 <div className="aspect-video relative overflow-hidden bg-black/40">
                   <Image src={`/images/blog/${post.image}`} alt={post.title} fill className="object-cover group-hover:scale-125 transition-transform duration-[3000ms] opacity-40 group-hover:opacity-100" />
-                  <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md border border-white/10 px-3 py-1 font-mono text-[8px] text-gold-500 uppercase tracking-widest">
-                    REF: BLG-{100 + i}
-                  </div>
                   <div className="absolute inset-x-0 bottom-0 h-1 bg-white/10 overflow-hidden">
                     <div className="absolute inset-0 bg-gold-400 w-0 group-hover:w-full transition-all duration-1000"></div>
                   </div>
@@ -597,12 +589,12 @@ export default function HomePage() {
                 <div className="p-12 flex flex-col flex-1">
                   <div className="flex items-center gap-4 mb-6">
                     <span className="h-[1px] w-8 bg-gold-500/40"></span>
-                    <span className="text-[10px] text-gold-500/60 font-black uppercase tracking-widest">Research / Analysis</span>
+                    <span className="text-[10px] text-gold-500/60 font-black uppercase tracking-widest">Kültür / Rehber</span>
                   </div>
                   <h3 className="text-3xl font-serif font-black text-white mb-6 group-hover:text-gold-400 transition-colors uppercase tracking-tight leading-tight">{post.title}</h3>
                   <p className="text-sm text-olive-300 line-clamp-3 italic leading-relaxed font-light mb-10 flex-1 opacity-60 group-hover:opacity-100 transition-opacity">{post.excerpt}</p>
                   <div className="flex items-center justify-between group-hover:translate-x-4 transition-transform duration-500">
-                    <span className="text-[10px] font-black uppercase tracking-[0.4em] text-gold-500">Arşivi Oku</span>
+                    <span className="text-[10px] font-black uppercase tracking-[0.4em] text-gold-500">Yazıyı Oku</span>
                     <svg className="w-8 h-8 text-gold-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                   </div>
                 </div>
@@ -616,13 +608,13 @@ export default function HomePage() {
               className="group relative px-20 py-8 bg-white/5 border border-white/10 text-white font-black text-sm uppercase tracking-[0.5em] transition-all hover:bg-gold-500 hover:text-olive-950 overflow-hidden"
             >
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
-              <span className="relative z-10">Tüm Teknik Arşivi Keşfet</span>
+              <span className="relative z-10">Tüm Bilgi Arşivini Keşfet</span>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* ===== DIRECT FACTORY INTERFACE (CTA) SECTION ===== */}
+      {/* ===== DOĞRUDAN FABRİKA ARAYÜZÜ (CTA) ===== */}
       <section className="bg-background py-48 relative overflow-hidden tech-grid border-t border-white/5">
         <div className="absolute inset-0 opacity-20 pointer-events-none">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('/images/filling-conveyor.png')] bg-cover opacity-10"></div>
@@ -630,14 +622,14 @@ export default function HomePage() {
 
         <div className="max-w-5xl mx-auto px-6 text-center relative z-10">
           <div className="hud-border hud-border-tl hud-border-br p-20 bg-white/[0.01] backdrop-blur-3xl border-white/5">
-            <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.6em] mb-12 block">DIRECT_ORDER_UPLINK_01</span>
+            <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.6em] mb-12 block">SİPARİŞ HATTI</span>
             <h2 className="font-serif text-fluid-h2 font-black text-white mb-10 leading-[0.85] tracking-tighter">
               Fabrikadan<br />
               <span className="italic font-light text-gold-400 drop-shadow-[0_0_30px_rgba(234,179,8,0.2)]">Hemen Al</span>
             </h2>
             <div className="flex justify-center items-center gap-12 mb-16 opacity-60">
               <div className="h-px w-20 bg-gold-500/40"></div>
-              <p className="text-olive-300 text-sm font-mono uppercase tracking-widest italic">81 İl Ücretsiz Kargo // Toptan İskonto</p>
+              <p className="text-olive-300 text-sm font-mono uppercase tracking-widest italic">81 İl Ücretsiz Kargo & Toptan İskonto</p>
               <div className="h-px w-20 bg-gold-500/40"></div>
             </div>
 
@@ -670,22 +662,11 @@ export default function HomePage() {
       <section className="bg-background py-48 tech-grid">
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="flex items-center gap-6 mb-24 opacity-60">
-            <span className="text-gold-500 font-mono text-xs uppercase tracking-[0.5em]">FAQ // SYSTEM_PROTOCOLS</span>
+            <span className="text-gold-500 font-mono text-xs uppercase tracking-[0.5em]">SIKÇA SORULAN SORULAR</span>
             <div className="h-px flex-1 bg-white/10"></div>
           </div>
           <FAQSection items={faqItems} />
 
-          <div className="mt-32 pt-20 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-12 opacity-20 hover:opacity-100 transition-opacity">
-            <div className="font-mono text-[10px] text-gold-500 uppercase tracking-widest">
-              AUTH_CODE: LZ-TR-2024-X11
-            </div>
-            <div className="font-mono text-[10px] text-gold-500 uppercase tracking-widest text-center">
-              ENGINEERING STANDARDS: COMPLIANT WITH ISO 22000 & HACCP_PROT
-            </div>
-            <div className="font-mono text-[10px] text-gold-500 uppercase tracking-widest">
-              VER: 4.2.0_MASTERPIECE
-            </div>
-          </div>
         </div>
       </section>
 

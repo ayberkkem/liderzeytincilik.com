@@ -19,13 +19,13 @@ export default function Footer() {
                             </div>
                             <div>
                                 <span className="text-2xl font-serif font-black text-white block leading-none uppercase tracking-tighter">Lider</span>
-                                <span className="text-[10px] font-mono font-black text-gold-500/60 uppercase tracking-[0.4em] leading-none">Industrial Unit</span>
+                                <span className="text-[10px] font-mono font-black text-gold-500/60 uppercase tracking-[0.4em] leading-none">Kurumsal Üretim</span>
                             </div>
                         </Link>
 
                         <div className="space-y-6">
                             <div className="hud-border hud-border-tl hud-border-br p-6 bg-white/[0.02] border-white/5">
-                                <p className="text-[10px] font-mono text-gold-500/40 mb-2 uppercase group-hover:text-gold-400 transition-colors tracking-widest">Facility_Location</p>
+                                <p className="text-[10px] font-mono text-gold-500/40 mb-2 uppercase group-hover:text-gold-400 transition-colors tracking-widest">Tesis Adresi</p>
                                 <p className="text-xs text-olive-300 leading-relaxed font-light italic">
                                     {siteConfig.address}
                                 </p>
@@ -107,13 +107,8 @@ export default function Footer() {
             <div className="border-t border-white/5 bg-black/40 py-10">
                 <div className="max-w-[1600px] mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
                     <p className="text-[10px] font-mono text-olive-500 uppercase tracking-[0.4em]">
-                        © {currentYear} LIDER_INDUSTRIAL_CORP // ALL_RIGHTS_RESERVED
+                        © {currentYear} LİDER ZEYTİNCİLİK // TÜM HAKLARI SAKLIDIR
                     </p>
-                    <div className="flex items-center gap-8 text-[9px] font-mono text-gold-500/30 uppercase tracking-[0.2em]">
-                        <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span> KERNEL_OK</span>
-                        <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span> FLEET_STANDBY</span>
-                        <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-gold-500 rounded-full"></span> AGENT_X_V4.2</span>
-                    </div>
                 </div>
             </div>
 
