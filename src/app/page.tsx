@@ -147,54 +147,9 @@ export default function HomePage() {
         <div className="absolute bottom-[-20%] left-[-10%] w-[1000px] h-[1000px] bg-olive-500/5 blur-[250px] -z-10"></div>
       </section>
 
-      {/* ===== [ANNEX_A: CHEMICAL_FINGERPRINT] ===== */}
-      <section className="bg-background py-32 border-b border-white/5 relative tech-grid overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-gold-500/30"></div>
-        <div className="max-w-[1600px] mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-center justify-between mb-24 gap-12">
-            <div className="text-left">
-              <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.6em] mb-4 block">Section_B // Analysis_Report</span>
-              <h2 className="font-serif text-fluid-h2 font-black text-white leading-tight uppercase tracking-tighter">
-                Kimyasal <span className="text-gold-400 italic font-light">Parmak İzi</span>
-              </h2>
-            </div>
-            <div className="bg-white/[0.02] hud-border p-8 backdrop-blur-md max-w-sm">
-              <p className="text-olive-300 font-mono text-[10px] uppercase leading-relaxed tracking-widest italic opacity-60">
-                Her parti üretimimiz bağımsız laboratuvarlarca analiz edilerek 'İlaç Niyetine' tüketilebilecek saflık değerlerini garanti altına alır.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-4 gap-12">
-            {[
-              { label: 'Yüksek Polifenol', val: '450+', unit: 'mg/kg', desc: 'Güçlü Antioksidan Kapasitesi', detail: 'Hücre yenileyici biyokimyasal bileşenler.' },
-              { label: 'Oleik Asitlik', val: '< 0.3', unit: '%', desc: 'Ultra-Düşük Serbest Yağ Asidi', detail: 'Hassas hasat ve 22°C soğuk sıkım kanıtı.' },
-              { label: 'E-Vitamini', val: '200+', unit: 'mg/kg', desc: 'Doğal Koruyucu Tokoferol', detail: 'Zeytinin şifasını en saf haliyle sunar.' },
-              { label: 'Peroksit Değeri', val: '< 5.0', unit: 'meqO2', desc: 'Maksimum Oksidasyon Direnci', detail: 'Tazeliğin ve uzun ömürlü kullanımın teminatı.' }
-            ].map((stat, i) => (
-              <div key={i} className="relative group p-12 bg-white/[0.01] border border-white/5 hover:border-gold-500/20 transition-all duration-700 overflow-hidden">
-                <div className="absolute top-0 right-0 p-4 font-mono text-[8px] text-gold-500/20 uppercase tracking-widest">CERT_ID: {i + 1}</div>
-                <p className="text-[10px] text-gold-500/60 font-black uppercase tracking-[0.4em] mb-6">{stat.label}</p>
-                <p className="text-6xl font-serif font-black text-white mb-4 tracking-tighter group-hover:text-gold-400 transition-colors">
-                  {stat.val}
-                  <span className="text-lg ml-2 opacity-50 font-sans tracking-widest uppercase">{stat.unit}</span>
-                </p>
-                <div className="space-y-4">
-                  <p className="text-xs text-olive-400 font-bold uppercase tracking-widest italic">{stat.desc}</p>
-                  <p className="text-[9px] text-olive-500 font-mono leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-1000">{stat.detail}</p>
-                </div>
-                {/* Corner HUD lines */}
-                <div className="absolute bottom-0 left-0 w-12 h-[2px] bg-gold-500/30"></div>
-                <div className="absolute bottom-0 left-0 w-[2px] h-12 bg-gold-500/30"></div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
 
       {/* ===== ELITE AUTHORITY & TRUST BAR ===== */}
-      < section className="bg-olive-950 border-y border-white/5 relative z-20" >
+      <section className="bg-olive-950 border-y border-white/5 relative z-20">
         <div className="max-w-7xl mx-auto px-4 py-16 lg:py-20">
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6 md:gap-8 items-start justify-items-center">
             {[

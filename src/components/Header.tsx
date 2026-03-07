@@ -11,7 +11,7 @@ export default function Header() {
     return (
         <>
             {/* Main Header */}
-            <header className="sticky top-0 z-50 bg-olive-950/80 backdrop-blur-2xl border-b border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden">
+            <header className="sticky top-0 z-50 bg-olive-950/90 backdrop-blur-2xl border-b border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
                 {/* Subtle Light Effect */}
                 <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-gold-500/20 to-transparent"></div>
 
@@ -25,7 +25,7 @@ export default function Header() {
                                 className="w-8 h-8 lg:w-12 lg:h-12 object-contain group-hover:scale-110 transition-transform duration-700"
                             />
                         </div>
-                        <div>
+                        <div className="whitespace-nowrap">
                             <span className="text-2xl lg:text-3xl font-serif font-black text-white tracking-tighter uppercase block leading-none">Lider</span>
                             <span className="text-[10px] lg:text-xs font-black text-gold-500 uppercase tracking-[0.4em] leading-none">Zeytincilik</span>
                         </div>
@@ -33,8 +33,8 @@ export default function Header() {
 
 
                     {/* Desktop Nav - Professional Interface */}
-                    <nav className="hidden lg:flex items-center justify-center flex-1 px-12">
-                        <div className="flex items-center gap-1 xl:gap-2">
+                    <nav className="hidden lg:flex items-center justify-center flex-1 px-8 xl:px-12">
+                        <div className="flex items-center gap-2 xl:gap-4">
                             {navLinks.map((link) => (
                                 <div
                                     key={link.href}
@@ -44,7 +44,7 @@ export default function Header() {
                                 >
                                     <Link
                                         href={link.href}
-                                        className="px-4 xl:px-6 py-4 text-[11px] xl:text-[12px] font-black uppercase tracking-[0.2em] xl:tracking-[0.3em] text-white/70 hover:text-white transition-all flex items-center gap-2 relative overflow-hidden group/link"
+                                        className="px-3 xl:px-5 py-4 text-[12px] xl:text-[13px] font-black uppercase tracking-[0.2em] xl:tracking-[0.25em] text-white/70 hover:text-white transition-all flex items-center gap-2 relative group/link whitespace-nowrap"
                                     >
                                         <span className="relative z-10">{link.label}</span>
                                         {link.children && (
@@ -62,7 +62,7 @@ export default function Header() {
                                                 <Link
                                                     key={child.href}
                                                     href={child.href}
-                                                    className="block px-10 py-4 text-[10px] font-black uppercase tracking-[0.4em] text-olive-300 hover:bg-gold-500 hover:text-olive-950 transition-all border-l-4 border-transparent hover:border-olive-950 flex justify-between items-center group/item"
+                                                    className="block px-10 py-4 text-[11px] font-black uppercase tracking-[0.3em] text-olive-300 hover:bg-gold-500 hover:text-olive-950 transition-all border-l-4 border-transparent hover:border-olive-950 flex justify-between items-center group/item whitespace-nowrap"
                                                 >
                                                     {child.label}
                                                 </Link>
@@ -75,12 +75,12 @@ export default function Header() {
                     </nav>
 
                     {/* CTA + Mobile Toggle */}
-                    <div className="flex items-center gap-6">
+                    <div className="flex items-center gap-4 xl:gap-8">
                         <a
                             href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent('Merhaba, zeytinyağı siparişi vermek istiyorum.')}`}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="hidden lg:inline-flex items-center gap-4 bg-gold-500 hover:bg-gold-600 text-olive-950 px-12 py-5 rounded-none text-[11px] font-black uppercase tracking-[0.4em] transition-all hover:shadow-[0_0_50px_rgba(234,179,8,0.4)] hover:-translate-y-1 relative group overflow-hidden"
+                            className="hidden lg:inline-flex items-center gap-4 bg-gold-500 hover:bg-gold-600 text-olive-950 px-8 xl:px-12 py-4 xl:py-5 rounded-none text-[12px] font-black uppercase tracking-[0.3em] transition-all hover:shadow-[0_0_50px_rgba(234,179,8,0.4)] hover:-translate-y-1 relative group overflow-hidden whitespace-nowrap"
                         >
                             <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
                             <span className="relative z-10">Sipariş Hattı</span>
@@ -103,7 +103,7 @@ export default function Header() {
                 {/* Mobile Menu */}
                 {mobileOpen && (
                     <div className="lg:hidden border-t border-white/10 bg-olive-950 animate-fade-in fixed inset-x-0 top-20 bottom-0 z-[60] overflow-y-auto pt-10">
-                        <nav className="max-w-7xl mx-auto px-6 space-y-8">
+                        <nav className="max-w-7xl mx-auto px-6 space-y-8 pb-20">
                             {navLinks.map((link) => (
                                 <div key={link.href} className="space-y-6">
                                     <Link
@@ -129,7 +129,7 @@ export default function Header() {
                                     )}
                                 </div>
                             ))}
-                            <div className="pt-20 pb-10 space-y-6">
+                            <div className="pt-10 space-y-6">
                                 <a
                                     href={`https://wa.me/${siteConfig.whatsapp}`}
                                     target="_blank"
