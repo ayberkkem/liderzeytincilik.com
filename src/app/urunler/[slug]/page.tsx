@@ -288,7 +288,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                             <img
                                 src={productImages[slug] || '/images/product-tin-5l.jpg'}
                                 alt={product.name}
-                                className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-1000 grayscale-[20%] group-hover:grayscale-0"
+                                className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-1000"
                             />
                             <div className="absolute top-8 left-8 bg-gold-400 text-olive-950 px-6 py-2 rounded-none text-[10px] font-black uppercase tracking-[0.3em] shadow-2xl">
                                 Üretimden Doğrudan

@@ -455,7 +455,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="relative aspect-video border border-white/5 overflow-hidden">
-              <Image src="/images/extraction-process.png" alt="Process" fill className="object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
+              <Image src="/images/extraction-process.png" alt="Process" fill className="object-cover transition-all duration-1000" />
               <div className="absolute inset-0 bg-gradient-to-r from-background to-transparent"></div>
               <div className="absolute bottom-8 left-8">
                 <p className="text-white font-mono text-[10px] tracking-widest">REAL_TIME_PROCESS: COLD_EXTRACTION_22C</p>
@@ -483,7 +483,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="hud-border hud-border-tl hud-border-br p-4 bg-white/[0.02]">
                 <div className="relative aspect-[4/5] overflow-hidden">
-                  <Image src="/images/modern-warehouse.png" alt="Terroir" fill className="object-cover grayscale" />
+                  <Image src="/images/modern-warehouse.png" alt="Terroir" fill className="object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
                   {/* Topographic Overlays */}
                   <div className="absolute inset-x-8 bottom-8 p-10 bg-black/60 backdrop-blur-xl border border-white/10">
@@ -582,7 +582,7 @@ export default function HomePage() {
                 '/images/quality-inspection.png',
                 '/images/retail-boxes.png'
               ].map((img, i) => (
-                <div key={i} className="relative aspect-video filter grayscale hover:grayscale-0 transition-all duration-700 border border-white/10">
+                <div key={i} className="relative aspect-video transition-all duration-700 border border-white/10">
                   <Image src={img} alt="Tesis" fill className="object-cover" />
                   <div className="absolute inset-0 bg-gold-500/20 mix-blend-overlay"></div>
                 </div>
@@ -603,7 +603,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative z-10 aspect-square border border-white/10 bg-white/[0.02] p-12 hud-border hud-border-tl hud-border-br">
                 <div className="absolute top-4 left-4 font-mono text-[10px] text-gold-500/40">SYSTEM_STATUS: ROUTING_ACTIVE</div>
-                <Image src="/images/logistics-forklift.png" alt="Lojistik Hizmetimiz" fill className="object-cover p-20 filter grayscale group-hover:grayscale-0 transition-all" />
+                <Image src="/images/logistics-forklift.png" alt="Lojistik Hizmetimiz" fill className="object-cover p-20 transition-all" />
 
                 {/* Floating GPS Data Points */}
                 <div className="absolute top-1/2 left-1/4 animate-pulse">

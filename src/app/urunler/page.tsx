@@ -83,7 +83,7 @@ export default function ProductsPage() {
                                 className="glass-card rounded-none overflow-hidden group hover:-translate-y-3 transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] border border-white/5 flex flex-col"
                             >
                                 <div className="h-80 overflow-hidden relative">
-                                    <img src={product.img} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 grayscale-[20%] group-hover:grayscale-0" />
+                                    <img src={product.img} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
                                     <div className="absolute top-6 left-6 bg-gold-400 text-olive-950 text-[10px] font-black px-4 py-1.5 rounded-none uppercase tracking-[0.2em] shadow-2xl">
                                         Üretici Fiyatı
                                     </div>
