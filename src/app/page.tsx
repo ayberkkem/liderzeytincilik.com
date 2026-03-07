@@ -95,57 +95,8 @@ export default function HomePage() {
         <div className="relative z-20 max-w-[1600px] mx-auto px-6 py-20 w-full">
           <div className="grid lg:grid-cols-12 gap-12 items-center">
 
-            {/* TECHNICAL SPECS HUD - The Engineering Marvel */}
-            <div className="lg:col-span-4 order-2 lg:order-1 space-y-8 animate-fade-in">
-              <div className="hud-border hud-border-tl hud-border-br p-8 bg-white/[0.02] backdrop-blur-xl border-white/5">
-                <div className="flex items-center gap-4 mb-8">
-                  <span className="text-gold-500 font-mono text-xs tracking-[0.3em] uppercase">Status: Certified</span>
-                  <div className="h-px flex-1 bg-gold-400/20"></div>
-                </div>
-
-                <div className="space-y-10">
-                  {[
-                    { label: 'Polifenol Değeri', value: '450+ mg/kg', sub: 'Yüksek Antioksidan', width: '92%' },
-                    { label: 'Asitlik Oranı', value: '0.3 - 0.5%', sub: 'Premium Natürel Sızma', width: '98%' },
-                    { label: 'E Vitamini', value: '25 mg / 100g', sub: 'Doğal Koruyucu', width: '85%' }
-                  ].map((spec, i) => (
-                    <div key={i} className="group cursor-help">
-                      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-3 gap-2">
-                        <div>
-                          <p className="text-[10px] xl:text-[11px] text-gold-400 uppercase font-black tracking-widest mb-1">{spec.label}</p>
-                          <p className="text-xl xl:text-2xl font-serif font-black text-white leading-none">{spec.value}</p>
-                        </div>
-                        <p className="text-[10px] xl:text-[11px] text-olive-200 font-mono italic whitespace-nowrap opacity-80">{spec.sub}</p>
-                      </div>
-                      <div className="h-1 bg-white/5 relative overflow-hidden">
-                        <div className="absolute inset-0 bg-gold-400/20 animate-tech-reveal" style={{ width: spec.width }}></div>
-                        <div className="absolute top-0 left-0 h-full bg-gold-500 shadow-[0_0_10px_#eab308] animate-tech-reveal" style={{ width: spec.width }}></div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="bg-white/5 p-4 xl:p-6 border border-white/10 hover:border-gold-400/40 transition-all group relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-16 h-16 bg-gold-500/5 rotate-45 translate-x-8 -translate-y-8"></div>
-                <p className="text-[10px] xl:text-[11px] text-gold-400 font-black mb-2 uppercase tracking-widest">Hasat Döngüsü</p>
-                <p className="text-white font-serif font-bold text-lg xl:text-xl leading-none">Eylül - Kasım</p>
-                <div className="mt-4 flex gap-1 opacity-20 group-hover:opacity-100 transition-opacity">
-                  {[1, 2, 3, 4, 5].map(j => <div key={j} className="h-1 w-2 bg-gold-400"></div>)}
-                </div>
-              </div>
-              <div className="bg-white/5 p-4 xl:p-6 border border-white/10 hover:border-gold-400/40 transition-all group relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-16 h-16 bg-gold-500/5 rotate-45 translate-x-8 -translate-y-8"></div>
-                <p className="text-[10px] xl:text-[11px] text-gold-400 font-black mb-2 uppercase tracking-widest">Ekstraksiyon</p>
-                <p className="text-white font-serif font-bold text-lg xl:text-xl leading-none">22°C Cold</p>
-                <div className="mt-4 flex gap-1 opacity-20 group-hover:opacity-100 transition-opacity">
-                  {[1, 2, 3, 4, 5].map(j => <div key={j} className="h-1 w-2 bg-gold-400"></div>)}
-                </div>
-              </div>
-            </div>
-
             {/* CORE BRANDING - The World's Richest Look */}
-            <div className="lg:col-span-8 order-1 lg:order-2 flex flex-col items-center text-center">
+            <div className="lg:col-span-12 flex flex-col items-center text-center">
               <div className="inline-flex items-center gap-3 bg-white/5 border border-white/10 px-6 py-2 mb-12 animate-fade-in shadow-2xl">
                 <span className="flex h-2 w-2 relative">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold-400 opacity-75"></span>
