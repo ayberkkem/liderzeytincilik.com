@@ -303,11 +303,11 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                         {/* Product Info */}
                         <div className="pt-4">
                             <span className="inline-block bg-white/5 border border-white/10 text-gold-400 text-[10px] font-black px-5 py-2 rounded-none mb-8 uppercase tracking-[0.3em]">{product.size} Kapasite</span>
-                            <h1 className="font-serif text-5xl md:text-6xl font-black text-white mb-8 uppercase tracking-tighter leading-none">{product.h1}</h1>
+                            <h1 className="font-serif text-fluid-h1 font-black text-white mb-8 uppercase tracking-tighter leading-none">{product.h1}</h1>
 
                             <div className="prose prose-invert mb-12 max-w-none">
                                 {product.content.split('\n\n').map((p, i) => (
-                                    <p key={i} className="text-olive-200 text-lg leading-relaxed font-light italic mb-6">
+                                    <p key={i} className="text-olive-200 text-fluid-body leading-relaxed font-light italic mb-6 opacity-70">
                                         {p}
                                     </p>
                                 ))}
@@ -359,7 +359,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                     <div className="grid md:grid-cols-2 gap-12">
                         {/* Technical Specs */}
                         <div className="glass-card rounded-none p-10 border border-white/5 bg-white/5">
-                            <h2 className="font-serif text-3xl font-black text-white mb-8 uppercase tracking-tight leading-none">Teknik <span className="text-gold-400 italic">Detaylar</span></h2>
+                            <h2 className="font-serif text-fluid-h3 font-black text-white mb-8 uppercase tracking-tight leading-none">Teknik <span className="text-gold-400 italic">Detaylar</span></h2>
                             <div className="space-y-4">
                                 {product.specs.map((spec, i) => (
                                     <div key={i} className="flex items-center justify-between py-4 border-b border-white/5 last:border-0 group">
@@ -372,7 +372,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
                         {/* Usage Areas */}
                         <div className="glass-card rounded-none p-10 border border-white/5 bg-white/5">
-                            <h2 className="font-serif text-3xl font-black text-white mb-8 uppercase tracking-tight leading-none">Mutfakta <span className="text-gold-400 italic">Kullanım</span></h2>
+                            <h2 className="font-serif text-fluid-h3 font-black text-white mb-8 uppercase tracking-tight leading-none">Mutfakta <span className="text-gold-400 italic">Kullanım</span></h2>
                             <ul className="space-y-6">
                                 {product.usageAreas.map((area, i) => (
                                     <li key={i} className="flex items-start gap-5 group">

@@ -90,7 +90,7 @@ export default async function CityPage({ params }: { params: Promise<{ slug: str
                         { label: 'Ana Sayfa', href: '/' },
                         { label: city.name }
                     ]} />
-                    <h1 className="text-4xl md:text-7xl font-serif font-black text-white mt-10 leading-none uppercase tracking-tighter">
+                    <h1 className="text-fluid-h1 font-serif font-black text-white mt-10 leading-none uppercase tracking-tighter">
                         {pageTitle}
                     </h1>
                     <div className="mt-10 flex flex-wrap gap-4">

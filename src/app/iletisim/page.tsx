@@ -16,8 +16,8 @@ export default function ContactPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-olive-950 to-transparent"></div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4">
                     <Breadcrumb items={[{ label: 'Ana Sayfa', href: '/' }, { label: 'İletişim' }]} />
-                    <h1 className="font-serif text-5xl md:text-7xl font-black text-white mb-6 uppercase tracking-tighter leading-none">Doğrudan <span className="text-gold-400 italic">İletişim</span></h1>
-                    <p className="text-olive-200 text-xl max-w-2xl font-light leading-relaxed italic">
+                    <h1 className="font-serif text-fluid-h1 font-black text-white mb-6 uppercase tracking-tighter leading-none">Doğrudan <span className="text-gold-400 italic">İletişim</span></h1>
+                    <p className="text-olive-200 text-fluid-body max-w-2xl font-light leading-relaxed italic opacity-80">
                         Toptan veya perakende zeytinyağı talepleriniz için bize ulaşın. Ekibimiz size en kısa sürede dönüş yapacaktır.
                     </p>
                 </div>
@@ -29,7 +29,7 @@ export default function ContactPage() {
                     <div className="grid lg:grid-cols-2 gap-20">
                         {/* Contact Info */}
                         <div>
-                            <h2 className="text-4xl font-serif font-black text-white mb-10 uppercase tracking-tight">Hızlı <span className="text-gold-400">Erişim</span></h2>
+                            <h2 className="text-fluid-h3 font-serif font-black text-white mb-10 uppercase tracking-tight">Hızlı <span className="text-gold-400 italic">Erişim</span></h2>
 
                             <div className="space-y-10">
                                 <div className="flex items-start gap-6 group">

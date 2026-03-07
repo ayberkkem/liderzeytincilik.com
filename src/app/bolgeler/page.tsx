@@ -15,10 +15,10 @@ export default function RegionsPage() {
                 <div className="absolute inset-0 opacity-10 bg-[url('/images/ancient-olive-tree.png')] bg-cover bg-center"></div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
                     <Breadcrumb items={[{ label: 'Ana Sayfa', href: '/' }, { label: 'Hizmet Bölgelerimiz' }]} />
-                    <h1 className="text-4xl md:text-7xl font-serif font-black text-white mt-10 leading-none uppercase tracking-tighter">
+                    <h1 className="text-fluid-h1 font-serif font-black text-white mt-10 leading-none uppercase tracking-tighter">
                         81 İle <span className="text-gold-400 italic font-light">Doğrudan Gönderim</span>
                     </h1>
-                    <p className="mt-8 text-olive-300 text-lg md:text-xl font-light italic max-w-3xl mx-auto leading-relaxed">
+                    <p className="mt-8 text-olive-300 text-fluid-body font-light italic max-w-3xl mx-auto leading-relaxed">
                         Aydın ve Akhisar'ın en kaliteli zeytinlerinden elde edilen sızma zeytinyağlarımız, Türkiye'nin her noktasına aracısız, üretici fiyatlarıyla ulaşıyor.
                     </p>
                 </div>

@@ -6,39 +6,44 @@ import FAQSection from '@/components/FAQSection';
 
 const products = [
   {
-    name: '1 Lt Zeytinyağı',
-    desc: 'Bireysel kullanım için ideal boyut. Soğuk sıkım natürel sızma.',
-    href: '/urunler/1-lt-zeytinyagi',
+    name: 'Erken Hasat Soğuk Sıkım',
+    desc: 'Ekim ayının ilk haftasında henüz yeşilken hasat edilen zeytinlerden, 22 derecede sıkılan yüksek polifenollü şifa kaynağı.',
+    href: '/urunler/erken-hasat-soguk-sikim',
     image: '/images/tins-in-grove.png',
-    size: '1 Litre',
+    size: '500 ml // 1 Lt',
+    stats: { polyphenol: '450+ mg/kg', acid: '0.2%', vitamin: 'High' }
   },
   {
-    name: '5 Lt Zeytinyağı',
-    desc: 'Aileler ve küçük işletmeler için. Teneke ve PET seçenekleri.',
-    href: '/urunler/5-lt-zeytinyagi',
+    name: 'Natürel Sızma Klasik',
+    desc: 'Kasım hasadı olgunlaşmış zeytinlerin dengeli aroması. Her türlü yemek ve salata için ideal, düşük asitli premium seçim.',
+    href: '/urunler/naturel-sizma-klasik',
     image: '/images/tins-in-grove.png',
-    size: '5 Litre',
+    size: '2 Lt // 5 Lt',
+    stats: { polyphenol: '250+ mg/kg', acid: '0.5%', vitamin: 'Optimum' }
   },
   {
-    name: '10 Lt Zeytinyağı',
-    desc: 'Toplu tüketim ve işletmeler için ekonomik büyük ambalaj.',
-    href: '/urunler/10-lt-zeytinyagi',
+    name: 'Restoran & Otel Serisi',
+    desc: 'Gastronomi profesyonelleri için tasarlanmış, yüksek ısı değerine dayanıklı ve aroma kalitesi korunmuş endüstriyel ambalaj.',
+    href: '/urunler/endustriyel-seri',
     image: '/images/factory-pallets.png',
-    size: '10 Litre',
+    size: '10 Lt // 18 Lt',
+    stats: { polyphenol: '200+ mg/kg', acid: '0.8%', vitamin: 'Balanced' }
   },
   {
-    name: 'Siyah Zeytin',
-    desc: 'Doğal salamura Gemlik tipi siyah zeytin. Tam yağlı ve ince kabuklu.',
-    href: '/urunler/gemlik-siyah-zeytin',
+    name: 'Gemlik Salamura Siyah',
+    desc: 'Sadece deniz tuzu ve su ile 9 ay boyunca dinlendirilerek fermente edilen, ince kabuklu, çekirdeğinden kolay ayrılan lezzet.',
+    href: '/urunler/gemlik-salamura-siyah',
     image: '/images/categories/black-olives.png',
-    size: 'Kg Bazlı',
+    size: 'S-M-L Kalibraj',
+    stats: { salt: '%4', oil: '%22', skin: 'Ultra-Thin' }
   },
   {
-    name: 'Yeşil Zeytin',
-    desc: 'Çıtır hasat Domat yeşil zeytin. Kırma ve çizik hazırlama seçenekleri.',
-    href: '/urunler/domat-yesil-zeytin',
+    name: 'Kırma Yeşil Zeytin',
+    desc: 'Aydın yöresinin Memecik cinsi zeytinlerinden, doğal limon ve kaya tuzu ile hazırlanan, taptaze çıtır dokulu geleneksel tat.',
+    href: '/urunler/kirma-yesil-zeytin',
     image: '/images/categories/green-olives.png',
-    size: 'Kg Bazlı',
+    size: 'L-XL Kalibraj',
+    stats: { salt: '%3', oil: '%18', texture: 'Crunchy' }
   },
 ];
 
@@ -105,12 +110,12 @@ export default function HomePage() {
                     { label: 'E Vitamini', value: '25 mg / 100g', sub: 'Doğal Koruyucu', width: '85%' }
                   ].map((spec, i) => (
                     <div key={i} className="group cursor-help">
-                      <div className="flex justify-between items-end mb-3">
+                      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-3 gap-2">
                         <div>
-                          <p className="text-[10px] text-gold-500/60 uppercase font-black tracking-widest mb-1">{spec.label}</p>
-                          <p className="text-2xl font-serif font-black text-white">{spec.value}</p>
+                          <p className="text-[9px] xl:text-[10px] text-gold-500/60 uppercase font-black tracking-widest mb-1">{spec.label}</p>
+                          <p className="text-xl xl:text-2xl font-serif font-black text-white leading-none">{spec.value}</p>
                         </div>
-                        <p className="text-[9px] text-olive-400 font-mono italic">{spec.sub}</p>
+                        <p className="text-[8px] xl:text-[9px] text-olive-400 font-mono italic whitespace-nowrap">{spec.sub}</p>
                       </div>
                       <div className="h-1 bg-white/5 relative overflow-hidden">
                         <div className="absolute inset-0 bg-gold-400/20 animate-tech-reveal" style={{ width: spec.width }}></div>
@@ -121,26 +126,26 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-white/5 p-6 border border-white/10 hover:border-gold-400/40 transition-all group">
-                  <p className="text-[9px] text-gold-500/60 font-black mb-2 uppercase tracking-widest">Hasat Dönemi</p>
-                  <p className="text-white font-serif font-bold text-xl">Eylül - Kasım</p>
-                  <div className="mt-4 flex gap-1 opacity-20 group-hover:opacity-100 transition-opacity">
-                    {[1, 2, 3, 4, 5].map(j => <div key={j} className="h-1 w-2 bg-gold-400"></div>)}
-                  </div>
+              <div className="bg-white/5 p-4 xl:p-6 border border-white/10 hover:border-gold-400/40 transition-all group relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-16 h-16 bg-gold-500/5 rotate-45 translate-x-8 -translate-y-8"></div>
+                <p className="text-[8px] xl:text-[9px] text-gold-500/60 font-black mb-2 uppercase tracking-widest">Hasat Döngüsü</p>
+                <p className="text-white font-serif font-bold text-lg xl:text-xl leading-none">Eylül - Kasım</p>
+                <div className="mt-4 flex gap-1 opacity-20 group-hover:opacity-100 transition-opacity">
+                  {[1, 2, 3, 4, 5].map(j => <div key={j} className="h-1 w-2 bg-gold-400"></div>)}
                 </div>
-                <div className="bg-white/5 p-6 border border-white/10 hover:border-gold-400/40 transition-all group">
-                  <p className="text-[9px] text-gold-500/60 font-black mb-2 uppercase tracking-widest">Sıkım Sıcaklığı</p>
-                  <p className="text-white font-serif font-bold text-xl">27°C Max</p>
-                  <div className="mt-4 flex gap-1 opacity-20 group-hover:opacity-100 transition-opacity">
-                    {[1, 2, 3, 4, 5].map(j => <div key={j} className="h-1 w-2 bg-gold-400"></div>)}
-                  </div>
+              </div>
+              <div className="bg-white/5 p-4 xl:p-6 border border-white/10 hover:border-gold-400/40 transition-all group relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-16 h-16 bg-gold-500/5 rotate-45 translate-x-8 -translate-y-8"></div>
+                <p className="text-[8px] xl:text-[9px] text-gold-500/60 font-black mb-2 uppercase tracking-widest">Ekstraksiyon</p>
+                <p className="text-white font-serif font-bold text-lg xl:text-xl leading-none">22°C Cold</p>
+                <div className="mt-4 flex gap-1 opacity-20 group-hover:opacity-100 transition-opacity">
+                  {[1, 2, 3, 4, 5].map(j => <div key={j} className="h-1 w-2 bg-gold-400"></div>)}
                 </div>
               </div>
             </div>
 
             {/* CORE BRANDING - The World's Richest Look */}
-            <div className="lg:col-span-8 order-1 lg:order-2 flex flex-col items-center lg:items-end text-center lg:text-right">
+            <div className="lg:col-span-8 order-1 lg:order-2 flex flex-col items-center text-center">
               <div className="inline-flex items-center gap-3 bg-white/5 border border-white/10 px-6 py-2 mb-12 animate-fade-in shadow-2xl">
                 <span className="flex h-2 w-2 relative">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold-400 opacity-75"></span>
@@ -149,17 +154,17 @@ export default function HomePage() {
                 <span className="text-[10px] text-white font-black uppercase tracking-[0.4em]">2024 PRODUCTION CYCLE ACTIVE</span>
               </div>
 
-              <h1 className="text-5xl md:text-8xl lg:text-[11rem] font-serif font-black text-white leading-[0.85] mb-12 tracking-tighter relative group">
-                <span className="block text-gold-500 text-2xl lg:text-4xl font-sans font-black mb-6 tracking-[0.5em] uppercase opacity-90 drop-shadow-2xl">Lider Zeytincilik</span>
+              <h1 className="text-fluid-h1 font-serif font-black text-white leading-[0.85] mb-12 tracking-tighter relative group">
+                <span className="block text-gold-500 text-xl md:text-2xl lg:text-4xl font-sans font-black mb-6 tracking-[0.5em] uppercase opacity-90 drop-shadow-2xl">Lider Zeytincilik</span>
                 PREMIUM<br />
                 <span className="gradient-text italic font-light drop-shadow-[0_0_50px_rgba(234,179,8,0.2)]">COLLECTION</span>
               </h1>
 
-              <div className="max-w-xl text-lg md:text-2xl text-olive-100/60 mb-16 font-light leading-relaxed italic border-r-4 border-gold-500 pr-8">
+              <div className="max-w-2xl text-lg md:text-2xl text-olive-100/60 mb-16 font-light leading-relaxed italic border-b-2 border-gold-500/20 pb-8">
                 Ege&apos;nin genetik kodlarını taşıyan, asırlık ağaçlardan süzülen "Sıvı Altın" standardını mekanik kusursuzlukla şişeliyoruz.
               </div>
 
-              <div className="flex flex-col sm:flex-row items-center gap-8 w-full justify-center lg:justify-end">
+              <div className="flex flex-col sm:flex-row items-center gap-8 w-full justify-center text-center">
                 <a
                   href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent('Merhaba, zeytinyağı siparişi vermek istiyorum.')}`}
                   target="_blank"
@@ -191,27 +196,45 @@ export default function HomePage() {
         <div className="absolute bottom-[-20%] left-[-10%] w-[1000px] h-[1000px] bg-olive-500/5 blur-[250px] -z-10"></div>
       </section>
 
-      {/* ===== PRECISION ANALYTICS SECTION ===== */}
+      {/* ===== [ANNEX_A: CHEMICAL_FINGERPRINT] ===== */}
       <section className="bg-background py-32 border-b border-white/5 relative tech-grid overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-gradient-to-r from-transparent via-gold-500/50 to-transparent"></div>
+        <div className="max-w-[1600px] mx-auto px-6">
+          <div className="flex flex-col md:flex-row items-center justify-between mb-24 gap-12">
+            <div className="text-left">
+              <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.6em] mb-4 block">Section_B // Analysis_Report</span>
+              <h2 className="font-serif text-fluid-h2 font-black text-white leading-tight uppercase tracking-tighter">
+                Kimyasal <span className="text-gold-400 italic font-light">Parmak İzi</span>
+              </h2>
+            </div>
+            <div className="bg-white/[0.02] hud-border p-8 backdrop-blur-md max-w-sm">
+              <p className="text-olive-300 font-mono text-[10px] uppercase leading-relaxed tracking-widest italic opacity-60">
+                Her parti üretimimiz bağımsız laboratuvarlarca analiz edilerek 'İlaç Niyetine' tüketilebilecek saflık değerlerini garanti altına alır.
+              </p>
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-4 gap-12">
             {[
-              { label: 'Yıllık Kapasite', val: '250', unit: 'TON', desc: 'Sürekli Üretim Gücü' },
-              { label: 'Kalite Standartı', val: 'ISO 22000', unit: 'BELGE', desc: 'Gıda Güvenliği Onaylı' },
-              { label: 'Hizmet Bölgesi', val: '81', unit: 'ŞEHİR', desc: 'Tüm Türkiye Dağıtım Kontrolü' },
-              { label: 'Şifa İndeksi', val: '%100', unit: 'DOĞAL', desc: 'Hiçbir Katkı Maddesi İçermez' }
+              { label: 'Yüksek Polifenol', val: '450+', unit: 'mg/kg', desc: 'Güçlü Antioksidan Kapasitesi', detail: 'Hücre yenileyici biyokimyasal bileşenler.' },
+              { label: 'Oleik Asitlik', val: '< 0.3', unit: '%', desc: 'Ultra-Düşük Serbest Yağ Asidi', detail: 'Hassas hasat ve 22°C soğuk sıkım kanıtı.' },
+              { label: 'E-Vitamini', val: '200+', unit: 'mg/kg', desc: 'Doğal Koruyucu Tokoferol', detail: 'Zeytinin şifasını en saf haliyle sunar.' },
+              { label: 'Peroksit Değeri', val: '< 5.0', unit: 'meqO2', desc: 'Maksimum Oksidasyon Direnci', detail: 'Tazeliğin ve uzun ömürlü kullanımın teminatı.' }
             ].map((stat, i) => (
-              <div key={i} className="relative group p-10 bg-white/[0.01] border border-white/5 hover:border-gold-500/20 transition-all duration-700 overflow-hidden">
-                <div className="absolute top-0 right-0 p-4 font-mono text-[8px] text-gold-500/20 uppercase tracking-widest">METRIC_ID: {i + 1}</div>
-                <p className="text-[10px] text-gold-500/60 font-black uppercase tracking-[0.4em] mb-4">{stat.label}</p>
-                <p className="text-6xl font-serif font-black text-white mb-2 tracking-tighter group-hover:text-gold-400 transition-colors">
+              <div key={i} className="relative group p-12 bg-white/[0.01] border border-white/5 hover:border-gold-500/20 transition-all duration-700 overflow-hidden">
+                <div className="absolute top-0 right-0 p-4 font-mono text-[8px] text-gold-500/20 uppercase tracking-widest">CERT_ID: {i + 1}</div>
+                <p className="text-[10px] text-gold-500/60 font-black uppercase tracking-[0.4em] mb-6">{stat.label}</p>
+                <p className="text-6xl font-serif font-black text-white mb-4 tracking-tighter group-hover:text-gold-400 transition-colors">
                   {stat.val}
                   <span className="text-lg ml-2 opacity-50 font-sans tracking-widest uppercase">{stat.unit}</span>
                 </p>
-                <p className="text-xs text-olive-400 font-bold uppercase tracking-widest opacity-60 italic">{stat.desc}</p>
+                <div className="space-y-4">
+                  <p className="text-xs text-olive-400 font-bold uppercase tracking-widest italic">{stat.desc}</p>
+                  <p className="text-[9px] text-olive-500 font-mono leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-1000">{stat.detail}</p>
+                </div>
                 {/* Corner HUD lines */}
-                <div className="absolute bottom-0 left-0 w-8 h-[2px] bg-gold-500/30"></div>
-                <div className="absolute bottom-0 left-0 w-[2px] h-8 bg-gold-500/30"></div>
+                <div className="absolute bottom-0 left-0 w-12 h-[2px] bg-gold-500/30"></div>
+                <div className="absolute bottom-0 left-0 w-[2px] h-12 bg-gold-500/30"></div>
               </div>
             ))}
           </div>
@@ -314,7 +337,7 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row items-end justify-between mb-32 gap-12">
             <div className="max-w-2xl text-left">
               <span className="text-gold-500 text-xs font-black uppercase tracking-[0.5em] mb-6 block font-mono border-l-4 border-gold-500 pl-6">Collection Catalog 01</span>
-              <h2 className="font-serif text-5xl md:text-8xl font-black text-white leading-tight uppercase tracking-tighter">
+              <h2 className="font-serif text-fluid-h2 font-black text-white leading-tight uppercase tracking-tighter">
                 Hassas <span className="text-gold-400 italic font-light">Seçki</span>
               </h2>
             </div>
@@ -344,13 +367,25 @@ export default function HomePage() {
                     <Image src={product.image} alt={product.name} fill className="object-cover group-hover:scale-125 transition-transform duration-[3000ms] opacity-60 group-hover:opacity-100" />
                     <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-80"></div>
 
-                    {/* HUD Overlay Stats */}
-                    <div className="absolute inset-x-4 top-4 flex justify-between">
-                      <div className="bg-gold-500 text-olive-950 text-[10px] font-black px-4 py-1 tracking-widest uppercase shadow-xl animate-float">
-                        {product.size}
+                    {/* HUD Overlay Stats - Masterpiece Version */}
+                    <div className="absolute inset-0 p-6 flex flex-col justify-between opacity-0 group-hover:opacity-100 transition-all duration-700">
+                      <div className="flex justify-between items-start">
+                        <div className="bg-gold-500 text-olive-950 text-[10px] font-mono font-black px-4 py-2 tracking-widest uppercase">
+                          ID: {product.stats?.polyphenol ? 'PREMIUM_FLUID' : 'SOLID_FRUIT'}
+                        </div>
+                        <div className="bg-black/80 backdrop-blur-md border border-white/10 px-3 py-1 text-[8px] font-mono text-gold-500">
+                          {product.size}
+                        </div>
                       </div>
-                      <div className="text-gold-400 font-mono text-[8px] tracking-widest border border-gold-500/30 px-2 py-1 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-opacity">
-                        SERIAL: LZ-{100 + i}
+
+                      <div className="space-y-2 bg-black/60 backdrop-blur-lg border border-white/10 p-6 translate-y-20 group-hover:translate-y-0 transition-all duration-1000">
+                        {product.stats && Object.entries(product.stats).map(([k, v], idx) => (
+                          <div key={idx} className="flex justify-between items-center text-[8px] font-mono uppercase tracking-widest">
+                            <span className="text-olive-400">{k}:</span>
+                            <span className="text-gold-500">{v}</span>
+                          </div>
+                        ))}
+                        <div className="h-[2px] bg-gold-500/40 w-full mt-4"></div>
                       </div>
                     </div>
 
@@ -401,13 +436,39 @@ export default function HomePage() {
               ))}
             </div>
           </div>
+          {/* [ANNEX_C: SENSORY_PALATE] - Sommelier Notes */}
+          <div className="mt-48 grid lg:grid-cols-2 gap-12">
+            <div className="p-16 bg-white/[0.02] border border-white/5 relative overflow-hidden group">
+              <div className="absolute top-0 left-0 w-2 h-full bg-gold-500/40"></div>
+              <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.5em] mb-8 block">Tadım Profili // Tasting_Notes</span>
+              <h3 className="font-serif text-4xl font-black text-white mb-10 leading-tight">
+                Hasat Duyusu: <br />
+                <span className="italic font-light text-gold-400">Domates Yaprağı & Çağla</span>
+              </h3>
+              <p className="text-olive-300 text-sm leading-relaxed font-light italic opacity-60 mb-10">
+                Erken hasat ürünlerimizde boğazda hissedilen o hafif yakıcılık, içindeki yüksek antioksidan değerinin (E Vitamini ve Polifenol) en doğal göstergesidir.
+              </p>
+              <div className="flex gap-4">
+                {['Taze Çimen', 'Enginar', 'Yeşil Elma'].map((note, i) => (
+                  <div key={i} className="px-4 py-2 border border-white/10 text-[9px] font-mono text-gold-500 uppercase tracking-widest">{note}</div>
+                ))}
+              </div>
+            </div>
+            <div className="relative aspect-video border border-white/5 overflow-hidden">
+              <Image src="/images/extraction-process.png" alt="Process" fill className="object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
+              <div className="absolute inset-0 bg-gradient-to-r from-background to-transparent"></div>
+              <div className="absolute bottom-8 left-8">
+                <p className="text-white font-mono text-[10px] tracking-widest">REAL_TIME_PROCESS: COLD_EXTRACTION_22C</p>
+              </div>
+            </div>
+          </div>
 
           <div className="mt-48 flex justify-center">
             <div className="relative px-12 py-8 bg-white/5 hud-border">
               <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-gold-500 to-transparent animate-pulse"></div>
               <div className="flex items-center gap-8 text-olive-100 font-mono text-xs uppercase tracking-[0.4em]">
-                <span className="text-gold-500 animate-pulse">⚡ ALERT:</span>
-                Toptan alımlarda araç bazlı sevkiyat ve fabrika satış fiyatları sistemde aktiftir
+                <span className="text-gold-500 animate-pulse">⚡ HARVEST_ALERT:</span>
+                2024 Erken Hasat Stokları Kontrollü Olarak Satışa Açılmıştır.
               </div>
             </div>
           </div>
@@ -415,7 +476,58 @@ export default function HomePage() {
       </section>
 
 
-      {/* ===== INDUSTRIAL POWER (WHY US) SECTION ===== */}
+      {/* ===== [PROTOCOL_03: TERROIR_HERITAGE] ===== */}
+      <section className="bg-background py-48 overflow-hidden relative border-b border-white/5 tech-grid">
+        <div className="max-w-[1600px] mx-auto px-6 relative z-10">
+          <div className="grid lg:grid-cols-2 gap-32 items-center">
+            <div className="relative">
+              <div className="hud-border hud-border-tl hud-border-br p-4 bg-white/[0.02]">
+                <div className="relative aspect-[4/5] overflow-hidden">
+                  <Image src="/images/modern-warehouse.png" alt="Terroir" fill className="object-cover grayscale" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+                  {/* Topographic Overlays */}
+                  <div className="absolute inset-x-8 bottom-8 p-10 bg-black/60 backdrop-blur-xl border border-white/10">
+                    <span className="text-gold-500 text-[8px] font-mono font-black uppercase tracking-[0.4em] mb-4 block">Geographic_Data // Aydın_Akhisar</span>
+                    <h3 className="text-3xl font-serif font-black text-white mb-4 uppercase tracking-tighter italic">Toprağın <br /><span className="text-gold-400 font-light">Genetik Mirası</span></h3>
+                    <p className="text-olive-300 text-xs leading-relaxed font-mono opacity-60">Asırlık ağaçların kök saldığı kalkerli toprak yapısı ve poyraz rüzgarlarının yarattığı mikro-klima, her damlada eşsiz bir aroma spektrumu yaratır.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute -top-12 -right-12 w-64 h-64 bg-gold-500/5 blur-[120px] -z-10"></div>
+            </div>
+
+            <div className="space-y-16">
+              <div className="space-y-8 text-left">
+                <span className="text-gold-500 text-xs font-mono font-black uppercase tracking-[0.5em] block border-l-4 border-gold-500 pl-6">Facility_Specs // MOD_04</span>
+                <h2 className="font-serif text-fluid-h2 font-black text-white leading-[0.85] tracking-tighter">
+                  Doğa ve <br />
+                  <span className="italic text-gold-500 font-light font-serif">Mekanik</span>
+                </h2>
+              </div>
+
+              <div className="grid sm:grid-cols-2 gap-12">
+                {[
+                  { label: 'Sürdürülebilirlik', val: 'Zero Waste', desc: 'Sıfır atık prensibiyle üretim döngüsü.' },
+                  { label: 'İzlenebilirlik', val: 'Full Trace', desc: 'Şişe üzerindeki kodla bahçeye kadar takip.' }
+                ].map((item, i) => (
+                  <div key={i} className="space-y-4">
+                    <p className="text-[10px] font-mono text-gold-500/40 uppercase tracking-widest italic">{item.label}</p>
+                    <p className="text-3xl font-serif font-black text-white tracking-tight">{item.val}</p>
+                    <p className="text-olive-300 text-sm leading-relaxed font-light italic opacity-60">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+
+              <Link href="/hakkimizda" className="inline-flex items-center gap-6 group">
+                <div className="h-px w-20 bg-gold-500/40 group-hover:w-40 transition-all"></div>
+                <span className="text-gold-500 font-black text-[11px] uppercase tracking-[0.4em]">Üretim Manifestosunu Oku</span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== [PROTOCOL_04: INDUSTRIAL_INFRASTRUCTURE] ===== */}
       <section className="bg-background py-48 overflow-hidden relative border-b border-white/5 tech-grid">
         <div className="absolute top-0 right-0 w-1/3 h-full opacity-5 pointer-events-none">
           <Image src="/images/modern-warehouse.png" alt="Modern Depo" fill className="object-cover" />
@@ -424,10 +536,10 @@ export default function HomePage() {
 
         <div className="max-w-[1600px] mx-auto px-6 relative z-10">
           <div className="text-left mb-32">
-            <span className="text-gold-400 text-xs font-mono font-black uppercase tracking-[0.5em] mb-6 block border-l-4 border-gold-500 pl-6">MOD_02: INDUSTRIAL_INFRASTRUCTURE</span>
-            <h2 className="font-serif text-5xl md:text-9xl font-black text-white leading-[0.85] tracking-tighter">
-              Geleneksel Lezzet,<br />
-              <span className="italic text-gold-500 font-light font-serif">Endüstriyel Güç</span>
+            <span className="text-gold-400 text-xs font-mono font-black uppercase tracking-[0.5em] mb-6 block border-l-4 border-gold-500 pl-6">PROTOCOL_04: ENTEGRE_URETIM</span>
+            <h2 className="font-serif text-fluid-h2 font-black text-white leading-[0.85] tracking-tighter">
+              Kusursuz <br />
+              <span className="italic text-gold-500 font-light font-serif">Ekstraksiyon</span>
             </h2>
           </div>
 
@@ -436,26 +548,26 @@ export default function HomePage() {
               {[
                 {
                   id: '01',
-                  label: 'Entegre Üretim Tesisi',
-                  desc: 'Aydın ve Akhisar daki bahçelerimizden gelen zeytinler, son teknoloji sıkım tesislerimizde işlenir. Aracı yoktur, doğrudan üretim kalitesi vardır.',
+                  label: 'Bahçeden Fabrikaya',
+                  desc: 'Aydın ve Akhisar daki bahçelerimizden gelen zeytinler, oksidasyonu önlemek için 4 saat içinde sıkım hattına girer.',
                 },
                 {
                   id: '02',
-                  label: 'Gerçek Soğuk Sıkım',
-                  desc: 'Tüm üretim sürecinde ısıyı 27 derecenin altında tutarak zeytinn şifalı bileşenlerini (polifenol) en yüksek seviyede koruyoruz.',
+                  label: 'Azot Altında Dolum',
+                  desc: 'Oksijen temasını kesen azot basma teknolojimizle zeytinyağının o ilk günkü taze meyvemsi aromasını yıllarca koruyoruz.',
                 },
                 {
                   id: '03',
-                  label: 'Private Label & Toptan',
-                  desc: 'Etiketsiz ambalaj seçeneklerimizle kendi markanızı oluşturabilirsiniz. Restoran, otel ve marketler için kesintisiz tedarik sağlıyoruz.',
+                  label: 'Sürekli Kontrol',
+                  desc: 'HACCP ve ISO standartlarında, her lot üretimi için anlık ısı ve basınç takibi ile stabiliteyi garanti ediyoruz.',
                 },
               ].map((item, i) => (
                 <div key={i} className="group relative p-12 bg-white/[0.02] hud-border hud-border-tl hud-border-br transition-all duration-700 hover:bg-white/[0.05]">
                   <div className="absolute top-0 right-0 p-4 font-mono text-[10px] text-gold-500/20">UNIT_ID: {item.id}</div>
-                  <div className="w-20 h-20 bg-gold-500 flex items-center justify-center mb-10 group-hover:scale-110 transition-transform">
+                  <div className="w-20 h-20 bg-gold-500 flex items-center justify-center mb-10 group-hover:scale-110 transition-transform shadow-[0_10px_40px_rgba(234,179,8,0.2)]">
                     <span className="text-olive-950 font-black text-xl italic">{item.id}</span>
                   </div>
-                  <h3 className="text-3xl font-serif font-black text-white mb-6 uppercase tracking-tight group-hover:text-gold-400 transition-colors">{item.label}</h3>
+                  <h3 className="text-3xl font-serif font-black text-white mb-6 uppercase tracking-tight group-hover:text-gold-400 transition-colors leading-tight">{item.label}</h3>
                   <p className="text-olive-200 leading-relaxed text-sm md:text-base font-light italic opacity-60 group-hover:opacity-100 transition-opacity mb-8">{item.desc}</p>
                   <div className="h-0.5 bg-white/10 w-full relative">
                     <div className="absolute inset-0 bg-gold-400 w-0 group-hover:w-full transition-all duration-1000"></div>
@@ -510,7 +622,7 @@ export default function HomePage() {
 
             <div className="space-y-12">
               <span className="text-gold-400 text-xs font-mono font-black uppercase tracking-[0.5em] block border-l-4 border-gold-500 pl-6">MOD_03: GLOBAL_DISTRIBUTION</span>
-              <h2 className="font-serif text-5xl md:text-9xl font-black text-white mb-10 leading-[0.85] tracking-tighter">
+              <h2 className="font-serif text-fluid-h2 font-black text-white mb-10 leading-[0.85] tracking-tighter">
                 81 İle Güçlü <br />
                 <span className="text-gold-400 italic font-light font-serif">Lojistik Ağ</span>
               </h2>
@@ -556,7 +668,7 @@ export default function HomePage() {
         <div className="max-w-[1600px] mx-auto px-6 relative z-10">
           <div className="text-left mb-32">
             <span className="text-gold-400 text-xs font-mono font-black uppercase tracking-[0.5em] mb-6 block border-l-4 border-gold-500 pl-6">RESOURCES // TECHNICAL_ARCHIVE</span>
-            <h2 className="font-serif text-5xl md:text-9xl font-black text-white leading-[0.85] tracking-tighter">
+            <h2 className="font-serif text-fluid-h2 font-black text-white leading-[0.85] tracking-tighter">
               Zeytin Kültürü &<br />
               <span className="italic text-gold-500 font-light font-serif">Bilgi Arşivi</span>
             </h2>
@@ -616,7 +728,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto px-6 text-center relative z-10">
           <div className="hud-border hud-border-tl hud-border-br p-20 bg-white/[0.01] backdrop-blur-3xl border-white/5">
             <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.6em] mb-12 block">DIRECT_ORDER_UPLINK_01</span>
-            <h2 className="font-serif text-6xl md:text-9xl font-black text-white mb-10 leading-[0.85] tracking-tighter">
+            <h2 className="font-serif text-fluid-h2 font-black text-white mb-10 leading-[0.85] tracking-tighter">
               Fabrikadan<br />
               <span className="italic font-light text-gold-400 drop-shadow-[0_0_30px_rgba(234,179,8,0.2)]">Hemen Al</span>
             </h2>

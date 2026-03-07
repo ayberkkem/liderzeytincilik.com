@@ -17,8 +17,8 @@ export default function AboutPage() {
                 </div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4">
                     <Breadcrumb items={[{ label: 'Ana Sayfa', href: '/' }, { label: 'Hakkımızda' }]} />
-                    <h1 className="font-serif text-5xl md:text-7xl font-bold text-white mb-6 uppercase tracking-tight">Köklerimizden <span className="text-gold-400 italic">Geleceğe</span></h1>
-                    <p className="text-olive-100 text-xl max-w-2xl leading-relaxed font-light">
+                    <h1 className="font-serif text-fluid-h1 font-bold text-white mb-6 uppercase tracking-tight leading-none">Köklerimizden <span className="text-gold-400 italic">Geleceğe</span></h1>
+                    <p className="text-olive-100 text-fluid-body max-w-2xl leading-relaxed font-light italic">
                         Ege&apos;nin bereketli topraklarından, nesiller boyu aktarılan tecrübeyle süzülen bir başarı hikayesi.
                     </p>
                 </div>
@@ -33,11 +33,11 @@ export default function AboutPage() {
                             <img src="/images/traditional-harvest.png" alt="Geleneksel Hasat" className="relative rounded-none shadow-2xl border border-white/10" />
                         </div>
                         <div className="order-1 lg:order-2">
-                            <h2 className="text-5xl md:text-6xl font-serif font-black text-white mb-10 leading-tight uppercase tracking-tighter">Zeytine Duyulan <br /><span className="text-gold-400 italic">Derin Saygı</span></h2>
-                            <p className="text-olive-200 leading-relaxed mb-8 text-xl font-light">
+                            <h2 className="text-fluid-h2 font-serif font-black text-white mb-10 leading-[0.85] uppercase tracking-tighter">Zeytine Duyulan <br /><span className="text-gold-400 italic font-light font-serif">Derin Saygı</span></h2>
+                            <p className="text-olive-200 leading-relaxed mb-8 text-fluid-body font-light opacity-80">
                                 Lider Zeytincilik, Ege Bölgesi&apos;nin kalbi Aydın ve Akhisar da temelleri atılan, nesillerdir zeytincilikle uğraşan bir ailenin tecrübesini kurumsal bir yapıya taşıma vizyonuyla kurulmuştur.
                             </p>
-                            <p className="text-olive-300 leading-relaxed mb-12 text-lg font-light italic">
+                            <p className="text-olive-300 leading-relaxed mb-12 text-fluid-body font-light italic opacity-60">
                                 Bizim için zeytin, sadece bir meyve değil; sabrın, bereketin ve sağlığın simgesidir. Bu yüzden her bir taneye, toprağın bize sunduğu en değerli emanet olarak bakıyoruz.
                             </p>
                             <div className="flex gap-6">
@@ -56,7 +56,7 @@ export default function AboutPage() {
 
                     <div className="grid lg:grid-cols-2 gap-20 items-center">
                         <div>
-                            <h2 className="text-5xl md:text-6xl font-serif font-black text-white mb-10 leading-tight uppercase tracking-tighter">Modern Teknoloji <br /><span className="text-olive-500 italic">Saf Üretim</span></h2>
+                            <h2 className="text-fluid-h2 font-serif font-black text-white mb-10 leading-[0.85] uppercase tracking-tighter">Modern Teknoloji <br /><span className="text-gold-400 italic font-light font-serif">Saf Üretim</span></h2>
                             <p className="text-olive-200 leading-relaxed mb-10 text-xl font-light">
                                 Geleneksel yöntemlerin sıcaklığını, modern dünyanın hijyen ve hız standartlarıyla birleştiriyoruz. Aydın ve Akhisar daki tam entegre tesislerimizde, her zeytini kimyasal işlem görmeden, soğuk sıkım teknolojisiyle yağa dönüştürüyoruz.
                             </p>

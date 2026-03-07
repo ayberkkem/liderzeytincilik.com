@@ -58,7 +58,7 @@ export default function Header() {
                                 >
                                     <Link
                                         href={link.href}
-                                        className="px-5 py-3 text-[11px] font-black uppercase tracking-[0.25em] text-olive-100 hover:text-gold-400 rounded-none transition-all flex items-center gap-2 border-b-2 border-transparent hover:border-gold-500/30"
+                                        className="px-3 xl:px-5 py-3 text-[10px] xl:text-[11px] font-black uppercase tracking-[0.15em] xl:tracking-[0.25em] text-white/80 hover:text-gold-400 transition-all flex items-center gap-1 xl:gap-2 border-b-2 border-transparent hover:border-gold-500/30 whitespace-nowrap"
                                     >
                                         {link.label}
                                         {link.children && (
@@ -92,7 +92,7 @@ export default function Header() {
                             href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent('Merhaba, zeytinyağı siparişi vermek istiyorum.')}`}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="hidden lg:inline-flex items-center gap-3 bg-gold-500 hover:bg-gold-600 text-olive-950 px-10 py-4 rounded-none text-xs font-black uppercase tracking-[0.3em] transition-all hover:shadow-[0_0_40px_rgba(234,179,8,0.3)] hover:-translate-y-1 active:scale-95"
+                            className="hidden xl:inline-flex items-center gap-3 bg-gold-500 hover:bg-gold-600 text-olive-950 px-6 xl:px-10 py-3 xl:py-4 rounded-none text-[10px] xl:text-xs font-black uppercase tracking-[0.3em] transition-all hover:shadow-[0_0_40px_rgba(234,179,8,0.3)] hover:-translate-y-1 active:scale-95"
                         >
                             <span className="relative z-10">ORDER_INTERFACE</span>
                         </a>

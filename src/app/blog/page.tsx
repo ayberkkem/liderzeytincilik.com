@@ -17,8 +17,8 @@ export default function BlogPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-olive-950 to-transparent"></div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4">
                     <Breadcrumb items={[{ label: 'Ana Sayfa', href: '/' }, { label: 'Blog' }]} />
-                    <h1 className="font-serif text-5xl md:text-7xl font-black text-white mb-6 uppercase tracking-tighter">Zeytinyağı <span className="text-gold-400 italic">Rehberi</span></h1>
-                    <p className="text-olive-200 text-xl max-w-2xl font-light leading-relaxed italic">
+                    <h1 className="font-serif text-fluid-h1 font-black text-white mb-6 uppercase tracking-tighter leading-none">Zeytinyağı <span className="text-gold-400 italic">Rehberi</span></h1>
+                    <p className="text-olive-200 text-fluid-body max-w-2xl font-light leading-relaxed italic">
                         Tarladan sofraya zeytinyağının hikayesi, bilimsel faydaları ve işletmeler için stratejik ipuçları.
                     </p>
                 </div>

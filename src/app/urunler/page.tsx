@@ -50,8 +50,8 @@ export default function ProductsPage() {
                 </div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4">
                     <Breadcrumb items={[{ label: 'Ana Sayfa', href: '/' }, { label: 'Ürünler' }]} />
-                    <h1 className="font-serif text-5xl md:text-7xl font-bold text-white mb-6 uppercase tracking-tight">Zeytinyağı <span className="text-gold-400">Koleksiyonu</span></h1>
-                    <p className="text-olive-100 text-xl max-w-2xl leading-relaxed">
+                    <h1 className="font-serif text-fluid-h1 font-bold text-white mb-6 uppercase tracking-tight leading-none">Zeytinyağı <span className="text-gold-400">Koleksiyonu</span></h1>
+                    <p className="text-olive-100 text-fluid-body max-w-2xl leading-relaxed italic">
                         Tarladan doğrudan, en saf haliyle. İster 1 litre ister 1000 litre; aradığınız tüm boyutlarda natürel sızma zeytinyağı.
                     </p>
                 </div>
