@@ -111,6 +111,76 @@ export default function HomePage() {
                 <span className="gradient-text italic font-light drop-shadow-[0_0_50px_rgba(234,179,8,0.2)]">COLLECTION</span>
               </h1>
 
+              {/* ===== ELITE AUTHORITY & TRUST BAR - INTEGRATED ===== */}
+              <div className="w-full max-w-5xl mb-16">
+                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 md:gap-6 items-start justify-items-center">
+                  {[
+                    {
+                      img: '/images/trust/iso22000.png',
+                      text: 'ISO 22000',
+                      color: 'border-blue-500/30'
+                    },
+                    {
+                      img: '/images/trust/halal.png',
+                      text: 'Helal Sertifikalı',
+                      color: 'border-emerald-500/30'
+                    },
+                    {
+                      img: '/images/trust/lab.png',
+                      text: 'Lab Analizli',
+                      color: 'border-cyan-500/30'
+                    },
+                    {
+                      img: '/images/trust/shipping.png',
+                      text: 'Ücretsiz Kargo',
+                      color: 'border-amber-500/30'
+                    },
+                    {
+                      img: '/images/trust/ambar.png',
+                      text: 'Ambar Gönderim',
+                      color: 'border-orange-500/30'
+                    },
+                    {
+                      img: '/images/trust/natural.png',
+                      text: '%100 Doğal',
+                      color: 'border-green-500/30'
+                    },
+                    {
+                      icon: (
+                        <svg className="w-8 h-8 md:w-10 md:h-10 text-olive-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      ),
+                      text: 'Toptan Fiyat',
+                      color: 'border-rose-500/30'
+                    },
+                  ].map((badge, i) => (
+                    <div key={i} className="flex flex-col items-center gap-3 group cursor-default">
+                      <div className={`relative w-16 h-16 md:w-20 md:h-20 bg-white rounded-full flex items-center justify-center shadow-xl border-2 ${badge.color} transform transition-all duration-500 group-hover:-translate-y-2 group-hover:scale-110 group-hover:border-gold-400`}>
+                        {badge.img ? (
+                          <div className="relative w-full h-full p-1.5 overflow-hidden rounded-full">
+                            <Image
+                              src={badge.img}
+                              alt={badge.text}
+                              fill
+                              className="object-contain transform transition-transform duration-500 group-hover:scale-110"
+                            />
+                          </div>
+                        ) : (
+                          <div className="flex flex-col items-center justify-center p-2 text-center">
+                            {badge.icon}
+                          </div>
+                        )}
+                        <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent via-white/5 to-white/20 pointer-events-none"></div>
+                      </div>
+                      <span className="text-[8px] md:text-[10px] font-black text-white/70 uppercase tracking-widest text-center leading-tight group-hover:text-gold-400 transition-colors">
+                        {badge.text}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
               <div className="max-w-2xl text-lg md:text-2xl text-olive-100/60 mb-16 font-light leading-relaxed italic border-b-2 border-gold-500/20 pb-8">
                 Ege&apos;nin genetik kodlarını taşıyan, asırlık ağaçlardan süzülen "Sıvı Altın" standardını mekanik kusursuzlukla şişeliyoruz.
               </div>
@@ -148,90 +218,6 @@ export default function HomePage() {
       </section>
 
 
-      {/* ===== ELITE AUTHORITY & TRUST BAR ===== */}
-      <section className="bg-olive-950 border-y border-white/5 relative z-20">
-        <div className="max-w-7xl mx-auto px-4 py-16 lg:py-20">
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6 md:gap-8 items-start justify-items-center">
-            {[
-              {
-                img: '/images/trust/iso22000.png',
-                text: 'ISO 22000',
-                color: 'border-blue-500/30'
-              },
-              {
-                img: '/images/trust/halal.png',
-                text: 'Helal Sertifikalı',
-                color: 'border-emerald-500/30'
-              },
-              {
-                img: '/images/trust/lab.png',
-                text: 'Lab Analizli',
-                color: 'border-cyan-500/30'
-              },
-              {
-                img: '/images/trust/shipping.png',
-                text: 'Ücretsiz Kargo',
-                color: 'border-amber-500/30'
-              },
-              {
-                img: '/images/trust/ambar.png',
-                text: 'Ambar Gönderim',
-                color: 'border-orange-500/30'
-              },
-              {
-                img: '/images/trust/natural.png',
-                text: '%100 Doğal',
-                color: 'border-green-500/30'
-              },
-              {
-                icon: (
-                  <svg className="w-12 h-12 text-olive-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                ),
-                text: 'Toptan Fiyat',
-                color: 'border-rose-500/30'
-              },
-            ].map((badge, i) => (
-              <div key={i} className="flex flex-col items-center gap-5 group cursor-default">
-                {/* Logo Seal Container */}
-                <div className={`relative w-24 h-24 md:w-28 md:h-28 bg-white rounded-full flex items-center justify-center shadow-[0_10px_30px_rgba(0,0,0,0.5)] border-4 ${badge.color} transform transition-all duration-500 group-hover:-translate-y-3 group-hover:scale-110 group-hover:border-gold-400 group-hover:shadow-gold-500/20`}>
-                  {/* Outer Shine Ring */}
-                  <div className="absolute inset-[-4px] rounded-full border border-white/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-
-                  {badge.img ? (
-                    <div className="relative w-full h-full p-2 overflow-hidden rounded-full">
-                      <Image
-                        src={badge.img}
-                        alt={badge.text}
-                        fill
-                        className="object-contain transform transition-transform duration-500 group-hover:scale-125"
-                      />
-                    </div>
-                  ) : (
-                    <div className="flex flex-col items-center justify-center p-4 text-center">
-                      {badge.icon}
-                    </div>
-                  )}
-
-                  {/* Glassy reflection */}
-                  <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent via-white/5 to-white/20 pointer-events-none"></div>
-                </div>
-
-                {/* Text Label */}
-                <div className="flex flex-col items-center gap-2">
-                  <span className="text-[11px] md:text-xs font-black text-white/90 uppercase tracking-widest text-center leading-tight group-hover:text-gold-400 transition-colors drop-shadow-md">
-                    {badge.text}
-                  </span>
-                  <div className="w-8 h-1 bg-gold-500/30 rounded-full overflow-hidden">
-                    <div className="w-0 h-full bg-gold-400 group-hover:w-full transition-all duration-700"></div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section >
 
       {/* ===== UNIFIED PRODUCT MATRIX SECTION ===== */}
       <section className="bg-background py-48 relative border-t border-white/5 overflow-hidden tech-grid" id="products" >
