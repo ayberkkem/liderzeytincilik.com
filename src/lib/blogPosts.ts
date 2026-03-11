@@ -1682,6 +1682,103 @@ Eğer bu süreçle uğraşmak istemiyorsanız, biz sizin için en doğal yöntem
 
 **Üreticiden Uygun Fiyatlı Hazır Zeytin Siparişi:** 0552 382 8456 (WhatsApp)`,
     },
+    {
+        slug: 'zeytinyagi-kalori-ve-faydalari',
+        title: 'Zeytinyağı Kaç Kalori? Diyette Zeytinyağı Tüketimi',
+        metaTitle: 'Zeytinyağı Kalorisi ve Diyet Rehberi | Lider Zeytincilik',
+        metaDescription: '1 yemek kaşığı zeytinyağı kaç kalori? Zeytinyağı kilo aldırır mı? Zayıflamaya yardımcı zeytinyağı kürleri ve diyetisyen önerileri.',
+        excerpt: 'Zeytinyağının kalori değerlerini keşfedin ve kilo kontrolü sürecinde zeytinyağını nasıl tüketmeniz gerektiğini öğrenin.',
+        date: '2025-03-10',
+        readTime: '6 dk',
+        category: 'Sağlık',
+        image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=2000&auto=format&fit=crop',
+        content: `Zeytinyağı, sağlıklı yağlar kategorisinde olsa da enerji yoğunluğu yüksek bir besindir. Peki diyetteyken zeytinyağı tüketimi nasıl olmalı?
+
+## Zeytinyağı Kalori Değerleri
+- **1 Tatlı Kaşığı**: Yaklaşık 40-45 Kalori
+- **1 Yemek Kaşığı**: Yaklaşık 120 Kalori
+- **100 Gram**: Yaklaşık 884 Kalori
+
+## Diyette Neden Zeytinyağı?
+Zeytinyağı içerisindeki oleik asit sayesinde tokluk hissi yaratır. Araştırmalar, makul miktarda zeytinyağı tüketen bireylerin, yağsız diyet yapanlara göre daha kolay kilo verdiğini göstermektedir.
+
+### Diyet İpuçları
+1. **Çiğ Tüketin**: Isıl işlem görmemiş yağın besin değeri daha yüksektir.
+2. **Ölçülü Olun**: Sağlıklı olsa da aşırı tüketim kalori fazlasına neden olabilir.
+3. **Erken Hasat Seçin**: [Erken hasat zeytinyağı](/kategori/erken-hasat-zeytinyagi) polifenol oranı yüksek olduğu için metabolizmayı destekler.
+
+Lider Zeytincilik olarak sağlıklı yaşamı destekleyen düşük asitli [natürel sızma zeytinyağları](/kategori/naturel-sizma-zeytinyagi) üretiyoruz.`,
+    },
+    {
+        slug: 'gercek-zeytinyagi-nasil-anlasilir',
+        title: 'Gerçek Zeytinyağı Nasıl Anlaşılır? Evde 5 Basit Test',
+        metaTitle: 'Gerçek Zeytinyağı Testi | Sahte Yağ Nasıl Anlaşılır?',
+        metaDescription: 'Zeytinyağınızın gerçek olup olmadığını nasıl anlarsınız? Buzdolabı testi, yakıcılık testi ve koku testi gibi evde yapabileceğiniz basit yöntemler.',
+        excerpt: 'Piyasadaki taklit ve tağşiş ürünlerden korunmak için gerçek zeytinyağını ayırt etmenizi sağlayacak profesyonel yöntemler.',
+        date: '2025-03-08',
+        readTime: '10 dk',
+        category: 'Rehber',
+        image: 'https://images.unsplash.com/photo-1473269712320-f24ce5aaaf4a?q=80&w=2000&auto=format&fit=crop',
+        content: `Mutfaktaki altın sıvı zeytinyağı, ne yazık ki dünyada en çok tağşiş edilen ürünlerin başında geliyor. İşte evde yapabileceğiniz basit ama etkili testler:
+
+## 1. Donma (Buzdolabı) Testi
+Zeytinyağını bir bardağa koyup dondurucuya atın. Gerçek zeytinyağı kristalleşerek donmalıdır. Ancak bu tek başına yeterli bir kanıt değildir.
+
+## 2. Koku Testi
+Bardağı elinizle ısıtıp koklayın. Taze çimen, çağla veya domates kokusu almalısınız. Eğer boya, küf veya bayat bir koku geliyorsa o yağdan uzak durun.
+
+## 3. Tadım ve Yakıcılık
+Bir yudum alıp boğazınızda bekletin. Genzi yakan ama mideyi ağrıtmayan bir acılık hissetmelisiniz. Bu, polifenollerin varlığını gösterir.
+
+## 4. Renk Aldatmacadır
+Zeytinyağının kalitesi renginden anlaşılmaz. Renk sadece hasat zamanı ve zeytin cinsine göre değişir.
+
+Lider Zeytincilik olarak tüm ürünlerimizi analiz raporları ile birlikte kapınıza gönderiyoruz.`,
+    },
+    {
+        slug: 'cilt-bakiminda-zeytinyagi-mucizesi',
+        title: 'Cilt Bakımında Zeytinyağı: Doğal Gençlik İksiri',
+        metaTitle: 'Cilt Bakımı İçin Zeytinyağı Rehberi | Lider Zeytincilik',
+        metaDescription: 'Zeytinyağının cilt üzerindeki etkileri nelerdir? Kırışıklık karşıtı maske tarifleri, zeytinyağı ile saç bakımı ve doğal nemlendirici yöntemleri.',
+        excerpt: 'Zeytinyağı sadece sofrada değil, aynanın karşısında da en büyük yardımcınız. Cildinizi besleyen doğal yöntemleri keşfedin.',
+        date: '2025-03-05',
+        readTime: '8 dk',
+        category: 'Kişisel Bakım',
+        image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=2000&auto=format&fit=crop',
+        content: `Mısır kraliçesi Kleopatra’nın güzellik sırlarından biri olan zeytinyağı, günümüzde modern kozmetiğin de vazgeçilmezi.
+
+## Cilt İçin Neden Zeytinyağı?
+Zeytinyağı, insan cildinin ürettiği doğal yağlara (sebum) çok yakın bir yapıdadır. İçeriğindeki E ve K vitaminleri cildin yenilenmesini hızlandırır.
+
+### Kullanım Önerileri
+1. **Doğal Nemlendirici**: Duş sonrası nemli vücudunuza az miktarda uygulayarak ipeksi bir tene sahip olabilirsiniz.
+2. **Kırışıklık Karşıtı**: Göz çevresine hafif tampon hareketlerle uygulanması ince çizgilerin görünümünü azaltmaya yardımcı olur.
+3. **Makyaj Temizleyici**: Suya dayanıklı makyajı bile cildi tahriş etmeden temizler.
+
+**Önemli Not**: Cilt bakımı için mutlaka [soğuk sıkım zeytinyağı](/kategori/soguk-sikim-zeytinyagi) ve katkısız zeytinyağı tercih etmelisiniz.`,
+    },
+    {
+        slug: 'bebek-ek-gidada-zeytinyagi-secimi',
+        title: 'Bebek Ek Gıdasında Zeytinyağı: Hangisi En İyisi?',
+        metaTitle: 'Bebekler İçin Zeytinyağı Rehberi | Ek Gıda Dönemi',
+        metaDescription: 'Bebeklerin ek gıdasına ne zaman zeytinyağı başlanır? Bebekler için hangi zeytinyağı tercih edilmeli? Doktorların önerdiği asit oranları.',
+        excerpt: 'Miniklerin sağlıklı gelişimi için zeytinyağı seçimi kritik önem taşır. Bebeğiniz için en iyisini nasıl seçersiniz?',
+        date: '2025-03-01',
+        readTime: '9 dk',
+        category: 'Bebek',
+        image: 'https://images.unsplash.com/photo-1515488764276-beab7607c1e6?q=80&w=2000&auto=format&fit=crop',
+        content: `Ek gıda dönemine geçen bebekler için zeytinyağı, sağlıklı beyin gelişimi ve sindirim sisteminin düzenli çalışması için vazgeçilmezdir.
+
+## Bebeklere Ne Zaman Zeytinyağı Verilir?
+Doktorunuz aksini belirtmedikçe, 6. aydan itibaren ek gıdalara (çorba, sebze püresi) 1 tatlı kaşığı kadar eklenebilir.
+
+### Bebek Zeytinyağı Nasıl Olmalı?
+1. **Düşük Asit**: Bebeklerin hassas mide ve bağırsak yapısı için asit oranı %0.4'ün altında olan [soğuk sıkım yağlar](/kategori/soguk-sikim-zeytinyagi) idealdir.
+2. **Erken Hasat**: Yüksek polifenol ve vitamin içeriği bebeğinizin bağışıklığını destekler. [Erken hasat koleksiyonumuza](/kategori/erken-hasat-zeytinyagi) göz atabilirsiniz.
+3. **Analiz Raporu**: Kimyasal kalıntı içermediğinden emin olduğunuz, analizli ürünleri tercih edin.
+
+Lider Zeytincilik olarak bebekler için özel sınıflandırılmış düşük asitli [premium zeytinyağı](/urunler/naturel-sizma-klasik) serileri sunuyoruz.`,
+    },
 ];
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

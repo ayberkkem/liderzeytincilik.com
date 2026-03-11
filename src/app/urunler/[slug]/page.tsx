@@ -213,6 +213,168 @@ Türkiye geneli ücretsiz kargo veya ambar gönderim seçenekleri ile 10 litreli
             { question: 'Kargo ile gönderimde bozulma olur mu?', answer: 'Zeytinlerimiz kendi salamura suyu içinde, sızdırmaz ambalajlarda gönderilir. Yolda bozulma riski yoktur.' },
         ],
     },
+    'erken-hasat-soguk-sikim': {
+        slug: 'erken-hasat-soguk-sikim',
+        name: 'Erken Hasat Soğuk Sıkım Zeytinyağı',
+        size: '5 Litre / 18 Litre',
+        title: 'Premium Erken Hasat Soğuk Sıkım Zeytinyağı | Lider Zeytincilik',
+        metaDescription: 'Yüksek polifenollü, düşük asitli erken hasat soğuk sıkım zeytinyağı. Dalından henüz yeşilken toplanan zeytinlerden 27 derecenin altında sıkım. Şifa kaynağı.',
+        h1: 'Premium Erken Hasat Soğuk Sıkım Zeytinyağı',
+        icon: '🍈',
+        content: `Erken hasat soğuk sıkım zeytinyağımız, Ekim ayının başında zeytinler henüz yeşilken ve polifenol seviyesi en yüksek noktadayken toplanan zeytinlerden üretilir. Normal hasada göre daha az yağ verimi sağlansa da, elde edilen yağın kalitesi ve besin değeri çok daha yüksektir.
+
+Hafif yakıcılığı ve meyvemsi aromasıyla karakterize olan bu ürünümüz, özellikle çiğ tüketim için (salatalar, kahvaltılar) önerilir. Kandaki kolesterolü dengeleme, kalp sağlığını koruma ve güçlü antioksidan etkisiyle tam bir şifa kaynağıdır.
+
+Amacımız, Ege'nin bu eşsiz şifasını en saf haliyle sofralarınıza ulaştırmaktır. Üretim sürecinde zeytinler hava ile teması kesilerek, hızlı bir şekilde soğuk sıkım (cold press) yöntemiyle işlenir.`,
+        specs: [
+            { label: 'Hasat Dönemi', value: 'Ekim (Erken Hasat)' },
+            { label: 'Ambalaj', value: 'Teneke' },
+            { label: 'Asit Oranı', value: 'Max %0.3 - %0.4' },
+            { label: 'Tür', value: 'Natürel Sızma / Soğuk Sıkım' },
+            { label: 'Aroma', value: 'Meyvemsi, Taze Çimen, Hafif Yakıcı' },
+            { label: 'Polifenol', value: '350+ mg/kg' },
+        ],
+        usageAreas: [
+            'Kahvaltılarda ekmek banarak tüketim',
+            'Salatalarda sos olarak',
+            'Soğuk mezelerde',
+            'Sabahları aç karnına bir kaşık şifa niyetine',
+            'Bebek ek gıdalarında',
+        ],
+        faq: [
+            { question: 'Erken hasat neden daha pahalı?', answer: 'Yeşil zeytinden daha az yağ çıktığı için maliyeti daha yüksektir ancak besin değeri (polifenol) çok daha fazladır.' },
+            { question: 'Neden yakıcı bir his bırakıyor?', answer: 'Bu yakıcılık zeytinyağının içeriğindeki yüksek antioksidan ve polifenol miktarını gösterir, yağın taze ve kaliteli olduğunun kanıtıdır.' },
+        ],
+    },
+    'endustriyel-seri-zeytinyagi': {
+        slug: 'endustriyel-seri-zeytinyagi',
+        name: 'Endüstriyel Seri Zeytinyağı',
+        size: '18 Litre - 50 Litre',
+        title: 'Toptan Endüstriyel Seri Zeytinyağı | Restoran ve Catering İçin',
+        metaDescription: 'Restoranlar, oteller ve yemek fabrikaları için ekonomik endüstriyel seri zeytinyağı. Sürekli standart kalite, yüksek yanma noktası, uygun fiyat.',
+        h1: 'Ekonomik Endüstriyel Seri Zeytinyağı',
+        icon: '🏭',
+        content: `Endüstriyel seri zeytinyağımız, toplu tüketim yapan işletmelerin hem lezzet hem de maliyet dengesini koruması için özel olarak sınıflandırılmıştır. Restoranlar, oteller, catering firmaları ve gıda üreticileri için ideal bir çözümdür.
+
+Yüksek ısıya dayanıklı yapısı sayesinde hem sıcak yemeklerde hem de soğuk sunumlarda performans kaybı yaşatmaz. Lider Zeytincilik olarak, işletmeniz için yıl boyu sürdürülebilir, standart kalite ve uygun fiyat garantisi sunuyoruz.
+
+18 litrelik büyük teneke ambalajlar veya talep edilmesi durumunda IBC tanklar ile dökme olarak sevk edilebilmektedir. 81 il geneli ambar gönderimi veya kendi filomuzla lojistik destek sağlıyoruz.`,
+        specs: [
+            { label: 'Ambalaj', value: '18 Lt Teneke / IBC Tank' },
+            { label: 'Tür', value: 'Natürel Birinci / Riviera' },
+            { label: 'Hacim', value: 'Toptan / Endüstriyel' },
+            { label: 'Asit Oranı', value: 'Max %1.5 - %2.0' },
+            { label: 'Kullanım', value: 'Yemeklik / Kızartmalık' },
+            { label: 'Stok Kalitesi', value: 'Sürekli ve Standart' },
+        ],
+        usageAreas: [
+            'Sıcak sulu yemekler',
+            'Hamur işleri ve pastaneler',
+            'Kızartmalar ve soslar',
+            'Toplu yemek üretimi (Catering)',
+            'Otel açık büfeleri',
+        ],
+        faq: [
+            { question: 'Toptan alımlarda indirim oluyor mu?', answer: 'Evet, koli ve palet bazlı alımlarda fabrika çıkış fiyatları üzerinden özel iskontolar uygulanmaktadır.' },
+            { question: 'Numune gönderimi yapıyor musunuz?', answer: 'İşletmeler için ücretli/ücretsiz numune seçeneklerimiz mevcuttur. Lütfen kurumsal hat üzerinden ulaşın.' },
+        ],
+    },
+    'gemlik-salamura-siyah-zeytin': {
+        slug: 'gemlik-salamura-siyah-zeytin',
+        name: 'Gemlik Salamura Siyah Zeytin',
+        size: '2 Kg - 5 Kg - 10 Kg',
+        title: 'Geleneksel Gemlik Salamura Siyah Zeytin | Lider Zeytincilik',
+        metaDescription: 'Doğal salamura yöntemiyle 6-9 ayda olgunlaşan Gemlik tipi siyah zeytin. Kimyasal içermez, ince kabuklu, küçük çekirdekli ve tam yağlı.',
+        h1: 'Geleneksel Gemlik Salamura Siyah Zeytin',
+        icon: '🖤',
+        content: `Gemlik tipi siyah zeytinimiz, dalında tamamen karardıktan sonra toplanan ve sadece kaya tuzu, su ve mısırözü yağı (koruyucu olarak üst katmana) kullanılarak hazırlanan doğal bir üründür. 
+
+Kimyasal karartıcı (oksidasyon) veya kostik gibi hızlandırıcı yöntemler kesinlikle kullanılmaz. Zeytinlerimiz, "Baskı" veya "Salamura" yöntemleriyle havuzlarda 6 ile 9 ay arasında kendi hızıyla olgunlaşır. Bu süreç, zeytindeki acılığın doğal yolla atılmasını ve eşsiz aromasının korunmasını sağlar.
+
+İnce kabuklu yapısı ve çekirdeğinden kolayca ayrılan etiyle Gemlik (Trilye) zeytini, sofralarınızın vazgeçilmezi olacak.`,
+        specs: [
+            { label: 'Üretim Biçimi', value: 'Doğal Salamura Fermente' },
+            { label: 'Kalibre', value: '2XS - XS - S - M - L - XL' },
+            { label: 'Tuz Rejimi', value: '%6 - %8 (Az Tuzlu)' },
+            { label: 'Olgunlaşma', value: '6 - 9 Ay' },
+            { label: 'Katkı Maddesi', value: 'İçermez (Boya/Kostik Yok)' },
+            { label: 'Menşei', value: 'Marmara / Ege Bölgesi' },
+        ],
+        usageAreas: [
+            'Geleneksel Türk kahvaltısı',
+            'Meze tabakları',
+            'Salatalar',
+            'Hamur işleri (zeytinli ekmek/açma)',
+        ],
+        faq: [
+            { question: 'Zeytinlerin çekirdeği neden kahverengi?', answer: 'Zeytinin çekirdeğinin kahverengi olması, o zeytinin boya içermediğinin ve doğal yollarla olgunlaştığının en önemli kanıtıdır.' },
+            { question: 'Tuz oranını nasıl düşürürüm?', answer: 'Yemeden önce bir süre ılık suda bekleterek tuz oranını damak tadınıza göre ayarlayabilirsiniz.' },
+        ],
+    },
+    'kirma-yesil-zeytin': {
+        slug: 'kirma-yesil-zeytin',
+        name: 'Kırma Yeşil Zeytin (Ayvalık/Domat)',
+        size: '1 Kg - 2 Kg - 5 Kg',
+        title: 'Taze Kırma Yeşil Zeytin | Çıtır ve Doğal Lezzet',
+        metaDescription: 'Sezonun ilk hasadı taze kırma yeşil zeytin. Limon suyu ve kaya tuzu ile hazırlanan geleneksel lezzet. Katkısız, el yapımı kıvamında yeşil zeytin.',
+        h1: 'Hasadın İlk Günü: Kırma Yeşil Zeytin',
+        icon: '🔨',
+        content: `Kırma yeşil zeytin, hasadın en taze ve "en diri" halidir. Erken hasat döneminde toplanan sert zeytinlerin taşla veya mekanik olarak kırılarak acı suyundan arındırılması ve ardından kaya tuzlu, limonlu salamuraya yatırılmasıyla elde edilir.
+
+Bizim kırma zeytinlerimizi diğerlerinden ayıran, çıtır yapısı ve zeytinin meyvemsi tadının baskın olmasıdır. İçeriğinde limon asidi yerine gerçek limon suları kullanılır. Kısa süreli tüketim için en ideal ve en ferah zeytin çeşididir.
+
+İster kahvaltıda zeytinyağı ve kekik ile, ister peynir yanında sunumlarınızda yer verin; Lider Zeytincilik kalitesini her ısırıkta hissedeceksiniz.`,
+        specs: [
+            { label: 'Çeşit', value: 'Ayvalık / Domat' },
+            { label: 'Hazırlanış', value: 'Kırma (El Kırması Tadında)' },
+            { label: 'Hasat', value: 'Eylül - Ekim (Taze Hasat)' },
+            { label: 'Tat Profili', value: 'Hafif Ekşi, Çıtır, Taze' },
+            { label: 'Paketleme', value: 'PET / Cam Kavanoz' },
+            { label: 'Koruyucu', value: 'Limon Suyu, Tuz, Su' },
+        ],
+        usageAreas: [
+            'Geleneksel kahvaltılar',
+            'Zeytinyağı, pul biber ve kekikli meze sunumları',
+            'Ara öğünler',
+            'Piknikler (Pratik ambalaj)',
+        ],
+        faq: [
+            { question: 'Kırma zeytin neden yumuşar?', answer: 'Hava alan zeytin veya salamura suyu azalan zeytin yumuşayabilir. Daima suyunun içinde saklamanızı öneririz.' },
+            { question: 'Acılığı neden tam gitmemiş?', answer: 'Kırma zeytinde hafif bir acımtıraklık zeytinin doğallığını ve tazeliğini temsil eder. Sevenleri için en makbul hali budur.' },
+        ],
+    },
+    'naturel-sizma-klasik': {
+        slug: 'naturel-sizma-klasik',
+        name: 'Natürel Sızma Klasik Zeytinyağı',
+        size: '1-2-5-10-18 Litre',
+        title: 'Klasik Natürel Sızma Zeytinyağı | Her Yemeğe Uygun Lezzet',
+        metaDescription: 'Lider Zeytincilik klasik seri natürel sızma zeytinyağı. Dengeli aroması ve düşük asit oranıyla hem sıcak yemeklerde hem soğuklarda kusursuz sonuç.',
+        h1: 'Natürel Sızma Klasik Zeytinyağı',
+        icon: '🌿',
+        content: `Klasik Natürel Sızma Zeytinyağımız, hasat sezonunun ortasında tam olgunluğa erişmiş zeytinlerden elde edilir. Erken hasadın keskin yakıcılığı ile riviera serisinin yumuşaklığı arasında mükemmel bir köprü kurar.
+
+Hafif meyvemsi tadı ve dengeli asit oranı sayesinde mutfağın her alanında kullanılabilen çok amaçlı (all-purpose) bir zeytinyağıdır. Sıcak yemeklerinize lezzet katar, soğuk mezelerinizde ise zeytinyağı kokusunu baskın olmadan hissettirir.
+
+Üretimimiz tamamen mekanik yöntemlerle ve ısıl işlem görmeden gerçekleştirilir. Lider Zeytincilik güvencesiyle, fabrikadan doğrudan kapınıza en taze haliyle ulaştırılır.`,
+        specs: [
+            { label: 'Hasat Zamanı', value: 'Kasım - Aralık' },
+            { label: 'Tür', value: 'Natürel Sızma' },
+            { label: 'Asit Oranı', value: 'Max %0.5 - %0.8' },
+            { label: 'Aroma', value: 'Dengeli Meyvemsi' },
+            { label: 'Ambalaj', value: 'Şişe / Teneke / PET' },
+        ],
+        usageAreas: [
+            'Tüm sıcak yemekler',
+            'Günlük salata ve mezeler',
+            'Zeytinyağı kızartmaları',
+            'Kahvaltılık sunumlar',
+            'Pastane ve unlu mamuller',
+        ],
+        faq: [
+            { question: 'Yemeklerde kullanımı uygun mu?', answer: 'Evet, klasik sızma serimiz hem aroması hem de yanma noktasıyla tüm sıcak yemekler için en ideal seçimdir.' },
+            { question: 'Donuyor olması gerçek olduğunu mu gösterir?', answer: 'Zeytinyağının +4 derece civarında donması, yağın içindeki trigliserid yapısını gösterir ve genellikle kalitenin bir işaretidir ancak tek başına kanıt değildir.' },
+        ],
+    },
 };
 
 const productImages: Record<string, string> = {
@@ -221,6 +383,11 @@ const productImages: Record<string, string> = {
     '10-lt-zeytinyagi': '/images/factory-pallets.png',
     'gemlik-siyah-zeytin': '/images/categories/black-olives.png',
     'domat-yesil-zeytin': '/images/categories/green-olives.png',
+    'erken-hasat-soguk-sikim': '/images/tins-in-grove.png',
+    'naturel-sizma-klasik': '/images/tins-in-grove.png',
+    'endustriyel-seri-zeytinyagi': '/images/factory-pallets.png',
+    'gemlik-salamura-siyah-zeytin': '/images/categories/black-olives.png',
+    'kirma-yesil-zeytin': '/images/categories/green-olives.png',
 };
 
 
@@ -240,6 +407,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             title: product.title,
             description: product.metaDescription,
             type: 'website',
+            images: [{ url: productImages[slug] || '/images/product-tin-5l.jpg', width: 1200, height: 630, alt: product.name }],
+        },
+        alternates: {
+            canonical: `${siteConfig.url}/urunler/${slug}`,
         },
     };
 }
@@ -254,12 +425,15 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         '@type': 'Product',
         name: product.name,
         description: product.metaDescription,
+        image: `${siteConfig.url}${productImages[slug] || '/images/product-tin-5l.jpg'}`,
         brand: { '@type': 'Brand', name: 'Lider Zeytincilik' },
         manufacturer: { '@type': 'Organization', name: 'Lider Zeytincilik' },
+        url: `${siteConfig.url}/urunler/${slug}`,
         offers: {
             '@type': 'Offer',
             availability: 'https://schema.org/InStock',
             priceCurrency: 'TRY',
+            url: `${siteConfig.url}/urunler/${slug}`,
             seller: { '@type': 'Organization', name: 'Lider Zeytincilik' },
         },
         category: 'Zeytinyağı',

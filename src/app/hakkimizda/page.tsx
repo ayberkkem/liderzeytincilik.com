@@ -5,6 +5,9 @@ import { siteConfig } from '@/lib/siteConfig';
 export const metadata: Metadata = {
     title: 'Hakkımızda | Lider Zeytincilik',
     description: 'Lider Zeytincilik olarak Ege\'nin bereketli topraklarında geleneksel ve modern yöntemleri birleştirerek en kaliteli zeytinyağını üretiyoruz. Hikayemiz ve vizyonumuz.',
+    alternates: {
+        canonical: 'https://liderzeytincilik.com/hakkimizda',
+    },
 };
 
 export default function AboutPage() {

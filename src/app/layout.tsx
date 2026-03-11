@@ -94,6 +94,23 @@ export default function RootLayout({
     },
   };
 
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: siteConfig.name,
+    url: siteConfig.url,
+    description: siteConfig.description,
+    inLanguage: 'tr-TR',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${siteConfig.url}/blog?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
   return (
     <html lang="tr">
       <head>
@@ -120,6 +137,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
       <body className="antialiased">

@@ -6,6 +6,9 @@ import { cities } from '@/lib/cities';
 export const metadata: Metadata = {
     title: 'Hizmet Bölgelerimiz | Üreticiden Uygun Fiyatlı Zeytinyağı 81 İl',
     description: 'Lider Zeytincilik olarak Türkiye\'nin 81 iline üreticiden doğrudan, uygun fiyatlı ve kaliteli zeytinyağı gönderimi yapıyoruz. İstanbul, Ankara, İzmir ve tüm illerimiz için tıklayın.',
+    alternates: {
+        canonical: 'https://liderzeytincilik.com/bolgeler',
+    },
 };
 
 export default function RegionsPage() {

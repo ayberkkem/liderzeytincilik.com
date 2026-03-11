@@ -646,6 +646,131 @@ Zeytin tanelerinin üzerine jiletle çizikler atılarak salamuraya bırakılan, 
             { question: 'Zeytinlerin suyu neden bulanık görünüyor?', answer: 'Doğal fermente zeytinlerde suyun hafif bulanık olması normaldir. Bu, zeytinin kendi özsuyunun ve faydalı bakterilerin suya geçmesinden kaynaklanır.' }
         ]
     },
+    {
+        slug: 'erken-hasat-zeytinyagi',
+        name: 'Erken Hasat Zeytinyağı',
+        title: 'Erken Hasat Soğuk Sıkım Zeytinyağı Fiyatları | Lider Zeytincilik',
+        metaDescription: 'En taze hasat! Ekim ayı başında toplanan yeşil zeytinlerden üretilen erken hasat soğuk sıkım zeytinyağı. Düşük asit, yüksek polifenol. Üreticiden uygun fiyat.',
+        h1: 'Erken Hasat Soğuk Sıkım Zeytinyağı',
+        shortDescription: 'Zeytinler henüz yeşilken toplanan, meyvemsi aroması en yüksek seviyede olan premium zeytinyağı.',
+        image: '/images/tins-in-grove.png',
+        content: `## Erken Hasat Zeytinyağı Nedir?
+
+Erken hasat zeytinyağı, zeytinlerin tam olgunluğa erişmeden, henüz yeşil renkteyken (genellikle Eylül sonu - Ekim başı) toplanıp işlenmesiyle elde edilen zeytinyağıdır. Bu dönemde zeytinlerin içindeki yağ oranı düşük ancak besin değerleri, antioksidanlar ve polifenoller en yüksek seviyededir.
+
+### Neden Erken Hasat?
+
+- **Daha Fazla Polifenol**: Sağlık için kritik olan antioksidanlar yeşil zeytinde çok daha yoğundur.
+- **Eşsiz Aroma**: Taze çimen, çağla, domates yaprağı ve yeşil elma notaları baskındır.
+- **Düşük Asit**: Erken toplanan zeytinlerin asit oranı genellikle %0.3-0.4 bandındadır.
+- **Şifa Kaynağı**: Özellikle çiğ tüketim için (kahvaltı, salata) tavsiye edilen en kaliteli yağdır.
+
+Lider Zeytincilik olarak, Aydın bahçelerimizden özenle topladığımız yeşil zeytinlerimizi aynı gün içinde 27 derecenin altında soğuk sıkım yöntemiyle işliyoruz.`,
+        faq: [
+            { question: 'Erken hasat zeytinyağı neden yakıcıdır?', answer: 'Boğazda hissedilen yakıcılık, yağın içindeki yüksek polifenol (antioksidan) miktarından kaynaklanır ve kalite göstergesidir.' },
+            { question: 'Zeytinyağı rengi neden daha koyu yeşil?', answer: 'Yeşil zeytindeki klorofil miktarı yüksek olduğu için erken hasat yağlar başlangıçta daha belirgin bir yeşil renge sahiptir.' }
+        ]
+    },
+    {
+        slug: 'polifenol-zeytinyagi',
+        name: 'Yüksek Polifenollü Zeytinyağı',
+        title: 'Yüksek Polifenollü Zeytinyağı (Sağlık İksiri) | Lider Zeytincilik',
+        metaDescription: 'Yüksek polifenollü zeytinyağı ile sağlığınızı koruyun. 400+ mg/kg polifenol değerine sahip analizli şifa kaynağı zeytinyağları üreticiden kapınıza.',
+        h1: 'Yüksek Polifenollü (Analizli) Zeytinyağı',
+        shortDescription: 'Antioksidan değeri en üst seviyede tutulmuş, laboratuvar onaylı şifalı zeytinyağı.',
+        image: '/images/trust/lab.png',
+        content: `## Polifenol Nedir ve Neden Önemlidir?
+
+Polifenoller, zeytinyağında bulunan ve bitkinin kendisini dış etkenlerden korumak için ürettiği doğal antioksidanlardır. İnsan vücudunda serbest radikallerle savaşarak hücre onarımına yardımcı olur, kalp-damar sağlığını destekler ve bağışıklık sistemini güçlendirir.
+
+### Lider Zeytincilik Polifenol Standartları
+
+Ürettiğimiz özel seri yüksek polifenollü zeytinyağlarımız:
+1. **Analizli**: Polifenol değerleri laboratuvar tetkikleri ile belgelenmiştir.
+2. **Soğuk Sıkım**: Polifenollerin ısıdan zarar görmemesi için 24-26 derecede sıkılmıştır.
+3. **Krom Tanklarda Koruma**: Oksijen temasını kesen azotlu krom tanklarda muhafaza edilmektedir.
+
+Hastalıklarla mücadelede destekleyici olarak ve çocukların gelişim döneminde "tek ilaçsız takviye" olarak güvenle kullanılabilir.`,
+        faq: [
+            { question: 'Polifenol oranı ne kadar olmalı?', answer: 'Sağlık beyanı için genellikle 250 mg/kg üzeri polifenol yeterli görülür. Premium serilerimizde bu değer 450-500 mg/kg seviyelerine çıkmaktadır.' },
+            { question: 'Nasıl tüketilmelidir?', answer: 'Besin değerinden tam faydalanmak için sabahları aç karnına bir yemek kaşığı çiğ olarak tüketilmesi önerilir.' }
+        ]
+    },
+    {
+        slug: 'etiketsiz-zeytinyagi',
+        name: 'Etiketsiz Zeytinyağı',
+        title: 'Toptan Etiketsiz Zeytinyağı (Private Label) | Lider Zeytincilik',
+        metaDescription: 'Kendi markasını yaratmak isteyenlere etiketsiz 5 Lt, 10 Lt, 18 Lt teneke zeytinyağı. Fabrikadan direkt, yüksek kaliteli, analizli dökme zeytinyağı.',
+        h1: 'Toptan Etiketsiz (Dökme) Zeytinyağı',
+        shortDescription: 'Private label (kendi markanı oluştur) sistemine uygun, yüksek kaliteli etiketsiz ambalajlar.',
+        image: '/images/factory-pallets.png',
+        content: `## Kendi Markanızı Lider Zeytincilik ile Kurun
+
+Zeytinyağı sektörüne girmek istiyor ancak üretim tesisi maliyetleriyle uğraşmak istemiyorsanız 'Etiketsiz Ürün' seçeneğimiz tam size göre. Ege'nin en kaliteli zeytinyağlarını, isterseniz 5 litrelik tenekelerde, isterseniz daha büyük hacimlerde etiketsiz olarak kapınıza getiriyoruz.
+
+### Etiketsiz Zeytinyağı Avantajları
+
+1. **Marka Özgürlüğü**: Ürünlerin üzerine kendi logo ve marka etiketinizi yapıştırarak satışa sunabilirsiniz.
+2. **Düşük Başlangıç Maliyeti**: Fabrika yatırımı yapmadan kendi zeytinyağı markanıza sahip olursunuz.
+3. **Sürekli Kalite**: Lider Zeytincilik olarak sürdürülebilir kalite garantisi veriyoruz.
+4. **Analiz Desteği**: Ürünlerimiz laboratuvar analizlerinden geçirilmiş, satışa hazır ürünlerdir.
+
+Oteller, restoranlar ve gurme şarküteriler için en karlı iş modeli budur.`,
+        faq: [
+            { question: 'Minimum alım miktarı nedir?', answer: 'Etiketsiz ürünlerde palet bazlı veya koli bazlı alımlarda özel fiyatlandırma yapıyoruz. Detaylı bilgi için WhatsApp üzerinden ulaşabilirsiniz.' },
+            { question: 'Ambalaj seçenekleri nelerdir?', answer: '1 litreden 18 litreye kadar teneke, PET ve cam şişe seçeneklerimiz mevcuttur.' }
+        ]
+    },
+    {
+        slug: 'sofralik-zeytinyagi',
+        name: 'Sofralık Yemeklik Zeytinyağı',
+        title: 'Ekonomik Sofralık Yemeklik Zeytinyağı Fiyatları | Lider Zeytincilik',
+        metaDescription: 'Her yemeğe lezzet katan, yüksek ısıya dayanıklı ekonomik sofralık zeytinyağı çeşitleri. 5 Lt ve 10 Lt ambalaj seçenekleriyle üreticiden kapınıza.',
+        h1: 'Lezzetli Sofralık Yemeklik Zeytinyağı',
+        shortDescription: 'Hem sıcak yemeklerde hem soğuk sunumlarda kullanabileceğiniz dengeli ve ekonomik zeytinyağı.',
+        image: '/images/filling-conveyor.png',
+        content: `## Sofraların Vazgeçilmezi: Yemeklik Zeytinyağı
+
+Her mutfağın kalbi zeytinyağıdır. Lider Zeytincilik olarak, sadece salatalarda değil, tüm sıcak sulu yemeklerde, kızartmalarda ve hamur işlerinde güvenle kullanabileceğiniz 'Sofralık' serimizi geliştirdik.
+
+### Neden Yemeklik Serimiz?
+
+- **Dengeli Tat**: Ne çok keskin ne de çok hafif; yemeklerin tadını örtmeyen mükemmel denge.
+- **Yüksek Isı Dayanımı**: Rafinasyon ve doğal harman dengesiyle kızartmalarda dumanlama yapmaz.
+- **Ekonomik Ambalaj**: 5, 10 ve 18 litrelik boyutlarla mutfak bütçenizi korur.
+- **Besleyici**: Diğer bitkisel yağlara (çiçek, mısır) oranla çok daha sağlıklı bir bitiş sağlar.
+
+Sulu yemeklerden pilavlara, kızartmalardan böreklerinize kadar Ege'nin hafifliğini sofranıza taşıyın.`,
+        faq: [
+            { question: 'Sofralık yağ sızma mı riviera mı?', answer: 'Sofralık serimiz genellikle asidi düzenlenmiş doğal harmanlardan oluşur, bu sayede hem hafif hem de dayanıklıdır.' },
+            { question: 'Kızartma kokusu yapar mı?', answer: 'Ürünlerimiz koku yapmayan, temiz sıkım teknikleriyle üretilmiştir.' }
+        ]
+    },
+    {
+        slug: 'memecik-zeytinyagi',
+        name: 'Memecik Zeytinyağı',
+        title: 'Gerçek Memecik Zeytinyağı (Aydın) Fiyatları | Lider Zeytincilik',
+        metaDescription: 'Aydın yöresinin karakteristik Memecik cinsi zeytinlerinden üretilen, AB tescilli, meyvemsi ve aromatik Memecik zeytinyağı. Üreticiden taze sıkım.',
+        h1: 'Aydın&apos;ın Mirası: Memecik Zeytinyağı',
+        shortDescription: 'Avrupa Birliği tescilli, yüksek fenolik bileşenlere sahip Aydın yöresinin karakteristik zeytinyağı.',
+        image: '/images/tins-in-grove.png',
+        content: `## Memecik Zeytinyağı: Ege'nin Gururu
+
+Memecik zeytini, özellikle Aydın ve Muğla (Güney Ege) bölgelerinde yetişen, hem sofralık hem de yağlık olarak dünyanın en kaliteli zeytin çeşitlerinden biri olarak kabul edilir. Lider Zeytincilik olarak bahçelerimizdeki asırlık Memecik ağaçlarımızdan en saf yağı süzüyoruz.
+
+### Memecik Zeytinyağının Ayırıcı Özellikleri
+
+- **Yoğun Meyvemsilik**: Domates sapı, çağla ve taze ot kokularını en derin şekilde hissedersiniz.
+- **Yüksek Besin Değeri**: Analizlerde diğer çeşitlere göre genellikle daha yüksek polifenol değerleri sunar.
+- **Altın Sarısı Renk**: Olgun hasatta altın sarısı, erken hasatta canlı bir yeşil renge sahiptir.
+- **AB Tescili**: Aydın Memecik Zeytinyağı, Avrupa Birliği'nden coğrafi işaret tescili almış nadir lezzetlerden biridir.
+
+Gerçek bir gurme deneyimi ve şifa niyetine bir zeytinyağı arıyorsanız, Memecik serimizi mutlaka denemelisiniz.`,
+        faq: [
+            { question: 'Memecik yağının tadı nasıldır?', answer: 'Memecik yağı aromatik olarak çok zengindir. Ağızda bıraktığı o meyvemsi tat ve boğazdaki hafif yakıcılık onun karakteridir.' },
+            { question: 'Hangi yemeklerde kullanılır?', answer: 'Özellikle zeytinyağlı Ege yemeklerinde ve taze otlarla hazırlanan mezelerde lezzeti zirveye taşır.' }
+        ]
+    },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {

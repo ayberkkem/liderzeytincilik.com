@@ -5,6 +5,9 @@ import { siteConfig } from '@/lib/siteConfig';
 export const metadata = {
     title: 'Toptan Zeytinyağı Satışı & Restoran Tedarik Rehberi | Lider Zeytincilik',
     description: 'Oteller, restoranlar ve işletmeler için fabrikadan doğrudan toptan zeytinyağı tedariği. Private label seçenekleri, teneke bazlı fiyatlandırma ve 81 il lojistik ağı.',
+    alternates: {
+        canonical: 'https://liderzeytincilik.com/toptan-zeytinyagi-satisi',
+    },
 };
 
 const b2bBenefits = [

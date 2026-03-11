@@ -4,11 +4,14 @@ import Breadcrumb from '@/components/Breadcrumb';
 import { siteConfig } from '@/lib/siteConfig';
 
 export const metadata: Metadata = {
-    title: 'Zeytinyağı Ürünleri | 1 Lt, 5 Lt, 10 Lt Zeytinyağı',
-    description: 'Lider Zeytincilik zeytinyağı ürünleri. 1 Lt, 5 Lt ve 10 Lt ambalaj seçeneklerinde soğuk sıkım natürel sızma zeytinyağı. Etiketsiz ambalaj, ücretsiz kargo.',
+    title: 'Zeytinyağı Ürünleri ve Fiyatları | 1 Lt, 5 Lt, 10 Lt Zeytinyağı',
+    description: 'Lider Zeytincilik zeytinyağı ürünleri ve fiyatları. 1 Lt, 5 Lt ve 10 Lt ambalaj seçeneklerinde soğuk sıkım natürel sızma zeytinyağı. Etiketsiz ambalaj, ücretsiz kargo.',
     openGraph: {
-        title: 'Zeytinyağı Ürünleri | Lider Zeytincilik',
+        title: 'Zeytinyağı Ürünleri ve Fiyatları | Lider Zeytincilik',
         description: 'Lider Zeytincilik zeytinyağı ürünleri. 1 Lt, 5 Lt ve 10 Lt ambalaj seçenekleri.',
+    },
+    alternates: {
+        canonical: 'https://liderzeytincilik.com/urunler',
     },
 };
 

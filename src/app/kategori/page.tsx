@@ -7,6 +7,9 @@ import { categories } from '@/lib/categories';
 export const metadata: Metadata = {
     title: 'Zeytinyağı Kategorileri | Tüm Zeytinyağı Çeşitleri',
     description: 'Natürel sızma, soğuk sıkım, riviera, organik zeytinyağı ve daha fazlası. Lider Zeytincilik zeytinyağı kategorileri. Toptan ve perakende satış.',
+    alternates: {
+        canonical: 'https://liderzeytincilik.com/kategori',
+    },
 };
 
 export default function CategoriesPage() {

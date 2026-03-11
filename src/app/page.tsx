@@ -24,7 +24,7 @@ const products = [
   {
     name: 'Restoran & Otel Serisi',
     desc: 'Gastronomi profesyonelleri için tasarlanmış, yüksek ısı değerine dayanıklı ve aroma kalitesi korunmuş endüstriyel ambalaj.',
-    href: '/urunler/endustriyel-seri',
+    href: '/urunler/endustriyel-seri-zeytinyagi',
     image: '/images/factory-pallets.png',
     size: '10 Lt // 18 Lt',
     stats: { polyphenol: '200+ mg/kg', acid: '0.8%', vitamin: 'Balanced' }

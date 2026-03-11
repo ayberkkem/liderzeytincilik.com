@@ -6,6 +6,9 @@ import { blogPosts } from '@/lib/blogPosts';
 export const metadata: Metadata = {
     title: 'Blog | Zeytinyağı Rehberi ve Bilgileri',
     description: 'Zeytinyağı hakkında her şey: Üretim süreçleri, sağlık faydaları, saklama koşulları ve doğru zeytinyağı seçimi için kapsamlı rehberler.',
+    alternates: {
+        canonical: 'https://liderzeytincilik.com/blog',
+    },
 };
 
 export default function BlogPage() {

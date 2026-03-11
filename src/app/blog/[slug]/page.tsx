@@ -51,8 +51,36 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
     const relatedPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 3);
 
+    const articleSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: post.title,
+        description: post.metaDescription,
+        image: post.image.startsWith('http') ? post.image : `https://${siteConfig.domain}${post.image}`,
+        datePublished: post.date,
+        dateModified: post.date,
+        author: {
+            '@type': 'Organization',
+            name: siteConfig.name,
+            url: siteConfig.url,
+        },
+        publisher: {
+            '@type': 'Organization',
+            name: siteConfig.name,
+            logo: {
+                '@type': 'ImageObject',
+                url: `${siteConfig.url}/favicon.png`,
+            },
+        },
+        mainEntityOfPage: {
+            '@type': 'WebPage',
+            '@id': `${siteConfig.url}/blog/${slug}`,
+        },
+    };
+
     return (
         <>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
             <article className="bg-white">
                 <section className="relative h-[60vh] min-h-[400px] overflow-hidden flex items-center">
                     <img
