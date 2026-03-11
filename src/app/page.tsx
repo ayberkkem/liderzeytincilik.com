@@ -226,18 +226,18 @@ export default function HomePage() {
         <div className="absolute bottom-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-gold-500/30 to-transparent"></div>
 
         <div className="max-w-[1700px] mx-auto px-6 relative z-10">
-          <div className="flex flex-col md:flex-row items-end justify-between mb-32 gap-12">
-            <div className="max-w-2xl text-left">
-              <span className="text-gold-500 text-xs font-black uppercase tracking-[0.5em] mb-6 block font-mono border-l-4 border-gold-500 pl-6">Ü ürün Katalogu</span>
-              <h2 className="font-serif text-fluid-h2 font-black text-white leading-tight uppercase tracking-tighter">
-                Hassas <span className="text-gold-400 italic font-light">Seçki</span>
+          <div className="flex flex-col items-center justify-center text-center mb-32 gap-8">
+            <div className="max-w-4xl">
+              <span className="text-gold-500 text-xs md:text-sm font-black uppercase tracking-[0.6em] mb-8 block font-sans opacity-80">
+                Mükemmeliyetin İmzası
+              </span>
+              <h2 className="font-serif text-fluid-h2 font-black text-white leading-tight uppercase tracking-tighter mb-8">
+                Masterpiece <span className="text-gold-400 italic font-light lowercase">Selection</span>
               </h2>
-            </div>
-            <div className="md:text-right">
-              <p className="text-olive-300 max-w-sm mb-6 font-mono text-xs uppercase tracking-widest opacity-60">Tüm ürünlerimiz yüksek hassasiyetli laboratuvar analizlerinden geçirilerek mühürlenmektedir.</p>
-              <div className="flex justify-end gap-2">
-                {[1, 2, 3].map(i => <div key={i} className="w-12 h-1 bg-gold-500/20"></div>)}
-              </div>
+              <div className="h-px bg-gradient-to-r from-transparent via-gold-500/50 to-transparent w-full mb-8"></div>
+              <p className="text-olive-200/60 max-w-2xl mx-auto font-sans text-sm md:text-base uppercase tracking-[0.2em] leading-relaxed">
+                Her bir damlası yüksek hassasiyetli laboratuvar analizlerinden geçirilerek mühürlenen, doğanın en saf halini temsil eden özel koleksiyonumuz.
+              </p>
             </div>
           </div>
 
