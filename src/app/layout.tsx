@@ -111,6 +111,44 @@ export default function RootLayout({
     },
   };
 
+  const localBusinessSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: siteConfig.name,
+    image: `${siteConfig.url}/images/logo.png`,
+    '@id': siteConfig.url,
+    url: siteConfig.url,
+    telephone: siteConfig.phone,
+    email: siteConfig.email,
+    priceRange: '₺₺',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Güzelçamlı Mah. Milli Park Cad.',
+      addressLocality: 'Kuşadası',
+      addressRegion: 'Aydın',
+      postalCode: '09430',
+      addressCountry: 'TR',
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: [
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday'
+      ],
+      opens: '09:00',
+      closes: '19:00'
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 37.7128,
+      longitude: 27.2345
+    }
+  };
+
   return (
     <html lang="tr">
       <head>
@@ -141,6 +179,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
       </head>
       <body className="antialiased">

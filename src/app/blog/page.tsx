@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 import Breadcrumb from '@/components/Breadcrumb';
 import { blogPosts } from '@/lib/blogPosts';
@@ -15,9 +16,17 @@ export default function BlogPage() {
     return (
         <>
             <section className="relative py-24 overflow-hidden">
-                <div className="absolute inset-0 bg-olive-950"></div>
-                <div className="absolute inset-0 opacity-20 bg-[url('/images/ancient-olive-tree.png')] bg-cover bg-center"></div>
-                <div className="absolute inset-0 bg-gradient-to-t from-olive-950 to-transparent"></div>
+                <div className="absolute inset-0 z-0">
+                    <Image
+                        src="/images/ancient-olive-tree.png"
+                        alt="Zeytin Bahçesi"
+                        fill
+                        sizes="100vw"
+                        className="object-cover opacity-20"
+                        priority
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-olive-950 to-transparent"></div>
+                </div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4">
                     <Breadcrumb items={[{ label: 'Ana Sayfa', href: '/' }, { label: 'Blog' }]} />
                     <h1 className="font-serif text-fluid-h1 font-black text-white mb-6 uppercase tracking-tighter leading-none">Zeytinyağı <span className="text-gold-400 italic">Rehberi</span></h1>
@@ -35,10 +44,13 @@ export default function BlogPage() {
                             <article key={post.slug} className="glass-card rounded-none overflow-hidden group hover:-translate-y-3 transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)] border border-white/5 bg-white/5">
                                 <Link href={`/blog/${post.slug}`} className="block">
                                     <div className="h-64 relative overflow-hidden">
-                                        <img
+                                        <Image
                                             src={post.image}
                                             alt={post.title}
-                                            className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                                            fill
+                                            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+                                            className="object-cover transition-transform duration-1000 group-hover:scale-110"
+                                            priority
                                         />
                                         <div className="absolute inset-0 bg-olive-950/20 group-hover:bg-transparent transition-colors duration-500"></div>
                                         <div className="absolute top-6 left-6 bg-gold-400 text-olive-950 text-[10px] font-black px-4 py-1.5 rounded-none uppercase tracking-widest shadow-2xl z-10">
@@ -47,8 +59,6 @@ export default function BlogPage() {
                                     </div>
                                     <div className="p-10">
                                         <div className="flex items-center gap-4 text-[10px] font-black uppercase tracking-[0.2em] text-olive-500 mb-6 font-sans">
-                                            <span>{new Date(post.date).toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-                                            <span className="w-1 h-1 rounded-full bg-gold-500/40"></span>
                                             <span>{post.readTime} okuma</span>
                                         </div>
                                         <h2 className="text-2xl font-serif font-black text-white mb-4 group-hover:text-gold-400 transition-colors leading-tight uppercase tracking-tight">

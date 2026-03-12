@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import Breadcrumb from '@/components/Breadcrumb';
 import FAQSection from '@/components/FAQSection';
 import { categories, getCategoryBySlug, getAllCategorySlugs } from '@/lib/categories';
+import { blogPosts } from '@/lib/blogPosts';
 import { siteConfig } from '@/lib/siteConfig';
 
 export async function generateStaticParams() {
@@ -118,6 +119,27 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                                 </div>
                             </div>
                         </aside>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* Related Blog Posts - Cross Linking */}
+            <section className="py-24 bg-white/[0.02] border-t border-white/5">
+                <div className="max-w-7xl mx-auto px-4">
+                    <div className="flex items-center gap-6 mb-16">
+                        <h2 className="font-serif text-3xl font-black text-white uppercase tracking-tight leading-none">İlgili <span className="text-gold-400 italic">Bilgiler</span></h2>
+                        <div className="h-px flex-1 bg-white/10"></div>
+                    </div>
+                    <div className="grid md:grid-cols-3 gap-8">
+                        {blogPosts.slice(0, 3).map((post) => (
+                            <Link key={post.slug} href={`/blog/${post.slug}`} className="group p-8 bg-white/5 border border-white/5 hover:border-gold-400/20 transition-all">
+                                <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-widest mb-4 block opacity-60">{post.category}</span>
+                                <h3 className="text-white font-serif font-black text-xl mb-4 group-hover:text-gold-400 transition-colors uppercase leading-tight">{post.title}</h3>
+                                <p className="text-olive-300 text-xs italic font-light line-clamp-2 opacity-60 mb-6">{post.excerpt}</p>
+                                <span className="text-[10px] font-black uppercase tracking-[0.3em] text-gold-500 flex items-center gap-2">OKU <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></span>
+                            </Link>
+                        ))}
                     </div>
                 </div>
             </section>

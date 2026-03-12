@@ -2,6 +2,8 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Breadcrumb from '@/components/Breadcrumb';
 import FAQSection from '@/components/FAQSection';
+import Link from 'next/link';
+import Image from 'next/image';
 import { siteConfig } from '@/lib/siteConfig';
 
 interface ProductData {
@@ -433,6 +435,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             '@type': 'Offer',
             availability: 'https://schema.org/InStock',
             priceCurrency: 'TRY',
+            price: '0.00', // Contact for price
             url: `${siteConfig.url}/urunler/${slug}`,
             seller: { '@type': 'Organization', name: 'Lider Zeytincilik' },
         },
@@ -459,10 +462,14 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                     <div className="grid lg:grid-cols-2 gap-20 items-start">
                         {/* Product Image */}
                         <div className="relative group overflow-hidden rounded-none shadow-3xl border border-white/10 bg-white/5">
-                            <img
+                            <Image
                                 src={productImages[slug] || '/images/product-tin-5l.jpg'}
                                 alt={product.name}
+                                width={800}
+                                height={800}
+                                sizes="(max-width: 1024px) 100vw, 50vw"
                                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-1000"
+                                priority
                             />
                             <div className="absolute top-8 left-8 bg-gold-400 text-olive-950 px-6 py-2 rounded-none text-[10px] font-black uppercase tracking-[0.3em] shadow-2xl">
                                 Üretimden Doğrudan
@@ -517,7 +524,13 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
             {/* Delivery Context */}
             <section className="bg-olive-900 py-12 relative overflow-hidden">
-                <img src="/images/delivery-van-plain.png" alt="Sevkiyat" className="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none" />
+                <Image
+                    src="/images/delivery-van-plain.png"
+                    alt="Sevkiyat"
+                    fill
+                    sizes="100vw"
+                    className="object-cover opacity-20 pointer-events-none"
+                />
                 <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
                     <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/20 px-6 py-3 rounded-none mb-6">
                         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1m-6 0a1 1 0 001-1m-6 0a1 1 0 001 1h1m-6 0H4" /></svg>

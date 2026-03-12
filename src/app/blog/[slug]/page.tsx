@@ -4,6 +4,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import { blogPosts, getBlogBySlug, getAllBlogSlugs } from '@/lib/blogPosts';
 import { siteConfig } from '@/lib/siteConfig';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export async function generateStaticParams() {
     return getAllBlogSlugs().map((slug) => ({ slug }));
@@ -83,10 +84,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
             <article className="bg-white">
                 <section className="relative h-[60vh] min-h-[400px] overflow-hidden flex items-center">
-                    <img
+                    <Image
                         src={post.image}
                         alt={post.title}
-                        className="absolute inset-0 w-full h-full object-cover"
+                        fill
+                        sizes="100vw"
+                        className="object-cover"
+                        priority
                     />
                     <div className="absolute inset-0 bg-olive-950/60 backdrop-blur-[2px]"></div>
                     <div className="relative z-10 max-w-4xl mx-auto px-4 w-full">
@@ -104,10 +108,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                                 {post.title}
                             </h1>
                             <div className="flex items-center justify-center gap-6 text-sm text-olive-200 font-bold uppercase tracking-widest">
-                                <time dateTime={post.date}>
-                                    {new Date(post.date).toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' })}
-                                </time>
-                                <span className="w-1.5 h-1.5 rounded-none rotate-45 bg-gold-400"></span>
                                 <span>{post.readTime} okuma süresi</span>
                             </div>
                         </div>
@@ -155,10 +155,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                             <article key={p.slug} className="glass-card rounded-none overflow-hidden group hover:-translate-y-2 transition-all duration-500 border border-olive-100 bg-white shadow-sm hover:shadow-xl">
                                 <Link href={`/blog/${p.slug}`}>
                                     <div className="h-48 relative overflow-hidden">
-                                        <img
+                                        <Image
                                             src={p.image}
                                             alt={p.title}
-                                            className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                                            fill
+                                            sizes="(max-width: 768px) 100vw, 33vw"
+                                            className="object-cover transition-transform duration-1000 group-hover:scale-110"
                                         />
                                         <div className="absolute inset-0 bg-olive-950/20 group-hover:bg-transparent transition-colors"></div>
                                     </div>

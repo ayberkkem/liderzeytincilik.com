@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Breadcrumb from '@/components/Breadcrumb';
 import { cities } from '@/lib/cities';
 
@@ -15,7 +16,16 @@ export default function RegionsPage() {
     return (
         <div className="bg-olive-950 min-h-screen">
             <section className="bg-black/20 py-24 border-b border-white/5 relative overflow-hidden">
-                <div className="absolute inset-0 opacity-10 bg-[url('/images/ancient-olive-tree.png')] bg-cover bg-center"></div>
+                <div className="absolute inset-0 z-0">
+                    <Image
+                        src="/images/ancient-olive-tree.png"
+                        alt="Asırlık Zeytin Ağacı"
+                        fill
+                        sizes="100vw"
+                        className="object-cover opacity-10"
+                        priority
+                    />
+                </div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
                     <Breadcrumb items={[{ label: 'Ana Sayfa', href: '/' }, { label: 'Hizmet Bölgelerimiz' }]} />
                     <h1 className="text-fluid-h1 font-serif font-black text-white mt-10 leading-none uppercase tracking-tighter">

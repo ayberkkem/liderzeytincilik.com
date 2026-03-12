@@ -981,9 +981,9 @@ Lider Zeytincilik erken hasat serileri için: **0552 382 8456**`,
     },
     {
         slug: 'zeytinyagi-fiyatlari-rehberi',
-        title: 'Zeytinyağı Fiyatları 2025: Piyasa Analizi ve Alım Rehberi',
-        metaTitle: 'Zeytinyağı Fiyatları 2025 | Güncel Piyasa Rehberi',
-        metaDescription: 'Zeytinyağı fiyatları 2025 yılında ne kadar? Litre fiyatı, toptan fiyat, 5 lt ve 10 lt zeytinyağı fiyat karşılaştırması. En uygun fiyata nasıl alınır?',
+        title: 'Zeytinyağı Fiyatları: Piyasa Analizi ve Alım Rehberi',
+        metaTitle: 'Zeytinyağı Fiyatları | Güncel Piyasa Rehberi',
+        metaDescription: 'Zeytinyağı fiyatları ne kadar? Litre fiyatı, toptan fiyat, 5 lt ve 10 lt zeytinyağı fiyat karşılaştırması. En uygun fiyata nasıl alınır?',
         excerpt: 'Zeytinyağı fiyatlarını etkileyen faktörler ve en uygun fiyata kaliteli zeytinyağı almanın yolları.',
         date: '2024-09-15',
         readTime: '10 dk',
@@ -1778,6 +1778,240 @@ Doktorunuz aksini belirtmedikçe, 6. aydan itibaren ek gıdalara (çorba, sebze 
 3. **Analiz Raporu**: Kimyasal kalıntı içermediğinden emin olduğunuz, analizli ürünleri tercih edin.
 
 Lider Zeytincilik olarak bebekler için özel sınıflandırılmış düşük asitli [premium zeytinyağı](/urunler/naturel-sizma-klasik) serileri sunuyoruz.`,
+    },
+    {
+        slug: 'zeytinyagi-bozulur-mu-raf-omru',
+        title: 'Zeytinyağı Bozulur mu? Raf Ömrünü Uzatmanın 5 Sırrı',
+        metaTitle: 'Zeytinyağı Bozulur mu? | Raf Ömrü ve Saklama Rehberi',
+        metaDescription: 'Zeytinyağı bozulur mu? Zeytinyağının raf ömrü ne kadardır? Tadı değişen yağ bozulmuş mudur? Zeytinyağı saklama koşulları hakkında her şey.',
+        excerpt: 'Zeytinyağı zamanla bozulur mu? Raf ömrünü nasıl uzatabilirsiniz? İşte zeytinyağınızı ilk günkü taze kokusuyla korumanın püf noktaları.',
+        date: '2025-03-12',
+        readTime: '7 dk',
+        category: 'Rehber',
+        image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=2000&auto=format&fit=crop',
+        content: `Zeytinyağı, doğru saklandığında kalitesini uzun süre koruyan bir besindir, ancak "sonsuz" değildir. Zamanla oksidasyona uğrar ve besin değerlerini kaybeder.
+
+## Zeytinyağının Raf Ömrü Ne Kadardır?
+İdeal koşullarda saklanan bir natürel sızma zeytinyağı, dolum tarihinden itibaren genellikle 18 ile 24 ay arasında tazeliğini korur. Ancak şişe açıldıktan sonra bu süre kısalır.
+
+### Zeytinyağını Bozan 4 Düşman:
+1. **Işık**: Güneş ışığı klorofili aktive ederek oksidasyonu hızlandırır.
+2. **Hava**: Oksijen temasında yağın asiditesi artar ve tadı bozulur.
+3. **Isı**: Oda sıcaklığının (25°C+) üzerindeki ısı yağın yapısını bozar.
+4. **Nem**: Ortamdaki nem yağın ömrünü kısaltır.
+
+## Zeytinyağının Bozulduğu Nasıl Anlaşılır?
+Bozulmuş zeytinyağında "ransid" (acılaşmış) bir tat oluşur. Kokusu boya, oje temizleyici veya bayat ceviz kokusunu andırır. Eğer yağınızda bu kokuları alıyorsanız, o yağı tüketmemenizi öneririz.
+
+Lider Zeytincilik olarak biz, ürünlerimizi hava ve ışık geçirmeyen tenekelerde, en taze haliyle gönderiyoruz.`,
+    },
+    {
+        slug: 'memecik-zeytinciligi-aydin-mirasi',
+        title: 'Memecik Zeytinciliği: Aydın\'ın Genetik Mirası ve Lezzet Sırrı',
+        metaTitle: 'Memecik Zeytini Özellikleri | Aydın Zeytinyağı Mirası',
+        metaDescription: 'Memecik zeytini nedir? Aydın bölgesinin en değerli zeytin cinsi Memecik\'in özellikleri, yağ verimi ve polifenol değerleri.',
+        excerpt: 'Ege\'nin, özellikle de Aydın\'ın en karakteristik zeytini olan Memecik\'i yakından tanıyın. Neden bu kadar özel?',
+        date: '2025-03-11',
+        readTime: '9 dk',
+        category: 'Bilgi',
+        image: 'https://images.unsplash.com/photo-1541348263662-e0c8de4229fe?q=80&w=2000&auto=format&fit=crop',
+        content: `Aydın topraklarında binlerce yıldır hüküm süren Memecik zeytini, sadece bir meyve değil; bu bölgenin kültürel ve ekonomik omurgasıdır.
+
+## Memecik Zeytininin Karakteristik Özellikleri
+Memecik, hem yağlık hem de sofralık olarak dünya standartlarında bir çeşittir. İri taneli yapısı ve yüksek yağ verimi (%22-26) ile üreticinin dostudur.
+
+### Neden Memecik Zeytinyağı?
+- **Yüksek Polifenol**: Memecik zeytini, diğer çeşitlere oranla doğal olarak daha yüksek antioksidan değerlere sahiptir.
+- **Aromatik Zenginlik**: Domates yaprağı, taze çimen ve çağla kokuları Memecik yağının imzasıdır.
+- **Hafif Yakıcılık**: Erken hasat edilen Memecik yağı, yüksek E vitamini sayesinde genizde hoş bir yakıcılık bırakır.
+
+Lider Zeytincilik'in merkezi Aydın'dır ve biz uzmanlığımızı bu bin yıllık Memecik mirasından alıyoruz.`,
+    },
+    {
+        slug: 'zeytinyagi-tadimi-nasil-yapilir-rehber',
+        title: 'Zeytinyağı Tadımı Nasıl Yapılır? (Profesyonel Tadım Rehberi)',
+        metaTitle: 'Zeytinyağı Tadımı Rehberi | Duyusal Analiz Nasıl Yapılır?',
+        metaDescription: 'Profesyonel zeytinyağı tadımı nasıl yapılır? Koku, tad ve yakıcılık analizi. İyi zeytinyağını anlamanın yolları ve tadım tüyoları.',
+        excerpt: 'Bir şişe zeytinyağının kalitesini saniyeler içinde anlayabilirsiniz. İşte profesyonel tadımcıların kullandığı yöntemler.',
+        date: '2025-03-09',
+        readTime: '8 dk',
+        category: 'Rehber',
+        image: 'https://images.unsplash.com/photo-1473269712320-f24ce5aaaf4a?q=80&w=2000&auto=format&fit=crop',
+        content: `Zeytinyağı tadımı, şarap tadımı kadar derin ve kuralları olan bir süreçtir. Ancak evde de birkaç basit adımla yağınızın kalitesini ölçebilirsiniz.
+
+## Tadım Öncesi Hazırlık
+Tadımı küçük bir cam bardakta, oda sıcaklığındaki yağ ile yapmalısınız. Bardağı avucunuzla ısıtarak aromaların dışarı çıkmasını sağlayın.
+
+### 1. Adım: Koklama (Burun)
+Bardağı burnunuza yaklaştırın ve derin bir nefes alın. Taze, meyvemsi ve bitkisel kokular (ot, enginar, yeşil elma) alıyorsanız bu pozitif bir işarettir. Toprak, küf veya bayatlık kokusu ise negatif bir özelliktir.
+
+### 2. Adım: Tadım (Damak)
+Yağdan bir yudum alın ama hemen yutmayın. Ağzınızın her yerine değmesini sağlayın ve dişlerinizin arasından hafifçe hava çekin. Bu, aromaların burnunuza geri gitmesini sağlar.
+
+### 3. Adım: Yakıcılık (Gırtlak)
+Yağı yuttuğunuzda boğazınızda hafif bir biber sızması gibi yakıcılık hissetmelisiniz. Bu, yağın antioksidan (polifenol) açısından zengin olduğunu kanıtlar.
+
+Lider Zeytincilik olarak biz, her üretim lotunu bu profesyonel duyusal analizlerden geçiriyoruz.`,
+    },
+    {
+        slug: 'hamilelikte-zeytinyagi-tuketimi-faydalari',
+        title: 'Hamilelikte Zeytinyağı Tüketimi: Gelecek Nesil İçin Sağlık',
+        metaTitle: 'Hamilelikte Zeytinyağı Tüketenler | Faydaları ve Öneriler',
+        metaDescription: 'Hamilelik döneminde zeytinyağı tüketimi güvenli midir? Bebeğin beyin gelişimine etkileri ve anne sağlığı için faydaları.',
+        excerpt: 'Anne karnındaki bebeğin gelişiminden annenin sindirim sistemine kadar, hamilelikte zeytinyağının mucizevi faydaları.',
+        date: '2025-03-07',
+        readTime: '7 dk',
+        category: 'Sağlık',
+        image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=2000&auto=format&fit=crop',
+        content: `Hamilelik dönemi, beslenmenin en kritik olduğu süreçtir. Zeytinyağı, bu dönemde hem anne adayının sağlığı hem de bebeğin gelişimi için en güvenli ve faydalı yağdır.
+
+## Bebeğin Beyin Gelişimi Üzerindeki Etkisi
+Zeytinyağı, anne sütünün yağ asidi dizilimine çok yakındır. İçeriğindeki oleik asit, fetusun beyin ve sinir sistemi gelişiminde kritik rol oynar.
+
+### Anne Adayı İçin Faydaları:
+- **Kabızlığı Önler**: Hamilelikte sık görülen sindirim sorunlarını doğal yolla çözer.
+- **Cilt Çatlaklarına Son**: Düzenli olarak karın bölgesine uygulanması, hamilelik çatlaklarını minimize eder.
+- **Bağışıklık Desteği**: İçindeki E vitamini, annenin bağışıklığını güçlü tutar.
+
+Lider Zeytincilik olarak bebekler için en uygun düşük asitli [natürel sızma](/kategori/naturel-sizma-zeytinyagi) koleksiyonumuzu öneriyoruz.`,
+    },
+    {
+        slug: 'zeytinyagi-donuyorsa-gercek-midir-sehir-efsaneleri',
+        title: 'Zeytinyağı Donuyorsa Gerçek midir? Şehir Efsaneleri ve Gerçekler',
+        metaTitle: 'Zeytinyağı Donma Testi Doğru mu? | Lider Zeytincilik',
+        metaDescription: 'Zeytinyağı donuyorsa gerçektir demek doğru mu? Zeytinyağı kaç derecede donar? Donma testi hakkında bilimsel gerçekler.',
+        excerpt: 'Zeytinyağının donması onun kalitesini belirler mi? Halk arasında çok konuşulan bu konuya bilimsel bir bakış açısı getiriyoruz.',
+        date: '2025-03-04',
+        readTime: '6 dk',
+        category: 'Bilgi',
+        image: 'https://images.unsplash.com/photo-1473269712320-f24ce5aaaf4a?q=80&w=2000&auto=format&fit=crop',
+        content: `Halk arasında "Zeytinyağı donuyorsa gerçektir, donmuyorsa sahtedir" şeklinde bir inanış vardır. Ancak gerçek o kadar basit değildir.
+
+## Zeytinyağı Kaç Derecede Donar?
+Zeytinyağı karışık bir trigliserid yapısına sahiptir. Genellikle +4 ile +5 derecenin altında kristalleşmeye başlar. Ancak bu donma, bir kalıptan ziyade kar tanesi şeklinde veya bulutlanma şeklinde olabilir.
+
+### Donma Testi Neden Tek Başına Yeterli Değil?
+Bazı tohum yağları (kanola vb.) da düşük sıcaklıklarda donabilir. Ayrıca zeytinyağının cinsi (Memecik, Ayvalık vb.) donma hızını ve sıcaklığını etkileyebilir.
+
+### Gerçek Kalite Kanıtı:
+Bir yağın gerçekliği ancak akredite laboratuvarlarda yapılan **yağ asitleri kompozisyonu** ve **sterol analizi** ile tam olarak kanıtlanabilir.
+
+Lider Zeytincilik olarak biz, sadece "donan" değil, analiz raporlarıyla saflığı tescillenen zeytinyağları sunuyoruz.`,
+    },
+    {
+        slug: 'soguk-sikim-ve-sicak-sikim-farklari-nedir',
+        title: 'Soğuk Sıkım ve Sıcak Sıkım Zeytinyağı Arasındaki Farklar',
+        metaTitle: 'Soğuk Sıkım vs Sıcak Sıkım | Zeytinyağı Üretim Farkları',
+        metaDescription: 'Soğuk sıkım zeytinyağı ile sıcak sıkım arasındaki farklar nelerdir? Hangisi daha sağlıklıdır? Isının zeytinyağı kalitesine etkileri hakkında bilgi.',
+        excerpt: 'Zeytinyağı alırken en çok karşılaşılan terimler: Soğuk ve Sıcak Sıkım. Aralarındaki farkları ve neden soğuk sıkımı tercih etmeniz gerektiğini anlatıyoruz.',
+        date: '2025-03-02',
+        readTime: '8 dk',
+        category: 'Üretim',
+        image: 'https://images.unsplash.com/photo-1541348263662-e0c8de4229fe?q=80&w=2000&auto=format&fit=crop',
+        content: `Zeytinyağı üretiminde sıkım sıcaklığı, yağın hem tadını hem de besin değerini belirleyen en kritik unsurdur.
+
+## Soğuk Sıkım (Cold Press) Nedir?
+Uluslararası standartlara göre, zeytin hamurunun işleme sırasında **27°C'nin altında** tutulmasıyla elde edilen yağa "soğuk sıkım" denir.
+
+### Soğuk Sıkımın Avantajları:
+- **Vitamin Kaybı Olmaz**: Isı görmediği için E ve K vitaminleri tam olarak korunur.
+- **Yüksek Polifenol**: Zeytinin doğal antioksidanları olan polifenoller yüksek ısıda yok olur; soğuk sıkımda ise yağda kalır.
+- **Düşük Asidite**: Isı, asit oranının yükselmesine neden olabilir.
+
+## Sıcak Sıkım Nedir?
+Zeytin hamurunun 35-40°C ve üzerine ısıtılarak sıkılmasıdır. Isı, zeytinden daha fazla yağ çıkmasını sağlar (verim artar) ancak kalite düşer.
+
+Lider Zeytincilik olarak premium serilerimizde sadece [soğuk sıkım zeytinyağı](/kategori/soguk-sikim-zeytinyagi) teknolojisini kullanıyoruz.`,
+    },
+    {
+        slug: 'zeytinyagi-neden-acidir-dogru-bilinen-yanlislar',
+        title: 'Zeytinyağı Neden Acıdır? Acı Yağ Bozuk mudur?',
+        metaTitle: 'Zeytinyağında Acılık ve Yakıcılık | Kalite Göstergesi mi?',
+        metaDescription: 'Zeytinyağındaki acılık ve boğazdaki yakıcılık ne anlama gelir? Acı zeytinyağı bozuk mudur? Polifenol ve kalite ilişkisi hakkında gerçekler.',
+        excerpt: 'Zeytinyağının genzinizi yakması veya hafif acı olması aslında bir kusur değil, aksine bir kalite göstergesidir. İşte nedenleri...',
+        date: '2025-02-28',
+        readTime: '6 dk',
+        category: 'Bilgi',
+        image: 'https://images.unsplash.com/photo-1473269712320-f24ce5aaaf4a?q=80&w=2000&auto=format&fit=crop',
+        content: `Birçok tüketici, zeytinyağının tadındaki acılığı bir bozulma belirtisi sanır. Oysa gerçek tam tersidir.
+
+## Acılık ve Yakıcılık: Kalitenin İmzası
+Gerçek bir natürel sızma zeytinyağında aranan üç ana pozitif özellik vardır: Meyvemsilik, Acılık ve Yakıcılık.
+
+### Boğazdaki Yakıcılık Neden Olur?
+Zeytinyağındaki **Oleokantal** maddesi boğazda bir yanma hissi yaratır. Bu madde ibuprofen gibi doğal bir anti-enflamatuardır ve kansere karşı koruyucu özellikleri üzerine bilimsel çalışmalar mevcuttur.
+
+## Hangi Acılık Bozulmuş Demektir?
+Eğer yağda "ransid" dediğimiz, bayatlamış yağ tadı, boya kokusu veya metalik bir his varsa bu bozulduğunu gösterir. Ancak taze, bitkisel bir acılık ve gırtlakta yakıcılık hissediyorsanız, elinizdeki yağ şifalı bir [erken hasat zeytinyağıdır](/kategori/erken-hasat-zeytinyagi).`,
+    },
+    {
+        slug: 'dunya-zeytinyagi-uretiminde-turkiyenin-yeri',
+        title: 'Dünya Zeytinyağı Üretiminde Türkiye\'nin Yeri ve Geleceği',
+        metaTitle: 'Türkiye Zeytinyağı Üretimi | Dünya Sıralaması ve Raporu',
+        metaDescription: 'Türkiye dünya zeytinyağı üretiminde kaçıncı sırada? İspanya, İtalya ve Yunanistan ile karşılaştırmalı üretim verileri ve Türk zeytinyağının potansiyeli.',
+        excerpt: 'Türkiye, son yıllarda yaptığı yatırımlarla dünya zeytinyağı liginde üst sıralara tırmanıyor. Rekolte ve kalite raporumuzu okuyun.',
+        date: '2025-02-25',
+        readTime: '10 dk',
+        category: 'Haberler',
+        image: 'https://images.unsplash.com/photo-1501250987900-211872d97eaa?q=80&w=2000&auto=format&fit=crop',
+        content: `Türkiye, 200 milyona yaklaşan zeytin ağacı varlığı ile dünya zeytincilik sektörünün devleri arasındadır.
+
+## Üretim Sıralamasında Neredeyiz?
+Türkiye, genellikle İspanya'dan sonra dünyanın en büyük ikinci veya üçüncü zeytinyağı üreticisi konumundadır. Özellikle son sezonda Türkiye, tarihi bir rekolte rekoruna imza atmıştır.
+
+### Türk Zeytinyağının Avantajı:
+- **Genetik Çeşitlilik**: Memecik, Ayvalık, Domat gibi kendine has karakterde 100'den fazla çeşit.
+- **Modern Tesisleşme**: Türkiye'deki fabrikaların %80'inden fazlası en modern kontinü sistemlerle donatılmıştır.
+- **İhracat Potansiyeli**: Avrupa'daki kuraklık nedeniyle Türk zeytinyağı dünya sofralarında daha fazla yer bulmaya başlamıştır.
+
+Lider Zeytincilik olarak biz de bu milli mirası [81 ilimize](/bolgeler) ve dünyaya ulaştırmaktan gurur duyuyoruz.`,
+    },
+    {
+        slug: 'restoranlar-icin-zeytinyagi-secimi-maliyet-kalite',
+        title: 'Restoran ve Oteller İçin Zeytinyağı Seçimi: Maliyet mi Kalite mi?',
+        metaTitle: 'Restoranlar İçin Zeytinyağı Rehberi | Toptan Alım Stratejileri',
+        metaDescription: 'İşletmeler için en uygun zeytinyağı seçimi nasıl yapılır? Riviera ve sızma kullanımı, ambalaj seçimi ve maliyet optimizasyonu rehberi.',
+        excerpt: 'Bir restoran sahibi olarak hangi zeytinyağını nerede kullanmalısınız? Hem lezzeti koruyup hem de maliyeti nasıl düşürürsünüz?',
+        date: '2025-02-20',
+        readTime: '9 dk',
+        category: 'Ticaret',
+        image: 'https://images.unsplash.com/photo-1586528116311-ad8669931ef1?q=80&w=2000&auto=format&fit=crop',
+        content: `Profesyonel mutfaklarda yağ seçimi, hem tabak kalitesini hem de food-cost dengesini doğrudan etkiler.
+
+## Masada Sunum: Natürel Sızma
+Kuver olarak sunulan veya salataların üzerine dökülen yağ mutlaka premium sızma olmalıdır. Misafirleriniz ilk tadı buradan alır.
+
+## Pişirme ve Kızartma: Riviera ve Sızma Karışımı
+Yüksek ısıda yapılan işlemlerde [riviera zeytinyağı](/kategori/riviera-zeytinyagi) veya ekonomik seri sızma yağlar tercih edilmelidir. Riviera yağı, nötr tadı ve yüksek yanma noktasıyla pilav ve kızartmalarda mükemmeldir.
+
+### İşletmeler İçin Tasarruf İpuçları:
+1. **Büyük Ambalaj**: 18 litrelik tenekeler birim maliyeti %15 düşürür.
+2. **Doğrudan Üreticiden**: Lider Zeytincilik gibi doğrudan üreticilerle çalışarak aracı kârını ortadan kaldırın.
+3. **Etiketsiz Ürün**: Marka maliyeti ödemeden kaliteli yağa ulaşın.
+
+[Toptan zeytinyağı fiyatları](/bolgeler/aydin-zeytinyagi-toptan) için ekibimize ulaşabilirsiniz.`,
+    },
+    {
+        slug: 'zeytinyagi-ve-egzama-cilt-icin-dogal-cozum',
+        title: 'Zeytinyağı ve Egzama: Cilt Sorunları İçin Doğal Destek',
+        metaTitle: 'Egzama İçin Zeytinyağı Kullanımı | Doğal Tedavi Destekleri',
+        metaDescription: 'Zeytinyağının egzama ve cilt kurulukları üzerindeki etkileri nelerdir? Nasıl uygulanmalıdır? Bilimsel veriler ve kullanıcı önerileri.',
+        excerpt: 'Egzamanın yarattığı kaşıntı ve kurulukla baş etmekte zorlanıyorsanız, mutfağınızdaki şifalı iksir zeytinyağını keşfedin.',
+        date: '2025-02-15',
+        readTime: '7 dk',
+        category: 'Sağlık',
+        image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=2000&auto=format&fit=crop',
+        content: `Egzama, cildin bariyer fonksiyonunun bozulmasıyla ortaya çıkar. Saf zeytinyağı, bu bariyeri onarmaya yardımcı olan harika bir doğal destekçidir.
+
+## Egzamaya Nasıl İyi Gelir?
+Zeytinyağındaki **Oleuropein** maddesi güçlü bir anti-enflamatuardır. Ciltteki kızarıklığı ve ödemi azaltmaya yardımcı olur. Ayrıca yoğun E vitamini içeriği, kurumuş ve çatlamış deriyi yumuşatır.
+
+### Uygulama Şekli:
+- **Banyo Sonrası**: Nemli cilde masaj yaparak uygulayın.
+- **Gece Bakımı**: Sorunlu bölgeye sürüp pamuklu bir bezle kapatın.
+- **Yemeklerde**: İçten gelen iyileşme için günlük sızma zeytinyağı tüketiminizi artırın.
+
+**Dikkat**: Cilt uygulamalarında mutlaka [natürel sızma](/kategori/naturel-sizma-zeytinyagi) ve soğuk sıkım ürünler kullanmalısınız. Parfümlü veya katkılı yağlar cildi daha fazla tahriş edebilir.`,
     },
 ];
 

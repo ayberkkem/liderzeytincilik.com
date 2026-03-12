@@ -44,19 +44,19 @@
 
 .tech-grid {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    linear-gradient(rgba(125, 143, 69, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(125, 143, 69, 0.05) 1px, transparent 1px);
   background-size: 80px 80px;
 }
 
 .tech-dots {
-  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(125, 143, 69, 0.15) 1px, transparent 1px);
   background-size: 20px 20px;
 }
 
 .hud-border {
   position: relative;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(125, 143, 69, 0.2);
 }
 
 .hud-border::before,
@@ -201,7 +201,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(125, 143, 69, 0.2);
   border: 2px solid var(--olive-950);
   border-radius: 10px;
 }
@@ -391,9 +391,9 @@ body {
 
 /* ---- Glass Effects ---- */
 .glass {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(125, 143, 69, 0.12);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(125, 143, 69, 0.2);
 }
 
 .glass-card {
@@ -462,7 +462,7 @@ body {
 }
 
 .prose table th {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(125, 143, 69, 0.1);
   font-weight: 600;
   color: var(--gold-400);
 }

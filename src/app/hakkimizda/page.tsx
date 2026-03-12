@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Breadcrumb from '@/components/Breadcrumb';
+import Image from 'next/image';
 import { siteConfig } from '@/lib/siteConfig';
 
 export const metadata: Metadata = {
@@ -15,7 +16,7 @@ export default function AboutPage() {
         <>
             <section className="relative py-24 overflow-hidden bg-olive-900">
                 <div className="absolute inset-0 z-0">
-                    <img src="/images/ancient-olive-tree.png" alt="Zeytin Bahçesi" className="w-full h-full object-cover opacity-30" />
+                    <Image src="/images/ancient-olive-tree.png" alt="Zeytin Bahçesi" fill className="object-cover opacity-30" />
                     <div className="absolute inset-0 bg-gradient-to-t from-olive-950 to-transparent"></div>
                 </div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4">
@@ -33,7 +34,7 @@ export default function AboutPage() {
                     <div className="grid lg:grid-cols-2 gap-20 items-center mb-32">
                         <div className="order-2 lg:order-1 relative">
                             <div className="absolute -inset-4 bg-gold-500/10 blur-2xl rounded-none"></div>
-                            <img src="/images/traditional-harvest.png" alt="Geleneksel Hasat" className="relative rounded-none shadow-2xl border border-white/10" />
+                            <Image src="/images/traditional-harvest.png" alt="Geleneksel Hasat" width={800} height={600} className="relative rounded-none shadow-2xl border border-white/10" />
                         </div>
                         <div className="order-1 lg:order-2">
                             <h2 className="text-fluid-h2 font-serif font-black text-white mb-10 leading-[0.85] uppercase tracking-tighter">Zeytine Duyulan <br /><span className="text-gold-400 italic font-light font-serif">Derin Saygı</span></h2>
@@ -96,7 +97,7 @@ export default function AboutPage() {
                         </div>
                         <div className="relative">
                             <div className="absolute -inset-4 bg-olive-500/10 blur-2xl rounded-none"></div>
-                            <img src="/images/modern-warehouse.png" alt="Modern Depo ve Teknoloji" className="relative rounded-none shadow-2xl border border-white/10" />
+                            <Image src="/images/modern-warehouse.png" alt="Modern Depo ve Teknoloji" width={800} height={600} className="relative rounded-none shadow-2xl border border-white/10" />
                         </div>
                     </div>
                 </div>

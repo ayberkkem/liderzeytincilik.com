@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Breadcrumb from '@/components/Breadcrumb';
 import { siteConfig } from '@/lib/siteConfig';
 
@@ -48,7 +49,14 @@ export default function ProductsPage() {
             {/* Hero */}
             <section className="relative py-24 overflow-hidden bg-olive-900">
                 <div className="absolute inset-0 z-0">
-                    <img src="/images/tins-in-grove.png" alt="Zeytinyağı Tenekelerimiz" className="w-full h-full object-cover opacity-40" />
+                    <Image
+                        src="/images/tins-in-grove.png"
+                        alt="Zeytinyağı Tenekelerimiz"
+                        fill
+                        sizes="100vw"
+                        className="object-cover opacity-40"
+                        priority
+                    />
                     <div className="absolute inset-0 bg-gradient-to-r from-olive-950 via-olive-950/80 to-transparent"></div>
                 </div>
                 <div className="relative z-10 max-w-7xl mx-auto px-4">
@@ -86,7 +94,15 @@ export default function ProductsPage() {
                                 className="glass-card rounded-none overflow-hidden group hover:-translate-y-3 transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] border border-white/5 flex flex-col"
                             >
                                 <div className="h-80 overflow-hidden relative">
-                                    <img src={product.img} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
+                                    <Image
+                                        src={product.img}
+                                        alt={product.name}
+                                        width={600}
+                                        height={400}
+                                        sizes="(max-width: 768px) 100vw, 33vw"
+                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
+                                        priority
+                                    />
                                     <div className="absolute top-6 left-6 bg-gold-400 text-olive-950 text-[10px] font-black px-4 py-1.5 rounded-none uppercase tracking-[0.2em] shadow-2xl">
                                         Üretici Fiyatı
                                     </div>

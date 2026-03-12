@@ -32,7 +32,7 @@ const products = [
   {
     name: 'Gemlik Salamura Siyah',
     desc: 'Sadece deniz tuzu ve su ile 9 ay boyunca dinlendirilerek fermente edilen, ince kabuklu, çekirdeğinden kolay ayrılan lezzet.',
-    href: '/urunler/gemlik-salamura-siyah',
+    href: '/urunler/gemlik-salamura-siyah-zeytin',
     image: '/images/categories/black-olives.png',
     size: 'S-M-L Kalibraj',
     stats: { salt: '%4', oil: '%22', skin: 'Ultra-Thin' }
@@ -102,7 +102,7 @@ export default function HomePage() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-gold-500"></span>
                 </span>
-                <span className="text-[10px] text-white font-black uppercase tracking-[0.4em]">2024 HASAT DÖNEMİ</span>
+                <span className="text-[10px] text-white font-black uppercase tracking-[0.4em]">HASAT DÖNEMİ</span>
               </div>
 
               <h1 className="text-fluid-h1 font-serif font-black text-white leading-[0.85] mb-12 tracking-tighter relative group">
@@ -163,7 +163,9 @@ export default function HomePage() {
                               src={badge.img}
                               alt={badge.text}
                               fill
+                              sizes="(max-width: 768px) 64px, 80px"
                               className="object-contain transform transition-transform duration-500 group-hover:scale-110"
+                              priority={i < 4}
                             />
                           </div>
                         ) : (
@@ -255,7 +257,14 @@ export default function HomePage() {
                   className="group relative hud-border hud-border-tl hud-border-br bg-white/[0.02] transition-all duration-1000 hover:-translate-y-6 hover:shadow-[0_40px_100px_rgba(0,0,0,0.6)] overflow-hidden flex flex-col h-full"
                 >
                   <div className="aspect-[4/5] relative bg-black/40 overflow-hidden">
-                    <Image src={product.image} alt={product.name} fill className="object-cover group-hover:scale-125 transition-transform duration-[3000ms] opacity-60 group-hover:opacity-100" />
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 20vw"
+                      className="object-cover group-hover:scale-125 transition-transform duration-[3000ms] opacity-60 group-hover:opacity-100"
+                      priority={i < 2}
+                    />
                     <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-80"></div>
 
                     {/* HUD Overlay Stats - Masterpiece Version */}
@@ -300,27 +309,73 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Categories Matrix - Technical Grid Icons */}
+          {/* Categories Matrix - Industrial Protocol Interface */}
           <div>
-            <div className="flex items-center gap-8 mb-20 px-4">
-              <h3 className="font-serif text-4xl font-black text-white uppercase tracking-tight">Kategorilerimiz</h3>
-              <div className="flex-1 h-px bg-gradient-to-r from-white/10 to-transparent"></div>
+            <div className="flex flex-col md:flex-row items-end gap-6 mb-24 px-4 overflow-hidden">
+              <div className="space-y-2">
+                <span className="text-gold-500 text-[10px] font-mono font-black uppercase tracking-[0.6em] block opacity-50">PROTOCOL_02 / CATALOG</span>
+                <h3 className="font-serif text-5xl md:text-7xl font-black text-white uppercase tracking-tighter leading-none">
+                  Kategorilerimiz
+                </h3>
+              </div>
+              <div className="flex-1 h-px bg-gradient-to-r from-gold-500/30 via-white/10 to-transparent mb-2"></div>
+              <div className="text-right hidden md:block">
+                <p className="text-olive-500 text-[9px] font-mono uppercase tracking-widest leading-relaxed">
+                  TOTAL_ITEMS: {categories.length}<br />
+                  STATUS: OPERATIONAL
+                </p>
+              </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
               {categories.map((cat, i) => (
                 <Link
                   key={cat.slug}
                   href={`/kategori/${cat.slug}`}
-                  className="group relative p-10 bg-white/[0.02] border border-white/5 hover:border-gold-500/40 transition-all duration-500 flex flex-col items-center text-center hover:bg-white/[0.04]"
+                  className="group relative h-[400px] bg-white/[0.02] border border-white/5 hover:border-gold-500/40 transition-all duration-700 overflow-hidden flex flex-col pt-12"
                 >
-                  <div className="relative w-24 h-24 mb-8">
-                    <div className="absolute inset-0 bg-gold-500/10 group-hover:bg-gold-500/20 rotate-45 transition-all duration-700"></div>
-                    <div className="absolute inset-0 border border-white/10 group-hover:border-gold-500/50 transition-all"></div>
-                    <div className="relative z-10 w-full h-full flex items-center justify-center p-4">
-                      <Image src={cat.image} alt={cat.name} width={64} height={64} className="object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" />
+                  {/* Background Accents */}
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-gold-400 opacity-[0.02] -mr-16 -mt-16 rounded-full blur-3xl group-hover:opacity-10 transition-opacity"></div>
+
+                  {/* Metadata Header */}
+                  <div className="px-8 mb-6 flex justify-between items-start relative z-10">
+                    <div className="font-mono text-[9px] text-olive-500 group-hover:text-gold-500 transition-colors uppercase tracking-[0.3em]">
+                      REF_{i + 1 < 10 ? `0${i + 1}` : i + 1}
+                    </div>
+                    <div className="w-1.5 h-1.5 border border-gold-500/40 group-hover:bg-gold-500 transition-all animate-pulse"></div>
+                  </div>
+
+                  {/* Main Visual */}
+                  <div className="flex-grow flex items-center justify-center p-12 relative">
+                    {/* Interactive Grid Overlay */}
+                    <div className="absolute inset-0 opacity-10 group-hover:opacity-20 transition-opacity pointer-events-none p-4">
+                      <div className="w-full h-full border border-white/5 border-dashed"></div>
+                    </div>
+
+                    <div className="relative w-full h-full">
+                      <Image
+                        src={cat.image}
+                        alt={cat.name}
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 20vw"
+                        className="object-contain"
+                      />
                     </div>
                   </div>
-                  <h4 className="font-black text-white text-sm group-hover:text-gold-400 transition-colors mb-4 uppercase tracking-[0.2em] leading-tight">{cat.name}</h4>
+
+                  {/* Content Footer */}
+                  <div className="p-8 relative z-10 bg-gradient-to-t from-black/80 to-transparent">
+                    <h4 className="font-serif font-black text-white text-xl md:text-2xl group-hover:text-gold-400 transition-colors mb-2 uppercase tracking-tighter leading-[0.9]">
+                      {cat.name}
+                    </h4>
+                    <div className="h-px w-0 group-hover:w-full bg-gold-500/30 transition-all duration-700"></div>
+                    <p className="mt-4 text-[9px] font-mono text-olive-500 group-hover:text-olive-300 transition-all uppercase tracking-widest opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 duration-500">
+                      DETAYLI_GORUNTULE &gt;&gt;
+                    </p>
+                  </div>
+
+                  {/* Corner HUD Markers */}
+                  <div className="absolute bottom-2 right-2 w-4 h-4 border-b border-r border-gold-500/20 group-hover:border-gold-500 transition-colors opacity-40"></div>
                 </Link>
               ))}
             </div>
@@ -344,7 +399,13 @@ export default function HomePage() {
               </div>
             </div>
             <div className="relative aspect-video border border-white/5 overflow-hidden">
-              <Image src="/images/extraction-process.png" alt="Process" fill className="object-cover transition-all duration-1000" />
+              <Image
+                src="/images/extraction-process.png"
+                alt="Process"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover transition-all duration-1000"
+              />
               <div className="absolute inset-0 bg-gradient-to-r from-background to-transparent"></div>
               <div className="absolute bottom-8 left-8">
                 <p className="text-white font-mono text-[10px] tracking-widest">22°C SOĞUK SIKIM YÖNTEMİ</p>
@@ -357,7 +418,7 @@ export default function HomePage() {
               <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-gold-500 to-transparent animate-pulse"></div>
               <div className="flex items-center gap-8 text-olive-100 font-mono text-xs uppercase tracking-[0.4em]">
                 <span className="text-gold-500 animate-pulse">⚡ DUYURU:</span>
-                2024 Erken Hasat Stokları Kontrollü Olarak Satışa Açılmıştır.
+                Erken Hasat Stokları Kontrollü Olarak Satışa Açılmıştır.
               </div>
             </div>
           </div>
@@ -419,7 +480,13 @@ export default function HomePage() {
 
       <section className="bg-background py-48 overflow-hidden relative border-b border-white/5 tech-grid">
         <div className="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none">
-          <Image src="/images/modern-warehouse.png" alt="Modern Depo" fill className="object-cover" />
+          <Image
+            src="/images/modern-warehouse.png"
+            alt="Modern Depo"
+            fill
+            sizes="33vw"
+            className="object-cover"
+          />
         </div>
 
         <div className="max-w-[1600px] mx-auto px-6 relative z-10">
@@ -432,47 +499,47 @@ export default function HomePage() {
           </div>
 
           <div className="grid lg:grid-cols-12 gap-20 items-center">
-            <div className="lg:col-span-12 grid md:grid-cols-3 gap-12">
+            <div className="lg:col-span-12 grid md:grid-cols-3 gap-8">
               {[
                 {
                   id: '01',
                   label: 'Bahçeden Fabrikaya',
                   desc: 'Aydın ve Akhisar daki bahçelerimizden gelen zeytinler, oksidasyonu önlemek için 4 saat içinde sıkım hattına girer.',
+                  image: '/images/traditional-harvest.png'
                 },
                 {
                   id: '02',
                   label: 'Azot Altında Dolum',
                   desc: 'Oksijen temasını kesen azot basma teknolojimizle zeytinyağının o ilk günkü taze meyvemsi aromasını yıllarca koruyoruz.',
+                  image: '/images/filling-conveyor.png'
                 },
                 {
                   id: '03',
                   label: 'Sürekli Kontrol',
                   desc: 'HACCP ve ISO standartlarında, her lot üretimi için anlık ısı ve basınç takibi ile stabiliteyi garanti ediyoruz.',
+                  image: '/images/quality-inspection.png'
                 },
               ].map((item, i) => (
-                <div key={i} className="group relative p-12 bg-white/[0.02] hud-border hud-border-tl hud-border-br transition-all duration-700 hover:bg-white/[0.05]">
-                  <div className="w-20 h-20 bg-gold-500 flex items-center justify-center mb-10 group-hover:scale-110 transition-transform shadow-[0_10px_40px_rgba(234,179,8,0.2)]">
-                    <span className="text-olive-950 font-black text-xl italic">{item.id}</span>
-                  </div>
-                  <h3 className="text-3xl font-serif font-black text-white mb-6 uppercase tracking-tight group-hover:text-gold-400 transition-colors leading-tight">{item.label}</h3>
-                  <p className="text-olive-200 leading-relaxed text-sm md:text-base font-light italic opacity-60 group-hover:opacity-100 transition-opacity mb-8">{item.desc}</p>
-                  <div className="h-0.5 bg-white/10 w-full relative">
-                    <div className="absolute inset-0 bg-gold-400 w-0 group-hover:w-full transition-all duration-1000"></div>
-                  </div>
-                </div>
-              ))}
-            </div>
+                <div key={i} className="group relative min-h-[450px] flex flex-col justify-end p-10 overflow-hidden border border-white/5 hover:border-gold-500/50 transition-all duration-700">
+                  <Image
+                    src={item.image}
+                    alt={item.label}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover opacity-30 group-hover:opacity-60 group-hover:scale-110 transition-all duration-1000"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent"></div>
 
-            <div className="lg:col-span-12 grid grid-cols-2 md:grid-cols-4 gap-4 mt-20 opacity-40 hover:opacity-100 transition-opacity">
-              {[
-                '/images/extraction-process.png',
-                '/images/filling-conveyor.png',
-                '/images/quality-inspection.png',
-                '/images/retail-boxes.png'
-              ].map((img, i) => (
-                <div key={i} className="relative aspect-video transition-all duration-700 border border-white/10">
-                  <Image src={img} alt="Tesis" fill className="object-cover" />
-                  <div className="absolute inset-0 bg-gold-500/20 mix-blend-overlay"></div>
+                  <div className="relative z-10">
+                    <div className="w-14 h-14 bg-gold-500 flex items-center justify-center mb-8 shadow-[0_10px_40px_rgba(234,179,8,0.2)]">
+                      <span className="text-olive-950 font-black text-lg italic">{item.id}</span>
+                    </div>
+                    <h3 className="text-2xl font-serif font-black text-white mb-4 uppercase tracking-tight leading-tight">{item.label}</h3>
+                    <p className="text-olive-200 leading-relaxed text-sm font-light italic opacity-60 group-hover:opacity-100 transition-opacity">{item.desc}</p>
+                  </div>
+
+                  <div className="absolute top-4 right-4 text-[8px] font-mono text-gold-500/40 tracking-[0.3em] uppercase">SYSTEM_STABLE</div>
+                  <div className="absolute bottom-0 left-0 h-1 bg-gold-500/20 w-0 group-hover:w-full transition-all duration-1000"></div>
                 </div>
               ))}
             </div>
@@ -490,7 +557,13 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-32 items-center">
             <div className="relative">
               <div className="relative z-10 aspect-square border border-white/10 bg-white/[0.02] p-12 hud-border hud-border-tl hud-border-br">
-                <Image src="/images/logistics-forklift.png" alt="Lojistik Hizmetimiz" fill className="object-cover p-20 transition-all" />
+                <Image
+                  src="/images/logistics-forklift.png"
+                  alt="Lojistik Hizmetimiz"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover p-20 transition-all"
+                />
 
                 {/* Floating GPS Data Points */}
                 <div className="absolute top-1/2 left-1/4 animate-pulse">
@@ -567,7 +640,13 @@ export default function HomePage() {
                 className="group relative flex flex-col bg-white/[0.02] hud-border hud-border-tl hud-border-br transition-all duration-700 hover:-translate-y-4 hover:bg-white/[0.05]"
               >
                 <div className="aspect-video relative overflow-hidden bg-black/40">
-                  <Image src={`/images/blog/${post.image}`} alt={post.title} fill className="object-cover group-hover:scale-125 transition-transform duration-[3000ms] opacity-40 group-hover:opacity-100" />
+                  <Image
+                    src={`/images/blog/${post.image}`}
+                    alt={post.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover group-hover:scale-125 transition-transform duration-[3000ms] opacity-40 group-hover:opacity-100"
+                  />
                   <div className="absolute inset-x-0 bottom-0 h-1 bg-white/10 overflow-hidden">
                     <div className="absolute inset-0 bg-gold-400 w-0 group-hover:w-full transition-all duration-1000"></div>
                   </div>

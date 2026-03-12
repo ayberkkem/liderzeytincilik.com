@@ -107,7 +107,7 @@ export default function Footer() {
             <div className="border-t border-white/5 bg-black/40 py-10">
                 <div className="max-w-[1600px] mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
                     <p className="text-[10px] font-mono text-olive-500 uppercase tracking-[0.4em]">
-                        © {currentYear} LİDER ZEYTİNCİLİK // TÜM HAKLARI SAKLIDIR
+                        © LİDER ZEYTİNCİLİK // TÜM HAKLARI SAKLIDIR
                     </p>
                 </div>
             </div>

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { siteConfig, navLinks } from '@/lib/siteConfig';
 
 export default function Header() {
@@ -19,10 +20,13 @@ export default function Header() {
                     {/* Logo - Brand Version */}
                     <Link href="/" className="flex items-center gap-4 group">
                         <div className="relative w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center bg-white/5 rounded-full border border-white/10 group-hover:border-gold-500/30 transition-all duration-500 overflow-hidden">
-                            <img
+                            <Image
                                 src="/favicon.png"
                                 alt="Lider Zeytincilik Logo"
+                                width={48}
+                                height={48}
                                 className="w-8 h-8 lg:w-12 lg:h-12 object-contain group-hover:scale-110 transition-transform duration-700"
+                                priority
                             />
                         </div>
                         <div className="whitespace-nowrap">
@@ -139,7 +143,7 @@ export default function Header() {
                                     Sipariş Hattı
                                 </a>
                                 <div className="text-center text-[10px] text-olive-600 uppercase tracking-widest pt-10 opacity-40">
-                                    © {new Date().getFullYear()} Lider Zeytincilik
+                                    © Lider Zeytincilik
                                 </div>
                             </div>
                         </nav>

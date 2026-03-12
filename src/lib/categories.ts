@@ -18,7 +18,7 @@ export const categories: Category[] = [
         metaDescription: 'Natürel sızma zeytinyağı üreticiden uygun fiyatla! %0.8 altı asit oranı, soğuk sıkım kalite. Zeytinyağı Liderden Alınır! Toptan ve perakende, ücretsiz kargo.',
         h1: 'Üreticiden Uygun Fiyatlı Natürel Sızma Zeytinyağı',
         shortDescription: 'En yüksek kalite sınıfında, %0.8 altı asit oranına sahip doğal zeytinyağı.',
-        image: '/images/tins-in-grove.png',
+        image: '/images/naturel_sizma_premium.png',
         content: `## Natürel Sızma Zeytinyağı Nedir?
 
 Natürel sızma zeytinyağı, zeytinyağı sınıflandırmasında en üst kalite kategorisini temsil eden, serbest yağ asitliği oleik asit cinsinden %0.8'i geçmeyen, kusursuz tat ve aromaya sahip zeytinyağıdır. Uluslararası Zeytin Konseyi (IOC) standartlarına göre en kaliteli zeytinyağı olarak kabul edilir.
@@ -105,7 +105,7 @@ Lider Zeytincilik olarak, Ege Bölgesi'nin en verimli zeytin bahçelerinden topl
         metaDescription: 'Soğuk sıkım zeytinyağı 27°C altında mekanik yöntemlerle üretilir. Üreticiden uygun fiyatlı cold press zeytinyağı. Zeytinyağı Liderden Alınır! Ücretsiz kargo.',
         h1: 'Üreticiden Uygun Fiyatlı Soğuk Sıkım Zeytinyağı',
         shortDescription: '27°C altında mekanik yöntemlerle üretilen, besin değerleri korunmuş doğal zeytinyağı.',
-        image: '/images/tins-in-grove.png',
+        image: '/images/soguk_sikim_industrial.png',
         content: `## Soğuk Sıkım Zeytinyağı Nedir?
 
 Soğuk sıkım zeytinyağı (cold press olive oil), zeytinlerin 27°C'nin altında bir sıcaklıkta, tamamen mekanik yöntemlerle sıkılmasıyla elde edilen zeytinyağıdır. Bu üretim yöntemi, zeytinin doğal bileşenlerinin, vitaminlerinin ve antioksidanlarının en iyi şekilde korunmasını sağlar.
@@ -186,7 +186,7 @@ Ege Bölgesi'nin seçkin zeytin bahçelerinden toplanan zeytinlerle, modern tesi
         metaDescription: 'Riviera zeytinyağı kızartma ve pişirme için ideal, ekonomik zeytinyağı seçeneği. Yüksek yanma noktası. Toptan ve perakende. Ücretsiz kargo.',
         h1: 'Riviera Zeytinyağı',
         shortDescription: 'Kızartma ve pişirme için ideal, ekonomik ve yüksek yanma noktasına sahip zeytinyağı.',
-        image: '/images/filling-conveyor.png',
+        image: '/images/riviera_cooking_kitchen.png',
         content: `## Riviera Zeytinyağı Nedir?
 
 Riviera zeytinyağı, rafine zeytinyağı ile natürel (bakir) zeytinyağının belirli oranlarda harmanlanmasıyla elde edilen bir zeytinyağı türüdür. Uluslararası standartlara göre "zeytinyağı" (olive oil) olarak sınıflandırılır ve günlük mutfak kullanımı için ideal bir seçenektir.
@@ -251,7 +251,7 @@ Riviera zeytinyağımız, 5 Lt ve 10 Lt ambalajlarda sunulmaktadır. Restoran, l
         metaDescription: 'Organik sertifikalı zeytinyağı. Kimyasal gübre ve ilaç kullanılmadan üretilen doğal organik zeytinyağı. Toptan ve perakende satış.',
         h1: 'Organik Zeytinyağı',
         shortDescription: 'Kimyasal gübre ve ilaç kullanılmadan, doğal yöntemlerle üretilen sertifikalı organik zeytinyağı.',
-        image: '/images/tins-in-grove.png',
+        image: '/images/organik_grove_sunset.png',
         content: `## Organik Zeytinyağı Nedir?
 
 Organik zeytinyağı, organik tarım sertifikasına sahip zeytin bahçelerinde, hiçbir sentetik kimyasal gübre, pestisit veya herbisit kullanılmadan yetiştirilen zeytinlerden üretilen zeytinyağıdır. Üretimin her aşaması akredite kuruluşlar tarafından denetlenir ve sertifikalandırılır.
@@ -304,7 +304,7 @@ Organik zeytinyağımız, Ege Bölgesi'ndeki organik sertifikalı zeytin bahçel
         metaDescription: '1 litre zeytinyağı satışı. Natürel sızma ve soğuk sıkım 1 lt zeytinyağı. Bireysel kullanım için ideal boyut. Ücretsiz kargo ile kapınıza kadar.',
         h1: '1 Litre Zeytinyağı',
         shortDescription: 'Bireysel kullanım ve deneme amacıyla ideal 1 litrelik zeytinyağı ambalajı.',
-        image: '/images/tins-in-grove.png',
+        image: '/images/one_liter_premium.png',
         content: `## 1 Litre Zeytinyağı
 
 1 litre zeytinyağı, bireysel kullanım ve zeytinyağımızı denemek isteyenler için ideal boyuttadır. Soğuk sıkım ve natürel sızma çeşitlerimiz 1 litrelik ambalajlarda sunulmaktadır.
@@ -331,7 +331,7 @@ Organik zeytinyağımız, Ege Bölgesi'ndeki organik sertifikalı zeytin bahçel
         metaDescription: '5 litre teneke zeytinyağı. Etiketsiz teneke ambalajda soğuk sıkım natürel sızma zeytinyağı. Toptan ve perakende. Ücretsiz kargo.',
         h1: '5 Litre Teneke Zeytinyağı',
         shortDescription: 'Işık geçirmez teneke ambalajda, kaliteyi koruyan 5 litrelik zeytinyağı.',
-        image: '/images/tins-in-grove.png',
+        image: '/images/retail-boxes.png',
         content: `## 5 Litre Teneke Zeytinyağı
 
 5 litre teneke ambalaj, zeytinyağı muhafazası için en ideal ambalaj türlerinden biridir. Teneke ambalaj ışık geçirmez yapısı sayesinde zeytinyağının oksidasyonunu önler ve uzun süre kalitesini korumasını sağlar.
@@ -371,7 +371,7 @@ Organik zeytinyağımız, Ege Bölgesi'ndeki organik sertifikalı zeytin bahçel
         metaDescription: '5 litre PET şişe zeytinyağı. Etiketsiz PET ambalajda ekonomik zeytinyağı. Toptan ve perakende satış. Türkiye geneli ücretsiz kargo.',
         h1: '5 Litre PET Zeytinyağı',
         shortDescription: 'Ekonomik ve pratik PET ambalajda 5 litrelik zeytinyağı.',
-        image: '/images/tins-in-grove.png',
+        image: '/images/filling-conveyor.png',
         content: `## 5 Litre PET Zeytinyağı
 
 5 litre PET (polietilen tereftalat) ambalaj, zeytinyağı için ekonomik ve pratik bir ambalaj seçeneğidir. Hafif yapısı ve kolay taşınabilirliği ile özellikle günlük kullanım için tercih edilmektedir.
@@ -554,7 +554,7 @@ Lider Zeytincilik olarak, Ege Bölgesi'nin en verimli zeytin bahçelerinden topl
         metaDescription: 'Güvenilir zeytinyağı tedarikçisi Lider Zeytincilik. Restoranlar, oteller ve marketler için düzenli tedarik. Üreticiden uygun fiyatlı, kaliteli, kesintisiz.',
         h1: 'Güvenilir Zeytinyağı Tedarikçisi',
         shortDescription: 'İşletmeniz için güvenilir, düzenli ve kaliteli zeytinyağı tedarik hizmeti.',
-        image: '/images/filling-conveyor.png',
+        image: '/images/delivery-van-plain.png',
         content: `## Zeytinyağı Tedarikçi - Lider Zeytincilik
 
 İşletmeniz için güvenilir bir zeytinyağı tedarikçisi mi arıyorsunuz? Lider Zeytincilik olarak Türkiye genelinde restoranlar, oteller, marketler ve gıda işletmelerine düzenli zeytinyağı tedariki sağlıyoruz.
@@ -653,7 +653,7 @@ Zeytin tanelerinin üzerine jiletle çizikler atılarak salamuraya bırakılan, 
         metaDescription: 'En taze hasat! Ekim ayı başında toplanan yeşil zeytinlerden üretilen erken hasat soğuk sıkım zeytinyağı. Düşük asit, yüksek polifenol. Üreticiden uygun fiyat.',
         h1: 'Erken Hasat Soğuk Sıkım Zeytinyağı',
         shortDescription: 'Zeytinler henüz yeşilken toplanan, meyvemsi aroması en yüksek seviyede olan premium zeytinyağı.',
-        image: '/images/tins-in-grove.png',
+        image: '/images/traditional-harvest.png',
         content: `## Erken Hasat Zeytinyağı Nedir?
 
 Erken hasat zeytinyağı, zeytinlerin tam olgunluğa erişmeden, henüz yeşil renkteyken (genellikle Eylül sonu - Ekim başı) toplanıp işlenmesiyle elde edilen zeytinyağıdır. Bu dönemde zeytinlerin içindeki yağ oranı düşük ancak besin değerleri, antioksidanlar ve polifenoller en yüksek seviyededir.
@@ -678,7 +678,7 @@ Lider Zeytincilik olarak, Aydın bahçelerimizden özenle topladığımız yeşi
         metaDescription: 'Yüksek polifenollü zeytinyağı ile sağlığınızı koruyun. 400+ mg/kg polifenol değerine sahip analizli şifa kaynağı zeytinyağları üreticiden kapınıza.',
         h1: 'Yüksek Polifenollü (Analizli) Zeytinyağı',
         shortDescription: 'Antioksidan değeri en üst seviyede tutulmuş, laboratuvar onaylı şifalı zeytinyağı.',
-        image: '/images/trust/lab.png',
+        image: '/images/quality-inspection.png',
         content: `## Polifenol Nedir ve Neden Önemlidir?
 
 Polifenoller, zeytinyağında bulunan ve bitkinin kendisini dış etkenlerden korumak için ürettiği doğal antioksidanlardır. İnsan vücudunda serbest radikallerle savaşarak hücre onarımına yardımcı olur, kalp-damar sağlığını destekler ve bağışıklık sistemini güçlendirir.
@@ -703,7 +703,7 @@ Hastalıklarla mücadelede destekleyici olarak ve çocukların gelişim dönemin
         metaDescription: 'Kendi markasını yaratmak isteyenlere etiketsiz 5 Lt, 10 Lt, 18 Lt teneke zeytinyağı. Fabrikadan direkt, yüksek kaliteli, analizli dökme zeytinyağı.',
         h1: 'Toptan Etiketsiz (Dökme) Zeytinyağı',
         shortDescription: 'Private label (kendi markanı oluştur) sistemine uygun, yüksek kaliteli etiketsiz ambalajlar.',
-        image: '/images/factory-pallets.png',
+        image: '/images/retail-boxes-2.png',
         content: `## Kendi Markanızı Lider Zeytincilik ile Kurun
 
 Zeytinyağı sektörüne girmek istiyor ancak üretim tesisi maliyetleriyle uğraşmak istemiyorsanız 'Etiketsiz Ürün' seçeneğimiz tam size göre. Ege'nin en kaliteli zeytinyağlarını, isterseniz 5 litrelik tenekelerde, isterseniz daha büyük hacimlerde etiketsiz olarak kapınıza getiriyoruz.
@@ -728,7 +728,7 @@ Oteller, restoranlar ve gurme şarküteriler için en karlı iş modeli budur.`,
         metaDescription: 'Her yemeğe lezzet katan, yüksek ısıya dayanıklı ekonomik sofralık zeytinyağı çeşitleri. 5 Lt ve 10 Lt ambalaj seçenekleriyle üreticiden kapınıza.',
         h1: 'Lezzetli Sofralık Yemeklik Zeytinyağı',
         shortDescription: 'Hem sıcak yemeklerde hem soğuk sunumlarda kullanabileceğiniz dengeli ve ekonomik zeytinyağı.',
-        image: '/images/filling-conveyor.png',
+        image: '/images/process-collage.png',
         content: `## Sofraların Vazgeçilmezi: Yemeklik Zeytinyağı
 
 Her mutfağın kalbi zeytinyağıdır. Lider Zeytincilik olarak, sadece salatalarda değil, tüm sıcak sulu yemeklerde, kızartmalarda ve hamur işlerinde güvenle kullanabileceğiniz 'Sofralık' serimizi geliştirdik.
@@ -753,7 +753,7 @@ Sulu yemeklerden pilavlara, kızartmalardan böreklerinize kadar Ege'nin hafifli
         metaDescription: 'Aydın yöresinin karakteristik Memecik cinsi zeytinlerinden üretilen, AB tescilli, meyvemsi ve aromatik Memecik zeytinyağı. Üreticiden taze sıkım.',
         h1: 'Aydın&apos;ın Mirası: Memecik Zeytinyağı',
         shortDescription: 'Avrupa Birliği tescilli, yüksek fenolik bileşenlere sahip Aydın yöresinin karakteristik zeytinyağı.',
-        image: '/images/tins-in-grove.png',
+        image: '/images/ancient-olive-tree.png',
         content: `## Memecik Zeytinyağı: Ege'nin Gururu
 
 Memecik zeytini, özellikle Aydın ve Muğla (Güney Ege) bölgelerinde yetişen, hem sofralık hem de yağlık olarak dünyanın en kaliteli zeytin çeşitlerinden biri olarak kabul edilir. Lider Zeytincilik olarak bahçelerimizdeki asırlık Memecik ağaçlarımızdan en saf yağı süzüyoruz.
@@ -771,6 +771,72 @@ Gerçek bir gurme deneyimi ve şifa niyetine bir zeytinyağı arıyorsanız, Mem
             { question: 'Hangi yemeklerde kullanılır?', answer: 'Özellikle zeytinyağlı Ege yemeklerinde ve taze otlarla hazırlanan mezelerde lezzeti zirveye taşır.' }
         ]
     },
+    {
+        slug: 'ayvalik-zeytinyagi',
+        name: 'Ayvalık Zeytinyağı',
+        title: 'Premium Ayvalık Natürel Sızma Zeytinyağı | Üreticiden',
+        metaDescription: 'Ayvalık ve Edremit bölgesinin en kaliteli zeytinlerinden üretilen, meyvemsi aroması ve düşük asit oranıyla öne çıkan premium Ayvalık zeytinyağı.',
+        h1: 'Premium Ayvalık Natürel Sızma Zeytinyağı',
+        shortDescription: 'Kuzey Ege\'nin karakteristik meyvemsi aromasına sahip, düşük asitli premium Ayvalık zeytinyağı.',
+        image: '/images/logistics-forklift.png',
+        content: `Ayvalık (Edremit) tipi zeytinyağımız, Türkiye'nin en köklü zeytinyağı kültürüne sahip Kuzey Ege bölgesinden özenle seçilen zeytinlerden üretilir. Ayvalık zeytininin karakteristik özelliği olan yoğun meyvemsi aroma, genizdeki o hoş yakıcılık ve dengeli tat profili bu serimizde en saf haliyle sunulmaktadır.
+
+Hasat döneminde zeytinler henüz yeşil-pembe arasındayken toplanır ve 27°C'nin altında soğuk sıkım yöntemiyle işlenir. Bu sayede zeytinin doğal polifenolleri ve E vitamini korunur. Ayvalık zeytinyağımız, özellikle çiğ tüketim, salatalar ve gurme sunumlar için mükemmel bir seçimdir.`,
+        faq: [
+            {
+                question: 'Ayvalık zeytinyağının tadı nasıldır?',
+                answer: 'Ayvalık zeytinyağı, meyvemsi aroması baskın, orta şiddette yakıcılığı ve acılığı olan, dengeli bir tat profiline sahiptir.'
+            },
+            {
+                question: 'Ayvalık zeytinyağı asit oranı nedir?',
+                answer: 'Premium seri Ayvalık zeytinyağlarımızın asit oranı %0.3 ile %0.6 arasındadır.'
+            }
+        ]
+    },
+    {
+        slug: 'gemlik-zeytinyagi',
+        name: 'Gemlik Zeytinyağı',
+        title: 'Gemlik Tipi Natürel Sızma Zeytinyağı | Toptan ve Perakende',
+        metaDescription: 'Sofralık kalitesiyle ünlü Gemlik (Trilye) zeytinlerinden elde edilen, yumuşak içimli ve doygun kıvamlı Gemlik zeytinyağı çeşitleri.',
+        h1: 'Gemlik Tipi Natürel Sızma Zeytinyağı',
+        shortDescription: 'Yumuşak içimi ve doygun kıvamıyla bilinen, sofralık kalitesi yüksek Gemlik zeytinlerinden elde edilen özel yağ.',
+        image: '/images/product-tin-5l.jpg',
+        content: `Gemlik (Trilye) tipi zeytinyağımız, sofralık kategorisinde bir world brand olan Gemlik zeytinlerinin yağlık olarak sınıflandırılan tanelerinden üretilir. Gemlik zeytininin yüksek yağ oranı ve etli yapısı, elde edilen yağa da doygun bir kıvam ve yumuşak bir içim kazandırır.
+
+Özellikle asiditesi düşük ve aroması daha hafif yağları tercih edenler için Gemlik zeytinyağı ideal bir seçenektir. Hem sıcak yemeklerde hem de kahvaltılarda güvenle kullanılabilir. Lider Zeytincilik olarak Gemlik tipi yağlarımızı da tamamen mekanik ve doğal yöntemlerle üretiyoruz.`,
+        faq: [
+            {
+                question: 'Gemlik zeytinyağı yemeklerde kullanılır mı?',
+                answer: 'Evet, yumuşak içimi sayesinde hem sıcak sulu yemeklerde hem de zeytinyağlılarda harika sonuç verir.'
+            },
+            {
+                question: 'Gemlik zeytinyağı donar mı?',
+                answer: 'Evet, tüm gerçek natürel zeytinyağları gibi Gemlik zeytinyağı da soğuk havada kristalleşerek donar.'
+            }
+        ]
+    },
+    {
+        slug: 'kislik-zeytinyagi',
+        name: 'Kışlık Zeytinyağı',
+        title: 'Toptan Kışlık Zeytinyağı Stokları | Ekonomik Fiyatlar',
+        metaDescription: 'Kışlık tüketim için ideal, dayanıklı ve yüksek hacimli kışlık zeytinyağı serileri. 18 Lt teneke ve toptan alımlarda en uygun fiyat garantisi.',
+        h1: 'Ekonomik Kışlık Zeytinyağı Stokları',
+        shortDescription: 'Kış aylarında mutfakların ana yağ ihtiyacını karşılayan, dayanıklı ve ekonomik büyük ambalajlı ürünler.',
+        image: '/images/factory-pallets.png',
+        content: `Kışlık zeytinyağı serimiz, özellikle evlerin ve işletmelerin yıllık yağ ihtiyacını en ekonomik şekilde karşılamak amacıyla hazırlanmıştır. Hasat sezonunun ortasında ve sonunda toplanan zeytinlerden elde edilen bu yağlar, sızma ve birinci kalite standartlarını karşılayan, dayanıklı ve lezzetli ürünlerdir.
+
+Genellikle 18 litrelik büyük tenekelerde veya 5 litrelik çoklu paketlerde tercih edilen kışlık serimiz, birim fiyat avantajıyla bütçenizi korur. Lider Zeytincilik olarak kışlık stoklarınızı Türkiye'nin her yerine ücretsiz kargo ve ambar seçenekleriyle ulaştırıyoruz.`,
+        faq: [
+            {
+                question: 'Kışlık zeytinyağı ne kadar süre saklanabilir?',
+                answer: 'Teneke ambalajda, serin and karanlık bir yerde 24 aya kadar ilk günkü tazeliğini koruyabilir.'
+            },
+            {
+                question: 'Kışlık yağ ile sızma yağ arasında fark var mı?',
+                answer: 'Kışlık yağlarımız da sızma kalite standartlarındadır, ancak daha büyük ambalajlarda sunulduğu için "kışlık stok" olarak adlandırılır.'
+            }
+        ]
+    }
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {
