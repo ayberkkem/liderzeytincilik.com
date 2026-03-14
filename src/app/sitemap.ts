@@ -26,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/mesafeli-satis-sozlesmesi',
         '/iade-politikasi',
         '/cerez-politikasi',
+        '/iddaliyiz-turkiyenin-en-iyisi-ve-en-ucuzu-biziz',
     ].map(route => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
