@@ -4,3 +4,7 @@ Thumbs.db
 node_modules/
 *.log
 *.bat
+
+.vercel
+
+deploy_live.ps1
